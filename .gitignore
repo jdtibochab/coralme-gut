@@ -147,6 +147,9 @@ ibdmdb/annotated_genomes/
 ibdmdb/WoL/
 ibdmdb/index*
 
+# File is too large
+ibdmdb/gene_to_genome.csv
+
 # M-models from agora
 agora-models/
 me-models/
