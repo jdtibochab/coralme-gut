@@ -1,0 +1,21 @@
+{
+	"ME-Model-ID" : "Clostridium_sordellii_ATCC_9714-ME",
+	"m-model-path" : "AGORA_2_01_json_renamed/Clostridium_sordellii_ATCC_9714.json",
+	"genbank-path" : "genbank-from-faa-annotated/Clostridium_sordellii_ATCC_9714.gb",
+
+	"df_gene_cplxs_mods_rxns" : "coralME-tests/Clostridium_sordellii_ATCC_9714/Clostridium_sordellii_ATCC_9714.xlsx",
+	"df_TranscriptionalUnits" : "",
+	"df_matrix_stoichiometry" : "",
+	"df_matrix_subrxn_stoich" : "",
+	"df_metadata_orphan_rxns" : "",
+	"df_metadata_metabolites" : "",
+
+	"log_directory" : "coralME-tests/Clostridium_sordellii_ATCC_9714",
+	"out_directory" : "coralME-tests/Clostridium_sordellii_ATCC_9714",
+
+	"dev_reference" : true,
+	"include_pseudo_genes" : true,
+	"add_lipoproteins" : false,
+	"estimate_keffs" : true,
+    "blast_threads" : 1
+}
