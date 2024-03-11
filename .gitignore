@@ -144,5 +144,12 @@ ibdmdb/metaG*
 ibdmdb/metaT*
 ibdmdb/whole_genomes/
 ibdmdb/annotated_genomes/
+
+# M-models from agora
 agora-models/
 me-models/
+
+# Old simulations with HFD
+cases-HFD/
+fluxes_reconstruction-HFD/
+
