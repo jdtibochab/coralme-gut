@@ -155,9 +155,11 @@ ibdmdb/gene_to_genome.csv
 
 # M-models from agora
 agora-models/
-me-models/
+#me-models/
 
 # Old simulations with HFD
 cases-HFD/
 fluxes_reconstruction-HFD/
 
+# Temporary
+tmp/

@@ -25,6 +25,8 @@ def knockout(index_dct,met,me_nlp,limit=lambda x:0):
     # met = "RNA_592010.4.peg.10"
     # rxns = [r.id for r in model.metabolites.get_by_id(met).reactions if "transcription" in r.id]
     # m_idx = model.metabolites.index(met)
+    if "RNA_" in met:
+        met = met.split("RNA_")[1]
     rxn = "transcription_TU_{}".format(met)
     r_idx = index_dct.get(rxn)
     me_nlp.xu[r_idx] = limit
