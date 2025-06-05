@@ -1,0 +1,106 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: g.2647.peg.583-MONOMER
+  UGA: CPLX_dummy
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - CPLX_dummy
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass523
+- FMETTRS
+- ATPM
+ME-Model-ID: Ureaplasma_urealyticum_serovar_8_str_ATCC_27618-ME
+m-model-path: ./me-models/Ureaplasma_urealyticum_serovar_8_str_ATCC_27618//building_data/m_model_modified.json
+genbank-path: ./me-models/Ureaplasma_urealyticum_serovar_8_str_ATCC_27618//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Ureaplasma_urealyticum_serovar_8_str_ATCC_27618/Ureaplasma_urealyticum_serovar_8_str_ATCC_27618.xlsx
+df_TranscriptionalUnits: ./me-models/Ureaplasma_urealyticum_serovar_8_str_ATCC_27618//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Ureaplasma_urealyticum_serovar_8_str_ATCC_27618/
+out_directory: ./me-models/Ureaplasma_urealyticum_serovar_8_str_ATCC_27618/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160: []
+other_lipids: []
+default_sigma_factor: g.2647.peg.422-MONOMER
+rna_polymerases:
+  RNAP_g2647peg422MONOMER:
+    sigma_factor: g.2647.peg.422-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors: {}
+ngam: 1.0
+gam: 40.0
+translocation_multipliers: {}
+amino_acid_trna_synthetase:
+  ala__L_c: g.2647.peg.230-MONOMER
+  arg__L_c: g.2647.peg.634-MONOMER
+  asn__L_c: g.2647.peg.179-MONOMER
+  asp__L_c: g.2647.peg.683-MONOMER
+  cys__L_c: g.2647.peg.422-MONOMER
+  gln__L_c: CPLX_dummy
+  glu__L_c: g.2647.peg.171-MONOMER
+  gly_c: g.2647.peg.541-MONOMER
+  his__L_c: g.2647.peg.260-MONOMER
+  ile__L_c: g.2647.peg.216-MONOMER
+  leu__L_c: g.2647.peg.339-MONOMER
+  lys__L_c: g.2647.peg.430-MONOMER
+  met__L_c: g.2647.peg.489-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: g.2647.peg.519-MONOMER
+  ser__L_c: g.2647.peg.649-MONOMER
+  thr__L_c: g.2647.peg.651-MONOMER
+  trp__L_c: g.2647.peg.365-MONOMER
+  tyr__L_c: g.2647.peg.189-MONOMER
+  val__L_c: g.2647.peg.609-MONOMER
+braun's_lipoproteins: []

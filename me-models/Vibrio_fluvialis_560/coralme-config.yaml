@@ -1,0 +1,141 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: g.244760.CDS.361-MONOMER
+  UGA: g.244760.CDS.2202-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - g.244760.CDS.3109-MONOMER
+  - g.244760.CDS.3540-MONOMER
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass348
+- FMETTRS
+- ATPM
+ME-Model-ID: Vibrio_fluvialis_560-ME
+m-model-path: ./me-models/Vibrio_fluvialis_560//building_data/m_model_modified.json
+genbank-path: ./me-models/Vibrio_fluvialis_560//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Vibrio_fluvialis_560/Vibrio_fluvialis_560.xlsx
+df_TranscriptionalUnits: ./me-models/Vibrio_fluvialis_560//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Vibrio_fluvialis_560/
+out_directory: ./me-models/Vibrio_fluvialis_560/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- g.244760.CDS.2535-MONOMER
+- g.244760.CDS.2279-MONOMER
+other_lipids:
+- g.244760.CDS.288-MONOMER
+default_sigma_factor: g.244760.CDS.234-MONOMER
+rna_polymerases:
+  RNAP_g244760CDS234MONOMER:
+    sigma_factor: g.244760.CDS.234-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g244760CDS348MONOMER:
+    sigma_factor: g.244760.CDS.348-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g244760CDS768MONOMER:
+    sigma_factor: g.244760.CDS.768-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g244760CDS776MONOMER:
+    sigma_factor: g.244760.CDS.776-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  AcrE: g.244760.CDS.2245
+  BamB: g.244760.CDS.3640
+  BamC: g.244760.CDS.3507
+  BamD: g.244760.CDS.3784
+  BamE: g.244760.CDS.1331
+  CusC: g.244760.CDS.4244
+  LolB: g.244760.CDS.738
+  MetQ: g.244760.CDS.1872
+  MltA: g.244760.CDS.3217
+  MltB: g.244760.CDS.1964
+  MltC: g.244760.CDS.1693
+ngam: 1.0
+gam: 40.0
+translocation_multipliers:
+  g.244760.CDS.3643-MONOMER:
+    g.244760.CDS.2022: 2.0
+    g.244760.CDS.3800: 2.0
+  g.244760.CDS.4208-MONOMER:
+    g.244760.CDS.1209: 20.0
+    g.244760.CDS.140: 13.5
+    g.244760.CDS.1982: 21.0
+    g.244760.CDS.458: 6.25
+    g.244760.CDS.2247: 26.0
+    g.244760.CDS.1774: 23.0
+    g.244760.CDS.3470: 27.0
+amino_acid_trna_synthetase:
+  ala__L_c: CPLX_dummy
+  arg__L_c: CPLX_dummy
+  asn__L_c: g.244760.CDS.448-MONOMER
+  asp__L_c: CPLX_dummy
+  cys__L_c: CPLX_dummy
+  gln__L_c: CPLX_dummy
+  glu__L_c: CPLX_dummy
+  gly_c: CPLX_dummy
+  his__L_c: CPLX_dummy
+  ile__L_c: CPLX_dummy
+  leu__L_c: CPLX_dummy
+  lys__L_c: CPLX_dummy
+  met__L_c: g.244760.CDS.227-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: g.244760.CDS.152-MONOMER
+  ser__L_c: g.244760.CDS.238-MONOMER
+  thr__L_c: CPLX_dummy
+  trp__L_c: g.244760.CDS.358-MONOMER
+  tyr__L_c: CPLX_dummy
+  val__L_c: CPLX_dummy
+braun's_lipoproteins: []

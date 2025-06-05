@@ -1,0 +1,194 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: 469595.3.peg.168-MONOMER
+  UGA: 469595.3.peg.2713-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - 469595.3.peg.3475-MONOMER
+  - 469595.3.peg.1976-MONOMER
+  - 469595.3.peg.903-MONOMER
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass525
+- FMETTRS
+- ATPM
+ME-Model-ID: Citrobacter_sp_30_2-ME
+m-model-path: ./me-models/Citrobacter_sp_30_2//building_data/m_model_modified.json
+genbank-path: ./me-models/Citrobacter_sp_30_2//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Citrobacter_sp_30_2/Citrobacter_sp_30_2.xlsx
+df_TranscriptionalUnits: ./me-models/Citrobacter_sp_30_2//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Citrobacter_sp_30_2/
+out_directory: ./me-models/Citrobacter_sp_30_2/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- 469595.3.peg.2669-MONOMER
+- 469595.3.peg.3333-MONOMER
+other_lipids:
+- 469595.3.peg.1312-MONOMER
+default_sigma_factor: 469595.3.peg.59-MONOMER
+rna_polymerases:
+  RNAP_4695953peg59MONOMER:
+    sigma_factor: 469595.3.peg.59-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695953peg362MONOMER:
+    sigma_factor: 469595.3.peg.362-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695953peg953MONOMER:
+    sigma_factor: 469595.3.peg.953-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695953peg1721MONOMER:
+    sigma_factor: 469595.3.peg.1721-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695953peg2602MONOMER:
+    sigma_factor: 469595.3.peg.2602-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695953peg2877MONOMER:
+    sigma_factor: 469595.3.peg.2877-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695953peg3005MONOMER:
+    sigma_factor: 469595.3.peg.3005-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695953peg3681MONOMER:
+    sigma_factor: 469595.3.peg.3681-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  AcrA: 469595.3.peg.1121
+  AcrE: 469595.3.peg.3065
+  BamB: 469595.3.peg.886
+  BamC: 469595.3.peg.856
+  BamD: 469595.3.peg.2397
+  BamE: 469595.3.peg.2417
+  CusC: 469595.3.peg.1199
+  EG10544-MONOMER: 469595.3.peg.1983
+  EmtA: 469595.3.peg.209
+  LolB: 469595.3.peg.170
+  MetQ: 469595.3.peg.3514
+  MltA: 469595.3.peg.2657
+  MltB: 469595.3.peg.2534
+  MltC: 469595.3.peg.2777
+ngam: 1.0
+gam: 40.0
+translocation_multipliers:
+  469595.3.peg.3936-MONOMER:
+    469595.3.peg.283: 2.0
+    469595.3.peg.3951: 2.0
+  469595.3.peg.1288-MONOMER:
+    469595.3.peg.4434: 20.0
+    469595.3.peg.2214: 5.166666666666667
+    469595.3.peg.2215: 5.166666666666667
+    469595.3.peg.2658: 22.0
+    469595.3.peg.88: 14.0
+    469595.3.peg.89: 14.0
+    469595.3.peg.1189: 13.5
+    469595.3.peg.4521: 15.5
+    469595.3.peg.3471: 21.0
+    469595.3.peg.4522: 15.5
+    469595.3.peg.2753: 6.25
+    469595.3.peg.2127: 14.0
+    469595.3.peg.1193: 26.0
+    469595.3.peg.2809: 14.0
+    469595.3.peg.2808: 21.0
+    469595.3.peg.2806: 14.0
+    469595.3.peg.822: 20.0
+    469595.3.peg.1531: 26.0
+    469595.3.peg.3440: 23.0
+    469595.3.peg.650: 27.0
+    469595.3.peg.649: 20.0
+  469595.3.peg.4663-MONOMER:
+    469595.3.peg.4434: 20.0
+    469595.3.peg.2214: 5.166666666666667
+    469595.3.peg.2215: 5.166666666666667
+    469595.3.peg.2658: 22.0
+    469595.3.peg.88: 14.0
+    469595.3.peg.89: 14.0
+    469595.3.peg.1189: 13.5
+    469595.3.peg.4521: 15.5
+    469595.3.peg.3471: 21.0
+    469595.3.peg.4522: 15.5
+    469595.3.peg.2753: 6.25
+    469595.3.peg.2127: 14.0
+    469595.3.peg.1193: 26.0
+    469595.3.peg.2809: 14.0
+    469595.3.peg.2808: 21.0
+    469595.3.peg.2806: 14.0
+    469595.3.peg.822: 20.0
+    469595.3.peg.1531: 26.0
+    469595.3.peg.3440: 23.0
+    469595.3.peg.650: 27.0
+    469595.3.peg.649: 20.0
+amino_acid_trna_synthetase:
+  ala__L_c: 469595.3.peg.2530-MONOMER
+  arg__L_c: 469595.3.peg.302-MONOMER
+  asn__L_c: 469595.3.peg.1565-MONOMER
+  asp__L_c: 469595.3.peg.294-MONOMER
+  cys__L_c: 469595.3.peg.1170-MONOMER
+  gln__L_c: 469595.3.peg.1324-MONOMER
+  glu__L_c: 469595.3.peg.790-MONOMER
+  gly_c: generic_gly_c_ligase
+  his__L_c: 469595.3.peg.888-MONOMER
+  ile__L_c: 469595.3.peg.3332-MONOMER
+  leu__L_c: 469595.3.peg.1305-MONOMER
+  lys__L_c: 469595.3.peg.2712-MONOMER
+  met__L_c: 469595.3.peg.562-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: 469595.3.peg.3511-MONOMER
+  ser__L_c: 469595.3.peg.1530-MONOMER
+  thr__L_c: 469595.3.peg.1935-MONOMER
+  trp__L_c: generic_trp_ligase
+  tyr__L_c: 469595.3.peg.2067-MONOMER
+  val__L_c: 469595.3.peg.3199-MONOMER
+braun's_lipoproteins:
+- 469595.3.peg.1983-MONOMER

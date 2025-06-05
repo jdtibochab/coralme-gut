@@ -1,0 +1,637 @@
+{
+    "org.check_m_model": [
+        {
+            "msg": "Some metabolites have a problematic formula. If these metabolites are used in protein modifications, or other subreactions, it will cause an error.",
+            "triggered_by": [
+                "10m3hddcaACP_c",
+                "10m3hundecACP_c",
+                "10m3oddcaACP_c",
+                "10m3oundecACP_c",
+                "10mddcaACP_c",
+                "10mtddec2eACP_c",
+                "10mtundec2eACP_c",
+                "10mundecACP_c",
+                "11m3hddcaACP_c",
+                "11m3oddcaACP_c",
+                "11mddcaACP_c",
+                "11mtddec2eACP_c",
+                "12m3hmyrsACP_c",
+                "12m3htridecACP_c",
+                "12m3omyrsACP_c",
+                "12m3otridecACP_c",
+                "12mmyrsACP_c",
+                "12mtmrs2eACP_c",
+                "12mtridecACP_c",
+                "12mttritec2eACP_c",
+                "13m3hmyrsACP_c",
+                "13m3omyrsACP_c",
+                "13mmyrsACP_c",
+                "13mtmrs2eACP_c",
+                "14m3hpalmACP_c",
+                "14m3hpentdecACP_c",
+                "14m3opalmACP_c",
+                "14m3opentdecACP_c",
+                "14mpalmACP_c",
+                "14mpentdecACP_c",
+                "14mtpalm2eACP_c",
+                "14mtpentdec2eACP_c",
+                "15m3hpalmACP_c",
+                "15m3opalmACP_c",
+                "15mpalmACP_c",
+                "15mtpalm2eACP_c",
+                "2mbutACP_c",
+                "2mpropACP_c",
+                "3haACP_c",
+                "3hcddec5eACP_c",
+                "3hcmrs7eACP_c",
+                "3hcpalm9eACP_c",
+                "3hcvac11eACP_c",
+                "3hddecACP_c",
+                "3hdecACP_c",
+                "3hhexACP_c",
+                "3hmrsACP_c",
+                "3hoctACP_c",
+                "3hoctaACP_c",
+                "3hpalmACP_c",
+                "3mbutACP_c",
+                "3ocddec5eACP_c",
+                "3ocmrs7eACP_c",
+                "3ocpalm9eACP_c",
+                "3ocvac11eACP_c",
+                "3oddecACP_c",
+                "3odecACP_c",
+                "3ohexACP_c",
+                "3omrsACP_c",
+                "3ooctACP_c",
+                "3ooctdACP_c",
+                "3opalmACP_c",
+                "4m3hhexACP_c",
+                "4m3hpentACP_c",
+                "4m3ohexACP_c",
+                "4m3opentACP_c",
+                "4mhexACP_c",
+                "4mpentACP_c",
+                "4mthex2eACP_c",
+                "4mtpent2eACP_c",
+                "5m3hhexACP_c",
+                "5m3ohexACP_c",
+                "5mhexACP_c",
+                "5mthex2eACP_c",
+                "6m3hheptACP_c",
+                "6m3hocACP_c",
+                "6m3oheptACP_c",
+                "6m3oocACP_c",
+                "6mheptACP_c",
+                "6mocACP_c",
+                "6mthept2eACP_c",
+                "6mtoct2eACP_c",
+                "7m3hocACP_c",
+                "7m3oocACP_c",
+                "7mocACP_c",
+                "7mtoct2eACP_c",
+                "8m3hdcaACP_c",
+                "8m3hnonACP_c",
+                "8m3odcaACP_c",
+                "8m3ononACP_c",
+                "8mdcaACP_c",
+                "8mnonACP_c",
+                "8mtdec2eACP_c",
+                "8mtnon2eACP_c",
+                "9m3hdcaACP_c",
+                "9m3odcaACP_c",
+                "9mdcaACP_c",
+                "9mtdec2eACP_c",
+                "ACP_c",
+                "M00512_c",
+                "PGP_c",
+                "PGPm1_c",
+                "acACP_c",
+                "actACP_c",
+                "alpro_c",
+                "apoACP_c",
+                "apoC_Lys_btn_c",
+                "biomass_c",
+                "btn_co2_c",
+                "but2eACP_c",
+                "butACP_c",
+                "cddec5eACP_c",
+                "cdec3eACP_c",
+                "dcaACP_c",
+                "ddcaACP_c",
+                "dhlpro_c",
+                "dnarep_c",
+                "gd1b_hs_c",
+                "glutrna_c",
+                "glyc45tca_c",
+                "glyc45tcaala__D_c",
+                "glyc45tcaglc_c",
+                "gt1b_hs_c",
+                "hdeACP_c",
+                "hexACP_c",
+                "lpro_c",
+                "malACP_c",
+                "myrsACP_c",
+                "ocACP_c",
+                "ocdcaACP_c",
+                "octeACP_c",
+                "palmACP_c",
+                "peptmet__L_c",
+                "peptmetox__L_c",
+                "plasmetha_c",
+                "proteinsynth_c",
+                "rnatrans_c",
+                "t3c11vaceACP_c",
+                "t3c5ddeceACP_c",
+                "t3c7mrseACP_c",
+                "t3c9palmeACP_c",
+                "tcam_c",
+                "tddec2eACP_c",
+                "tdeACP_c",
+                "tdec2eACP_c",
+                "thex2eACP_c",
+                "tmrs2eACP_c",
+                "toct2eACP_c",
+                "toctd2eACP_c",
+                "tpalm2eACP_c",
+                "trdox_c",
+                "trdrd_c",
+                "trnaglu_c"
+            ],
+            "importance": "critical",
+            "to_do": "Correct the formulas of the listed metabolites. Some metabolite formulas are critical for the completion of this pipeline. If homology is ON, this pipeline will try to fill in the formulas from the reference."
+        },
+        {
+            "msg": "Some reactions are missing their subsystem",
+            "triggered_by": [
+                "biomass204"
+            ],
+            "importance": "high",
+            "to_do": "Make sure the subsystems of these reactions are correct"
+        }
+    ],
+    "org.read_optional_file": [
+        {
+            "msg": "No genes file was found. Initializing an empty one.",
+            "importance": "high",
+            "to_do": "Download genes from BioCyc if available"
+        },
+        {
+            "msg": "No proteins file was found. Initializing an empty one.",
+            "importance": "high",
+            "to_do": "Download proteins from BioCyc if available"
+        },
+        {
+            "msg": "No RNAs file was found. Initializing an empty one.",
+            "importance": "high",
+            "to_do": "Download RNAs from BioCyc if available"
+        },
+        {
+            "msg": "No TUs file was found. Initializing an empty one.",
+            "importance": "high",
+            "to_do": "Download TUs from BioCyc if available"
+        }
+    ],
+    "org.check_gene_overlap": [
+        {
+            "msg": "M-model has a 0 gene overlap with optional files (BioCyc)",
+            "importance": "critical",
+            "to_do": "Check whether optional files where downloaded correctly."
+        }
+    ],
+    "org.get_rpod": [
+        {
+            "msg": "RpoD randomly assigned to g.28499.CDS.247-MONOMER",
+            "importance": "critical",
+            "to_do": "genome.gb does not have a valid annotation for RpoD. A random identified sigma factor in me_builder.org.sigmas was set as RpoD so that the builder can continue running. Set the correct RpoD by running me_builder.org.rpod = correct_rpod"
+        }
+    ],
+    "org.get_rna_polymerase": [
+        {
+            "msg": "RNAP was identified with subunits g.28499.CDS.342, g.28499.CDS.1727, g.28499.CDS.1925, g.28499.CDS.2013, g.28499.CDS.2027",
+            "importance": "medium",
+            "to_do": "Check whether the correct proteins were called as subunits of RNAP. If not find correct RNAP complex and run me_builder.org.get_rna_polymerase(force_RNAP_as=correct_RNAP)"
+        }
+    ],
+    "org.update_ribosome_stoich": [
+        {
+            "msg": "Some ribosomal proteins do not contain subunit information (30S, 50S). Check whether they are ribosomal proteins!",
+            "triggered_by": [
+                "g.28499.CDS.26-MONOMER",
+                "g.28499.CDS.1003-MONOMER",
+                "g.28499.CDS.1717-MONOMER"
+            ],
+            "importance": "high",
+            "to_do": "Curate them in ribosomal_proteins.txt"
+        }
+    ],
+    "org.get_trna_synthetase": [
+        {
+            "msg": "No tRNA ligases were found for some amino acids. Assigned CPLX_dummy.",
+            "triggered_by": [
+                "gln__L_c"
+            ],
+            "importance": "high",
+            "to_do": "Check whether your organism should have a ligase for these amino acids, or if you need to add a reaction to get it (e.g. tRNA amidotransferases)"
+        }
+    ],
+    "org.purge_genes_in_model": [
+        {
+            "msg": "Some genes in M-model were not found in genes.txt or genome.gb. These genes will be skipped in reconstruction.",
+            "triggered_by": [
+                "944562.4.peg.927",
+                "Unknown",
+                "944562.4.peg.52",
+                "944562.4.peg.1276",
+                "944562.4.peg.1697",
+                "944562.4.peg.1698",
+                "944562.4.peg.1699",
+                "944562.4.peg.1700",
+                "944562.4.peg.1701",
+                "944562.4.peg.1702",
+                "944562.4.peg.1703",
+                "944562.4.peg.1704",
+                "944562.4.peg.1879",
+                "944562.4.peg.1880",
+                "944562.4.peg.1875",
+                "944562.4.peg.495",
+                "944562.4.peg.712",
+                "944562.4.peg.496",
+                "944562.4.peg.989",
+                "944562.4.peg.990",
+                "944562.4.peg.991",
+                "944562.4.peg.992",
+                "944562.4.peg.76",
+                "944562.4.peg.1397",
+                "944562.4.peg.1728",
+                "944562.4.peg.1729",
+                "944562.4.peg.1900",
+                "944562.4.peg.494"
+            ],
+            "importance": "high",
+            "to_do": "Confirm the gene is correct in the m_model. If so, add it to genes.txt"
+        }
+    ],
+    "prepare_model": [
+        {
+            "msg": "NGAM could not be identified in M-model, setting a standard value of 1.",
+            "importance": "high",
+            "to_do": "Manually define NGAM with me_builder.org.NGAM = NGAM_value. Check if a reaction with identifier NGAM or ATPM has a zero or negative lower bound."
+        }
+    ],
+    "org.get_complex_homology": [
+        {
+            "msg": "Some complexes were partial hits in the BLAST",
+            "triggered_by": [
+                {
+                    "complex": "g.28499.CDS.44-MONOMER",
+                    "reference_complex": "G6176-MONOMER_G6177-MONOMER_G6178-MONOMER"
+                },
+                {
+                    "complex": "g.28499.CDS.61-MONOMER",
+                    "reference_complex": "Gly_RS_tetra"
+                },
+                {
+                    "complex": "g.28499.CDS.168-MONOMER",
+                    "reference_complex": "LTARTDEHYDRA-CPLX"
+                },
+                {
+                    "complex": "g.28499.CDS.263-MONOMER",
+                    "reference_complex": "CITLY-CPLX"
+                },
+                {
+                    "complex": "g.28499.CDS.293-MONOMER",
+                    "reference_complex": "ABC-40-CPLX"
+                },
+                {
+                    "complex": "g.28499.CDS.718-MONOMER",
+                    "reference_complex": "CARBPSYN-CPLX"
+                },
+                {
+                    "complex": "g.28499.CDS.970-MONOMER",
+                    "reference_complex": "ACETYL-COA-CARBOXYLMULTI-CPLX"
+                },
+                {
+                    "complex": "g.28499.CDS.994-MONOMER",
+                    "reference_complex": "ABC-24-CPLX"
+                },
+                {
+                    "complex": "g.28499.CDS.1160-MONOMER",
+                    "reference_complex": "PYRNUTRANSHYDROGEN-CPLX"
+                },
+                {
+                    "complex": "g.28499.CDS.1329-MONOMER",
+                    "reference_complex": "MnmEG_cplx"
+                },
+                {
+                    "complex": "g.28499.CDS.1427-MONOMER",
+                    "reference_complex": "Phe_RS_tetra"
+                },
+                {
+                    "complex": "g.28499.CDS.1492-MONOMER",
+                    "reference_complex": "ABC-6-CPLX"
+                },
+                {
+                    "complex": "g.28499.CDS.1517-MONOMER",
+                    "reference_complex": "CPLX0-7788"
+                },
+                {
+                    "complex": "g.28499.CDS.1617-MONOMER",
+                    "reference_complex": "METNIQ-METHIONINE-ABC-CPLX"
+                },
+                {
+                    "complex": "g.28499.CDS.1810-MONOMER",
+                    "reference_complex": "RIBONUCLEOSIDE-DIP-REDUCTII-CPLX"
+                },
+                {
+                    "complex": "g.28499.CDS.1925-MONOMER",
+                    "reference_complex": "hRNAP"
+                },
+                {
+                    "complex": "CPLX_3OAS100-0",
+                    "reference_complex": "3-OXOACYL-ACP-SYNTHII-CPLX"
+                },
+                {
+                    "complex": "CPLX_3OAS100-0",
+                    "reference_complex": "CPLX0-252"
+                },
+                {
+                    "complex": "CPLX_ACGApts-1",
+                    "reference_complex": "PTSI-MONOMER"
+                },
+                {
+                    "complex": "CPLX_G3PAT120-0",
+                    "reference_complex": "EG11674-MONOMER"
+                },
+                {
+                    "complex": "CPLX_G3PAT120-0",
+                    "reference_complex": "EG11437-MONOMER"
+                },
+                {
+                    "complex": "CPLX_THZPSN-2",
+                    "reference_complex": "ThiI_mono"
+                },
+                {
+                    "complex": "CPLX_THZPSN-2",
+                    "reference_complex": "IscS"
+                },
+                {
+                    "complex": "CPLX_YUMPS-0",
+                    "reference_complex": "TruB_mono"
+                },
+                {
+                    "complex": "CPLX_YUMPS-0",
+                    "reference_complex": "TruA_dim"
+                }
+            ],
+            "importance": "medium",
+            "to_do": "Curate these manually in protein_corrections.txt"
+        }
+    ],
+    "update_me_mets": [
+        {
+            "msg": "Some metabolites in me_metabolites.txt are not in m_model, so they were skipped.",
+            "triggered_by": [
+                "sufbcd_2fe2s_c",
+                "sufbcd_2fe2s2_c",
+                "sufbcd_4fe4s_c",
+                "iscu_2fe2s_c",
+                "iscu_2fe2s2_c",
+                "iscu_4fe4s_c"
+            ],
+            "importance": "medium",
+            "to_do": "Confirm these metabolites are correctly defined in me_metabolites.txt"
+        }
+    ],
+    "update_ribosome_subreactions_from_homology": [
+        {
+            "msg": "Some enzymes defined in me_builder.org.ribosome_subreactions are different from the ones inferred from homology",
+            "triggered_by": [
+                {
+                    "subreaction": "gtp_bound_30S_assembly_factor_phase1",
+                    "defined_complex": "",
+                    "inferred_complex": "g.28499.CDS.25-MONOMER"
+                },
+                {
+                    "subreaction": "RbfA_mono_assembly_factor_phase1",
+                    "defined_complex": "",
+                    "inferred_complex": "g.28499.CDS.560-MONOMER"
+                },
+                {
+                    "subreaction": "RimM_mono_assembly_factor_phase1",
+                    "defined_complex": "",
+                    "inferred_complex": "g.28499.CDS.1497-MONOMER"
+                }
+            ],
+            "importance": "medium",
+            "to_do": "Confirm whether the definitions or homology calls are correct in me_builder.org.ribosome_subreactions. Curate the inputs in ribosome_subreactions.txt accordingly."
+        }
+    ],
+    "update_peptide_release_factors_from_homology": [
+        {
+            "msg": "Some enzymes defined in me_builder.org.peptide_release_factors are different from the ones inferred from homology",
+            "triggered_by": [
+                {
+                    "subreaction": "UAG",
+                    "defined_complex": "",
+                    "inferred_complex": "g.28499.CDS.1606-MONOMER"
+                },
+                {
+                    "subreaction": "UGA",
+                    "defined_complex": "",
+                    "inferred_complex": "g.28499.CDS.1005-MONOMER"
+                }
+            ],
+            "importance": "medium",
+            "to_do": "Confirm whether the definitions or homology calls are correct in me_builder.org.peptide_release_factors. Curate the inputs in peptide_release_factors.txt accordingly."
+        }
+    ],
+    "check": [
+        {
+            "msg": "Some metabolites in me_metabolites.txt need curation",
+            "triggered_by": [
+                "10m3hddcaACP_c",
+                "10m3hundecACP_c",
+                "10m3oddcaACP_c",
+                "10m3oundecACP_c",
+                "10mddcaACP_c",
+                "10mtddec2eACP_c",
+                "10mtundec2eACP_c",
+                "10mundecACP_c",
+                "11m3hddcaACP_c",
+                "11m3oddcaACP_c",
+                "11mddcaACP_c",
+                "11mtddec2eACP_c",
+                "12m3hmyrsACP_c",
+                "12m3htridecACP_c",
+                "12m3omyrsACP_c",
+                "12m3otridecACP_c",
+                "12mmyrsACP_c",
+                "12mtmrs2eACP_c",
+                "12mtridecACP_c",
+                "12mttritec2eACP_c",
+                "13m3hmyrsACP_c",
+                "13m3omyrsACP_c",
+                "13mmyrsACP_c",
+                "13mtmrs2eACP_c",
+                "14m3hpalmACP_c",
+                "14m3hpentdecACP_c",
+                "14m3opalmACP_c",
+                "14m3opentdecACP_c",
+                "14mpalmACP_c",
+                "14mpentdecACP_c",
+                "14mtpalm2eACP_c",
+                "14mtpentdec2eACP_c",
+                "15m3hpalmACP_c",
+                "15m3opalmACP_c",
+                "15mpalmACP_c",
+                "15mtpalm2eACP_c",
+                "2mbutACP_c",
+                "2mpropACP_c",
+                "3mbutACP_c",
+                "4m3hhexACP_c",
+                "4m3hpentACP_c",
+                "4m3ohexACP_c",
+                "4m3opentACP_c",
+                "4mhexACP_c",
+                "4mpentACP_c",
+                "4mthex2eACP_c",
+                "4mtpent2eACP_c",
+                "5m3hhexACP_c",
+                "5m3ohexACP_c",
+                "5mhexACP_c",
+                "5mthex2eACP_c",
+                "6m3hheptACP_c",
+                "6m3hocACP_c",
+                "6m3oheptACP_c",
+                "6m3oocACP_c",
+                "6mheptACP_c",
+                "6mocACP_c",
+                "6mthept2eACP_c",
+                "6mtoct2eACP_c",
+                "7m3hocACP_c",
+                "7m3oocACP_c",
+                "7mocACP_c",
+                "7mtoct2eACP_c",
+                "8m3hdcaACP_c",
+                "8m3hnonACP_c",
+                "8m3odcaACP_c",
+                "8m3ononACP_c",
+                "8mdcaACP_c",
+                "8mnonACP_c",
+                "8mtdec2eACP_c",
+                "8mtnon2eACP_c",
+                "9m3hdcaACP_c",
+                "9m3odcaACP_c",
+                "9mdcaACP_c",
+                "9mtdec2eACP_c",
+                "LI_c",
+                "sufbcd_c",
+                "sufse_c",
+                "sufsesh_c",
+                "dsbard_p",
+                "dsbaox_p",
+                "dsbcrd_p",
+                "dsbcox_p",
+                "dsbdrd_c",
+                "dsbdox_c",
+                "dsbgrd_p",
+                "dsbgox_p",
+                "lpp_p",
+                "alpp_p",
+                "moadamp_c",
+                "moadcoo_c",
+                "moadcosh_c",
+                "3hcpalm9eACP_c",
+                "3ocpalm9eACP_c",
+                "flxr_c",
+                "fldrd_c",
+                "flxso_c",
+                "fldox_c",
+                "grxrd_c",
+                "grxox_c",
+                "iscssh_c"
+            ],
+            "importance": "medium",
+            "to_do": "Map or remove these metabolites in me_metabolites.txt"
+        }
+    ],
+    "troubleshoot": [
+        {
+            "msg": "Some metabolites are necessary for growth",
+            "triggered_by": [
+                "TS_4fe4s_c"
+            ],
+            "importance": "critical",
+            "to_do": "Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!"
+        },
+        {
+            "msg": "Some metabolites are necessary for growth",
+            "triggered_by": [
+                "TS_adocbl_c",
+                "TS_4fe4s_c"
+            ],
+            "importance": "critical",
+            "to_do": "Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!"
+        },
+        {
+            "msg": "Some metabolites are necessary for growth",
+            "triggered_by": [
+                "TS_adocbl_c",
+                "TS_4fe4s_c"
+            ],
+            "importance": "critical",
+            "to_do": "Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!"
+        },
+        {
+            "msg": "Some metabolites are necessary for growth",
+            "triggered_by": [
+                "TS_adocbl_c",
+                "TS_4fe4s_c"
+            ],
+            "importance": "critical",
+            "to_do": "Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!"
+        },
+        {
+            "msg": "Some metabolites are necessary for growth",
+            "triggered_by": [
+                "TS_adocbl_c",
+                "TS_4fe4s_c",
+                "TS_cd2_c",
+                "TS_ni2_c",
+                "TS_tl_c",
+                "TS_23bpg_c",
+                "TS_cs_c",
+                "TS_cu_c"
+            ],
+            "importance": "critical",
+            "to_do": "Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!"
+        },
+        {
+            "msg": "Some metabolites are necessary for growth",
+            "triggered_by": [
+                "TS_adocbl_c",
+                "TS_4fe4s_c"
+            ],
+            "importance": "critical",
+            "to_do": "Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!"
+        },
+        {
+            "msg": "Some metabolites are necessary for growth",
+            "triggered_by": [
+                "TS_adocbl_c",
+                "TS_4fe4s_c"
+            ],
+            "importance": "critical",
+            "to_do": "Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!"
+        },
+        {
+            "msg": "Some metabolites are necessary for growth",
+            "triggered_by": [
+                "TS_4fe4s_c",
+                "TS_adocbl_c"
+            ],
+            "importance": "critical",
+            "to_do": "Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!"
+        }
+    ]
+}

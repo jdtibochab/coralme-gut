@@ -1,0 +1,139 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: 457396.3.peg.2884-MONOMER
+  UGA: 457396.3.peg.2854-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - CPLX_dummy
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass525
+- FMETTRS
+- ATPM
+ME-Model-ID: Clostridium_sp_7_2_43FAA-ME
+m-model-path: ./me-models/Clostridium_sp_7_2_43FAA//building_data/m_model_modified.json
+genbank-path: ./me-models/Clostridium_sp_7_2_43FAA//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Clostridium_sp_7_2_43FAA/Clostridium_sp_7_2_43FAA.xlsx
+df_TranscriptionalUnits: ./me-models/Clostridium_sp_7_2_43FAA//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Clostridium_sp_7_2_43FAA/
+out_directory: ./me-models/Clostridium_sp_7_2_43FAA/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- 457396.3.peg.3437-MONOMER
+other_lipids: []
+default_sigma_factor: 457396.3.peg.620-MONOMER
+rna_polymerases:
+  RNAP_4573963peg32MONOMER:
+    sigma_factor: 457396.3.peg.32-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4573963peg420MONOMER:
+    sigma_factor: 457396.3.peg.420-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4573963peg620MONOMER:
+    sigma_factor: 457396.3.peg.620-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4573963peg1755MONOMER:
+    sigma_factor: 457396.3.peg.1755-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4573963peg1756MONOMER:
+    sigma_factor: 457396.3.peg.1756-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4573963peg1760MONOMER:
+    sigma_factor: 457396.3.peg.1760-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4573963peg1895MONOMER:
+    sigma_factor: 457396.3.peg.1895-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4573963peg2429MONOMER:
+    sigma_factor: 457396.3.peg.2429-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4573963peg2468MONOMER:
+    sigma_factor: 457396.3.peg.2468-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4573963peg2538MONOMER:
+    sigma_factor: 457396.3.peg.2538-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4573963peg3233MONOMER:
+    sigma_factor: 457396.3.peg.3233-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  MetQ: 457396.3.peg.2751
+ngam: 1.0
+gam: 40.0
+translocation_multipliers:
+  457396.3.peg.3336-MONOMER: {}
+amino_acid_trna_synthetase:
+  ala__L_c: generic_ala_ligase
+  arg__L_c: 457396.3.peg.2381-MONOMER
+  asn__L_c: 457396.3.peg.3144-MONOMER
+  asp__L_c: generic_asp_ligase
+  cys__L_c: 457396.3.peg.28-MONOMER
+  gln__L_c: 457396.3.peg.2535-MONOMER
+  glu__L_c: 457396.3.peg.2542-MONOMER
+  gly_c: 457396.3.peg.3179-MONOMER
+  his__L_c: generic_his_ligase
+  ile__L_c: 457396.3.peg.3083-MONOMER
+  leu__L_c: 457396.3.peg.2135-MONOMER
+  lys__L_c: 457396.3.peg.3178-MONOMER
+  met__L_c: 457396.3.peg.3097-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: 457396.3.peg.27-MONOMER
+  ser__L_c: 457396.3.peg.2991-MONOMER
+  thr__L_c: 457396.3.peg.2005-MONOMER
+  trp__L_c: 457396.3.peg.272-MONOMER
+  tyr__L_c: generic_tyr_ligase
+  val__L_c: 457396.3.peg.967-MONOMER
+braun's_lipoproteins: []

@@ -1,0 +1,139 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: g.559.peg.2004-MONOMER
+  UGA: g.559.peg.1354-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - CPLX_dummy
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass328
+- FMETTRS
+- ATPM
+ME-Model-ID: Prevotella_ruminicola_23-ME
+m-model-path: ./me-models/Prevotella_ruminicola_23//building_data/m_model_modified.json
+genbank-path: ./me-models/Prevotella_ruminicola_23//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Prevotella_ruminicola_23/Prevotella_ruminicola_23.xlsx
+df_TranscriptionalUnits: ./me-models/Prevotella_ruminicola_23//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Prevotella_ruminicola_23/
+out_directory: ./me-models/Prevotella_ruminicola_23/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- g.559.peg.1332-MONOMER
+other_lipids: []
+default_sigma_factor: g.559.peg.238-MONOMER
+rna_polymerases:
+  RNAP_g559peg238MONOMER:
+    sigma_factor: g.559.peg.238-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g559peg650MONOMER:
+    sigma_factor: g.559.peg.650-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g559peg1013MONOMER:
+    sigma_factor: g.559.peg.1013-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g559peg1036MONOMER:
+    sigma_factor: g.559.peg.1036-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g559peg1393MONOMER:
+    sigma_factor: g.559.peg.1393-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g559peg1582MONOMER:
+    sigma_factor: g.559.peg.1582-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g559peg1697MONOMER:
+    sigma_factor: g.559.peg.1697-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g559peg1823MONOMER:
+    sigma_factor: g.559.peg.1823-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g559peg1891MONOMER:
+    sigma_factor: g.559.peg.1891-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g559peg1986MONOMER:
+    sigma_factor: g.559.peg.1986-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g559peg2838MONOMER:
+    sigma_factor: g.559.peg.2838-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  AcrA: g.559.peg.258
+ngam: 1.0
+gam: 40.0
+translocation_multipliers:
+  g.559.peg.390-MONOMER: {}
+amino_acid_trna_synthetase:
+  ala__L_c: g.559.peg.2734-MONOMER
+  arg__L_c: g.559.peg.1104-MONOMER
+  asn__L_c: g.559.peg.2107-MONOMER
+  asp__L_c: g.559.peg.576-MONOMER
+  cys__L_c: g.559.peg.1802-MONOMER
+  gln__L_c: g.559.peg.522-MONOMER
+  glu__L_c: g.559.peg.1682-MONOMER
+  gly_c: g.559.peg.1793-MONOMER
+  his__L_c: g.559.peg.2009-MONOMER
+  ile__L_c: g.559.peg.986-MONOMER
+  leu__L_c: g.559.peg.1638-MONOMER
+  lys__L_c: g.559.peg.815-MONOMER
+  met__L_c: g.559.peg.1174-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: g.559.peg.954-MONOMER
+  ser__L_c: g.559.peg.2094-MONOMER
+  thr__L_c: g.559.peg.2155-MONOMER
+  trp__L_c: g.559.peg.2226-MONOMER
+  tyr__L_c: g.559.peg.1920-MONOMER
+  val__L_c: g.559.peg.989-MONOMER
+braun's_lipoproteins: []

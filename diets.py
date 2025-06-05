@@ -9,7 +9,7 @@ def get_bounds(solution,reactions,multiplier = 1e-3):
         flux = solution[reaction]
         bound = flux * multiplier
         dct[reaction] = bound
-    return dct
+    return {k:v for k,v in dct.items() if v < 0}
 
 def constrain_exchanges(model,dct):
     for r,v in dct.items():

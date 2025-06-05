@@ -1,0 +1,255 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: 469590.5.peg.1888-MONOMER
+  UGA: 469590.5.peg.2652-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - CPLX_dummy
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass536
+- FMETTRS
+- ATPM
+ME-Model-ID: Bacteroides_sp_2_2_4-ME
+m-model-path: ./me-models/Bacteroides_sp_2_2_4//building_data/m_model_modified.json
+genbank-path: ./me-models/Bacteroides_sp_2_2_4//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Bacteroides_sp_2_2_4/Bacteroides_sp_2_2_4.xlsx
+df_TranscriptionalUnits: ./me-models/Bacteroides_sp_2_2_4//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Bacteroides_sp_2_2_4/
+out_directory: ./me-models/Bacteroides_sp_2_2_4/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- 469590.5.peg.1335-MONOMER
+other_lipids: []
+default_sigma_factor: 469590.5.peg.11-MONOMER
+rna_polymerases:
+  RNAP_4695905peg11MONOMER:
+    sigma_factor: 469590.5.peg.11-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg20MONOMER:
+    sigma_factor: 469590.5.peg.20-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg68MONOMER:
+    sigma_factor: 469590.5.peg.68-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg76MONOMER:
+    sigma_factor: 469590.5.peg.76-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg169MONOMER:
+    sigma_factor: 469590.5.peg.169-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg226MONOMER:
+    sigma_factor: 469590.5.peg.226-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg405MONOMER:
+    sigma_factor: 469590.5.peg.405-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg648MONOMER:
+    sigma_factor: 469590.5.peg.648-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg652MONOMER:
+    sigma_factor: 469590.5.peg.652-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg954MONOMER:
+    sigma_factor: 469590.5.peg.954-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg1003MONOMER:
+    sigma_factor: 469590.5.peg.1003-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg1061MONOMER:
+    sigma_factor: 469590.5.peg.1061-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg1080MONOMER:
+    sigma_factor: 469590.5.peg.1080-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg1115MONOMER:
+    sigma_factor: 469590.5.peg.1115-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg1117MONOMER:
+    sigma_factor: 469590.5.peg.1117-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg1357MONOMER:
+    sigma_factor: 469590.5.peg.1357-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg1492MONOMER:
+    sigma_factor: 469590.5.peg.1492-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg1570MONOMER:
+    sigma_factor: 469590.5.peg.1570-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg1630MONOMER:
+    sigma_factor: 469590.5.peg.1630-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg1973MONOMER:
+    sigma_factor: 469590.5.peg.1973-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg1985MONOMER:
+    sigma_factor: 469590.5.peg.1985-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg1994MONOMER:
+    sigma_factor: 469590.5.peg.1994-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg2003MONOMER:
+    sigma_factor: 469590.5.peg.2003-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg2089MONOMER:
+    sigma_factor: 469590.5.peg.2089-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg2168MONOMER:
+    sigma_factor: 469590.5.peg.2168-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg2182MONOMER:
+    sigma_factor: 469590.5.peg.2182-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg2229MONOMER:
+    sigma_factor: 469590.5.peg.2229-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg2290MONOMER:
+    sigma_factor: 469590.5.peg.2290-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg2481MONOMER:
+    sigma_factor: 469590.5.peg.2481-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg2702MONOMER:
+    sigma_factor: 469590.5.peg.2702-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg2753MONOMER:
+    sigma_factor: 469590.5.peg.2753-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg2818MONOMER:
+    sigma_factor: 469590.5.peg.2818-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg2895MONOMER:
+    sigma_factor: 469590.5.peg.2895-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg2930MONOMER:
+    sigma_factor: 469590.5.peg.2930-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg3080MONOMER:
+    sigma_factor: 469590.5.peg.3080-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg3167MONOMER:
+    sigma_factor: 469590.5.peg.3167-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg3221MONOMER:
+    sigma_factor: 469590.5.peg.3221-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg3272MONOMER:
+    sigma_factor: 469590.5.peg.3272-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg3429MONOMER:
+    sigma_factor: 469590.5.peg.3429-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg3601MONOMER:
+    sigma_factor: 469590.5.peg.3601-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg3650MONOMER:
+    sigma_factor: 469590.5.peg.3650-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg4012MONOMER:
+    sigma_factor: 469590.5.peg.4012-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg4130MONOMER:
+    sigma_factor: 469590.5.peg.4130-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg4186MONOMER:
+    sigma_factor: 469590.5.peg.4186-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg4502MONOMER:
+    sigma_factor: 469590.5.peg.4502-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg4885MONOMER:
+    sigma_factor: 469590.5.peg.4885-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg5143MONOMER:
+    sigma_factor: 469590.5.peg.5143-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg5207MONOMER:
+    sigma_factor: 469590.5.peg.5207-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_4695905peg5631MONOMER:
+    sigma_factor: 469590.5.peg.5631-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  AcrE: 469590.5.peg.935
+  CusC: 469590.5.peg.933
+ngam: 1.0
+gam: 40.0
+translocation_multipliers:
+  469590.5.peg.3840-MONOMER:
+    469590.5.peg.5054: 2.0
+amino_acid_trna_synthetase:
+  ala__L_c: 469590.5.peg.4132-MONOMER
+  arg__L_c: 469590.5.peg.4301-MONOMER
+  asn__L_c: generic_asn_ligase
+  asp__L_c: 469590.5.peg.5621-MONOMER
+  cys__L_c: 469590.5.peg.2807-MONOMER
+  gln__L_c: 469590.5.peg.4859-MONOMER
+  glu__L_c: 469590.5.peg.4405-MONOMER
+  gly_c: 469590.5.peg.3583-MONOMER
+  his__L_c: 469590.5.peg.315-MONOMER
+  ile__L_c: 469590.5.peg.4548-MONOMER
+  leu__L_c: 469590.5.peg.1349-MONOMER
+  lys__L_c: 469590.5.peg.3125-MONOMER
+  met__L_c: CPLX_dummy
+  phe__L_c: generic_phe_ligase
+  pro__L_c: 469590.5.peg.2152-MONOMER
+  ser__L_c: 469590.5.peg.1938-MONOMER
+  thr__L_c: 469590.5.peg.808-MONOMER
+  trp__L_c: 469590.5.peg.3963-MONOMER
+  tyr__L_c: 469590.5.peg.2970-MONOMER
+  val__L_c: 469590.5.peg.1992-MONOMER
+braun's_lipoproteins: []

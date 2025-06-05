@@ -1,0 +1,124 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: g.3220.peg.700-MONOMER
+  UGA: g.3220.peg.2418-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - CPLX_dummy
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass262
+- FMETTRS
+- ATPM
+ME-Model-ID: Prevotella_bryantii_B14-ME
+m-model-path: ./me-models/Prevotella_bryantii_B14//building_data/m_model_modified.json
+genbank-path: ./me-models/Prevotella_bryantii_B14//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Prevotella_bryantii_B14/Prevotella_bryantii_B14.xlsx
+df_TranscriptionalUnits: ./me-models/Prevotella_bryantii_B14//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Prevotella_bryantii_B14/
+out_directory: ./me-models/Prevotella_bryantii_B14/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- g.3220.peg.321-MONOMER
+other_lipids: []
+default_sigma_factor: g.3220.peg.178-MONOMER
+rna_polymerases:
+  RNAP_g3220peg178MONOMER:
+    sigma_factor: g.3220.peg.178-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g3220peg252MONOMER:
+    sigma_factor: g.3220.peg.252-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g3220peg386MONOMER:
+    sigma_factor: g.3220.peg.386-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g3220peg862MONOMER:
+    sigma_factor: g.3220.peg.862-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g3220peg1775MONOMER:
+    sigma_factor: g.3220.peg.1775-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g3220peg2830MONOMER:
+    sigma_factor: g.3220.peg.2830-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  CusC: g.3220.peg.798
+ngam: 1.0
+gam: 40.0
+translocation_multipliers:
+  g.3220.peg.249-MONOMER: {}
+amino_acid_trna_synthetase:
+  ala__L_c: g.3220.peg.927-MONOMER
+  arg__L_c: g.3220.peg.762-MONOMER
+  asn__L_c: g.3220.peg.1271-MONOMER
+  asp__L_c: g.3220.peg.1996-MONOMER
+  cys__L_c: g.3220.peg.1274-MONOMER
+  gln__L_c: g.3220.peg.2647-MONOMER
+  glu__L_c: g.3220.peg.2407-MONOMER
+  gly_c: g.3220.peg.1094-MONOMER
+  his__L_c: CPLX_dummy
+  ile__L_c: g.3220.peg.648-MONOMER
+  leu__L_c: g.3220.peg.819-MONOMER
+  lys__L_c: g.3220.peg.614-MONOMER
+  met__L_c: g.3220.peg.196-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: g.3220.peg.804-MONOMER
+  ser__L_c: g.3220.peg.1640-MONOMER
+  thr__L_c: g.3220.peg.2678-MONOMER
+  trp__L_c: g.3220.peg.1123-MONOMER
+  tyr__L_c: g.3220.peg.73-MONOMER
+  val__L_c: g.3220.peg.558-MONOMER
+braun's_lipoproteins: []

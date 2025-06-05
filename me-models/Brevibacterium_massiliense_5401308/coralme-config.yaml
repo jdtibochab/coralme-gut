@@ -1,0 +1,113 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: g.25151.CDS.1140-MONOMER
+  UGA: g.25151.CDS.1885-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - g.25151.CDS.936-MONOMER
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass449
+- FMETTRS
+- ATPM
+ME-Model-ID: Brevibacterium_massiliense_5401308-ME
+m-model-path: ./me-models/Brevibacterium_massiliense_5401308//building_data/m_model_modified.json
+genbank-path: ./me-models/Brevibacterium_massiliense_5401308//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Brevibacterium_massiliense_5401308/Brevibacterium_massiliense_5401308.xlsx
+df_TranscriptionalUnits: ./me-models/Brevibacterium_massiliense_5401308//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Brevibacterium_massiliense_5401308/
+out_directory: ./me-models/Brevibacterium_massiliense_5401308/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- g.25151.CDS.1357-MONOMER
+other_lipids: []
+default_sigma_factor: g.25151.CDS.1686-MONOMER
+rna_polymerases:
+  RNAP_g25151CDS1686MONOMER:
+    sigma_factor: g.25151.CDS.1686-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g25151CDS1824MONOMER:
+    sigma_factor: g.25151.CDS.1824-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  MetQ: g.25151.CDS.2082
+ngam: 1.0
+gam: 40.0
+translocation_multipliers:
+  g.25151.CDS.874-MONOMER:
+    g.25151.CDS.1124: 2.0
+amino_acid_trna_synthetase:
+  ala__L_c: g.25151.CDS.1543-MONOMER
+  arg__L_c: g.25151.CDS.1010-MONOMER
+  asn__L_c: CPLX_dummy
+  asp__L_c: g.25151.CDS.1969-MONOMER
+  cys__L_c: g.25151.CDS.1269-MONOMER
+  gln__L_c: CPLX_dummy
+  glu__L_c: g.25151.CDS.180-MONOMER
+  gly_c: g.25151.CDS.1958-MONOMER
+  his__L_c: g.25151.CDS.1078-MONOMER
+  ile__L_c: g.25151.CDS.1635-MONOMER
+  leu__L_c: g.25151.CDS.1102-MONOMER
+  lys__L_c: g.25151.CDS.278-MONOMER
+  met__L_c: g.25151.CDS.2044-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: g.25151.CDS.726-MONOMER
+  ser__L_c: g.25151.CDS.520-MONOMER
+  thr__L_c: g.25151.CDS.1464-MONOMER
+  trp__L_c: g.25151.CDS.736-MONOMER
+  tyr__L_c: g.25151.CDS.521-MONOMER
+  val__L_c: g.25151.CDS.1432-MONOMER
+braun's_lipoproteins: []

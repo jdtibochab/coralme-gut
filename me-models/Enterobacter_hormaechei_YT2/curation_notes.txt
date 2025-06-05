@@ -1,0 +1,946 @@
+
+#################### critical@org.check_m_model ####################
+********** Some metabolites have a problematic formula. If these metabolites are used in protein modifications, or other subreactions, it will cause an error.
+The following items triggered the warning:
+10m3hddcaACP_c
+10m3hundecACP_c
+10m3oddcaACP_c
+10m3oundecACP_c
+10mddcaACP_c
+10mtddec2eACP_c
+10mtundec2eACP_c
+10mundecACP_c
+11m3hddcaACP_c
+11m3oddcaACP_c
+11mddcaACP_c
+11mtddec2eACP_c
+12m3hmyrsACP_c
+12m3htridecACP_c
+12m3omyrsACP_c
+12m3otridecACP_c
+12mmyrsACP_c
+12mtmrs2eACP_c
+12mtridecACP_c
+12mttritec2eACP_c
+13m3hmyrsACP_c
+13m3omyrsACP_c
+13mmyrsACP_c
+13mtmrs2eACP_c
+14m3hpalmACP_c
+14m3hpentdecACP_c
+14m3opalmACP_c
+14m3opentdecACP_c
+14mpalmACP_c
+14mpentdecACP_c
+14mtpalm2eACP_c
+14mtpentdec2eACP_c
+15m3hpalmACP_c
+15m3opalmACP_c
+15mpalmACP_c
+15mtpalm2eACP_c
+2mbutACP_c
+2mpropACP_c
+3haACP_c
+3hcddec5eACP_c
+3hcmrs7eACP_c
+3hcpalm9eACP_c
+3hcvac11eACP_c
+3hddecACP_c
+3hdecACP_c
+3hgACPm_c
+3hhexACP_c
+3hmrsACP_c
+3hoctACP_c
+3hoctaACP_c
+3hpACPm_c
+3hpalmACP_c
+3mbutACP_c
+3ocddec5eACP_c
+3ocmrs7eACP_c
+3ocpalm9eACP_c
+3ocvac11eACP_c
+3oddecACP_c
+3odecACP_c
+3ogACPm_c
+3ohexACP_c
+3omrsACP_c
+3ooctACP_c
+3ooctdACP_c
+3opACPm_c
+3opalmACP_c
+4m3hhexACP_c
+4m3hpentACP_c
+4m3ohexACP_c
+4m3opentACP_c
+4mhexACP_c
+4mpentACP_c
+4mthex2eACP_c
+4mtpent2eACP_c
+5m3hhexACP_c
+5m3ohexACP_c
+5mhexACP_c
+5mthex2eACP_c
+6m3hheptACP_c
+6m3hocACP_c
+6m3oheptACP_c
+6m3oocACP_c
+6mheptACP_c
+6mocACP_c
+6mthept2eACP_c
+6mtoct2eACP_c
+7m3hocACP_c
+7m3oocACP_c
+7mocACP_c
+7mtoct2eACP_c
+8m3hdcaACP_c
+8m3hnonACP_c
+8m3odcaACP_c
+8m3ononACP_c
+8mdcaACP_c
+8mnonACP_c
+8mtdec2eACP_c
+8mtnon2eACP_c
+9m3hdcaACP_c
+9m3odcaACP_c
+9mdcaACP_c
+9mtdec2eACP_c
+ACP_c
+M00512_c
+PGP_c
+PGPm1_c
+acACP_c
+actACP_c
+alpro_c
+apoACP_c
+apoC_Lys_btn_c
+biomass_c
+btn_co2_c
+but2eACP_c
+butACP_c
+cddec5eACP_c
+cdec3eACP_c
+dcaACP_c
+ddcaACP_c
+dhlpro_c
+dnarep_c
+egACPm_c
+epACPm_c
+fdxox_c
+fdxrd_c
+gACPm_c
+gd1b_hs_c
+glutrna_c
+gt1b_hs_c
+hdeACP_c
+hexACP_c
+lpro_c
+malACP_c
+myrsACP_c
+ocACP_c
+ocdcaACP_c
+octeACP_c
+palmACP_c
+peptmet__L_c
+peptmetox__L_c
+plasmetha_c
+pmACP_c
+pmACPm_c
+prodslfd_c
+prodthl_c
+proteinsynth_c
+rnatrans_c
+t3c11vaceACP_c
+t3c5ddeceACP_c
+t3c7mrseACP_c
+t3c9palmeACP_c
+tddec2eACP_c
+tdeACP_c
+tdec2eACP_c
+thex2eACP_c
+tmrs2eACP_c
+toct2eACP_c
+toctd2eACP_c
+tpalm2eACP_c
+trdox_c
+trdrd_c
+trnaglu_c
+
+**********Solution:
+Correct the formulas of the listed metabolites. Some metabolite formulas are critical for the completion of this pipeline. If homology is ON, this pipeline will try to fill in the formulas from the reference.
+
+#################### high@org.check_m_model ####################
+********** Some reactions are missing their subsystem
+The following items triggered the warning:
+biomass394
+
+**********Solution:
+Make sure the subsystems of these reactions are correct
+
+
+
+
+#################### high@org.read_optional_file ####################
+********** No genes file was found. Initializing an empty one.
+
+**********Solution:
+Download genes from BioCyc if available
+
+#################### high@org.read_optional_file ####################
+********** No proteins file was found. Initializing an empty one.
+
+**********Solution:
+Download proteins from BioCyc if available
+
+#################### high@org.read_optional_file ####################
+********** No RNAs file was found. Initializing an empty one.
+
+**********Solution:
+Download RNAs from BioCyc if available
+
+#################### high@org.read_optional_file ####################
+********** No TUs file was found. Initializing an empty one.
+
+**********Solution:
+Download TUs from BioCyc if available
+
+
+
+
+#################### critical@org.check_gene_overlap ####################
+********** M-model has a 0 gene overlap with optional files (BioCyc)
+
+**********Solution:
+Check whether optional files where downloaded correctly.
+
+
+
+
+#################### high@org.get_rpod ####################
+********** g.25881.CDS.485-MONOMER was identified as RpoD. If this is not true, define RpoD!
+
+**********Solution:
+Check whether you need to correct RpoD by running me_builder.org.rpod = correct_rpod
+
+
+
+
+#################### medium@org.get_rna_polymerase ####################
+********** RNAP was identified with subunits g.25881.CDS.2191, g.25881.CDS.2296, g.25881.CDS.3277, g.25881.CDS.3631
+
+**********Solution:
+Check whether the correct proteins were called as subunits of RNAP. If not find correct RNAP complex and run me_builder.org.get_rna_polymerase(force_RNAP_as=correct_RNAP)
+
+
+
+
+#################### high@org.update_ribosome_stoich ####################
+********** Some ribosomal proteins do not contain subunit information (30S, 50S). Check whether they are ribosomal proteins!
+The following items triggered the warning:
+g.25881.CDS.127-MONOMER
+g.25881.CDS.726-MONOMER
+g.25881.CDS.2451-MONOMER
+g.25881.CDS.3053-MONOMER
+g.25881.CDS.3364-MONOMER
+g.25881.CDS.3498-MONOMER
+g.25881.CDS.3616-MONOMER
+g.25881.CDS.3739-MONOMER
+g.25881.CDS.3831-MONOMER
+
+**********Solution:
+Curate them in ribosomal_proteins.txt
+
+
+
+
+#################### high@org.purge_genes_in_model ####################
+********** Some genes in M-model were not found in genes.txt or genome.gb. These genes will be skipped in reconstruction.
+The following items triggered the warning:
+Unknown
+1259823.3.peg.4246
+1259823.3.peg.4247
+1259823.3.peg.2718
+1259823.3.peg.4008
+1259823.3.peg.2583
+1259823.3.peg.3995
+1259823.3.peg.3996
+1259823.3.peg.3997
+1259823.3.peg.3998
+1259823.3.peg.3999
+1259823.3.peg.4000
+1259823.3.peg.4001
+1259823.3.peg.4002
+1259823.3.peg.1936
+1259823.3.peg.1937
+1259823.3.peg.1938
+1259823.3.peg.1939
+1259823.3.peg.2629
+1259823.3.peg.210
+1259823.3.peg.211
+1259823.3.peg.4239
+1259823.3.peg.4240
+1259823.3.peg.4385
+1259823.3.peg.804
+1259823.3.peg.2025
+1259823.3.peg.822
+1259823.3.peg.3192
+1259823.3.peg.3193
+1259823.3.peg.3194
+1259823.3.peg.4123
+1259823.3.peg.4124
+1259823.3.peg.4125
+1259823.3.peg.612
+1259823.3.peg.613
+1259823.3.peg.614
+1259823.3.peg.2628
+1259823.3.peg.801
+1259823.3.peg.834
+1259823.3.peg.2881
+1259823.3.peg.1339
+1259823.3.peg.1340
+1259823.3.peg.1341
+1259823.3.peg.1342
+1259823.3.peg.1343
+1259823.3.peg.1507
+1259823.3.peg.1508
+1259823.3.peg.1509
+1259823.3.peg.1510
+1259823.3.peg.1331
+1259823.3.peg.1332
+1259823.3.peg.1333
+1259823.3.peg.1335
+1259823.3.peg.1334
+1259823.3.peg.3551
+1259823.3.peg.3552
+1259823.3.peg.1698
+1259823.3.peg.170
+1259823.3.peg.169
+1259823.3.peg.1557
+1259823.3.peg.2710
+1259823.3.peg.755
+1259823.3.peg.2716
+1259823.3.peg.3546
+1259823.3.peg.163
+1259823.3.peg.2573
+1259823.3.peg.802
+1259823.3.peg.803
+1259823.3.peg.806
+1259823.3.peg.805
+1259823.3.peg.4126
+
+**********Solution:
+Confirm the gene is correct in the m_model. If so, add it to genes.txt
+
+
+
+
+#################### high@prepare_model ####################
+********** NGAM could not be identified in M-model, setting a standard value of 1.
+
+**********Solution:
+Manually define NGAM with me_builder.org.NGAM = NGAM_value. Check if a reaction with identifier NGAM or ATPM has a zero or negative lower bound.
+
+
+
+
+#################### medium@org.get_complex_homology ####################
+********** Some complexes were partial hits in the BLAST
+The following items triggered the warning:
+
+{"complex": "g.25881.CDS.2-MONOMER", "reference_complex": "CPLX0-7838_CPLX0-7839"}
+
+{"complex": "g.25881.CDS.20-MONOMER", "reference_complex": "NADH-DHI-CPLX"}
+
+{"complex": "g.25881.CDS.28-MONOMER", "reference_complex": "UBIX-MONOMER_DHHB-METHYLTRANSFER-MONOMER"}
+
+{"complex": "g.25881.CDS.39-MONOMER", "reference_complex": "EG12130-MONOMER_EG12131-MONOMER"}
+
+{"complex": "g.25881.CDS.52-MONOMER", "reference_complex": "CPLX0-3932"}
+
+{"complex": "g.25881.CDS.68-MONOMER", "reference_complex": "ABC-18-CPLX"}
+
+{"complex": "g.25881.CDS.87-MONOMER", "reference_complex": "HYDROG3-CPLX"}
+
+{"complex": "g.25881.CDS.87-MONOMER", "reference_complex": "FHLMULTI-CPLX"}
+
+{"complex": "g.25881.CDS.96-MONOMER", "reference_complex": "CPLX0-1941"}
+
+{"complex": "g.25881.CDS.96-MONOMER", "reference_complex": "CPLX0-1942"}
+
+{"complex": "g.25881.CDS.96-MONOMER", "reference_complex": "CPLX0-1923_EG10306-MONOMER"}
+
+{"complex": "g.25881.CDS.96-MONOMER", "reference_complex": "CPLX0-1923_EG10155-MONOMER"}
+
+{"complex": "g.25881.CDS.96-MONOMER", "reference_complex": "CPLX0-1924"}
+
+{"complex": "g.25881.CDS.116-MONOMER", "reference_complex": "ABC-70-CPLX"}
+
+{"complex": "g.25881.CDS.116-MONOMER", "reference_complex": "ABC-7-CPLX"}
+
+{"complex": "g.25881.CDS.180-MONOMER", "reference_complex": "ABC-3-CPLX"}
+
+{"complex": "g.25881.CDS.261-MONOMER", "reference_complex": "ABC-14-CPLX"}
+
+{"complex": "g.25881.CDS.265-MONOMER", "reference_complex": "ANGLYC3PDEHYDROG-CPLX"}
+
+{"complex": "g.25881.CDS.275-MONOMER", "reference_complex": "ABC-40-CPLX"}
+
+{"complex": "g.25881.CDS.285-MONOMER", "reference_complex": "CPLX-167"}
+
+{"complex": "g.25881.CDS.285-MONOMER", "reference_complex": "EIISGA"}
+
+{"complex": "g.25881.CDS.285-MONOMER", "reference_complex": "CPLX0-7"}
+
+{"complex": "g.25881.CDS.285-MONOMER", "reference_complex": "CPLX-169"}
+
+{"complex": "g.25881.CDS.285-MONOMER", "reference_complex": "CPLX-157"}
+
+{"complex": "g.25881.CDS.285-MONOMER", "reference_complex": "CPLX-163"}
+
+{"complex": "g.25881.CDS.285-MONOMER", "reference_complex": "CPLX-168"}
+
+{"complex": "g.25881.CDS.285-MONOMER", "reference_complex": "CPLX-164"}
+
+{"complex": "g.25881.CDS.285-MONOMER", "reference_complex": "CPLX-158"}
+
+{"complex": "g.25881.CDS.285-MONOMER", "reference_complex": "CPLX-165"}
+
+{"complex": "g.25881.CDS.285-MONOMER", "reference_complex": "CPLX-153"}
+
+{"complex": "g.25881.CDS.285-MONOMER", "reference_complex": "CPLX-166"}
+
+{"complex": "g.25881.CDS.308-MONOMER", "reference_complex": "ABC-26-CPLX"}
+
+{"complex": "g.25881.CDS.315-MONOMER", "reference_complex": "CITLY-CPLX"}
+
+{"complex": "g.25881.CDS.319-MONOMER", "reference_complex": "G7322-MONOMER_G6561-MONOMER"}
+
+{"complex": "g.25881.CDS.338-MONOMER", "reference_complex": "CPLX0-2141"}
+
+{"complex": "g.25881.CDS.338-MONOMER", "reference_complex": "TRANS-CPLX-201"}
+
+{"complex": "g.25881.CDS.373-MONOMER", "reference_complex": "Bam-CPLX"}
+
+{"complex": "g.25881.CDS.373-MONOMER", "reference_complex": "BamAD-CPLX"}
+
+{"complex": "g.25881.CDS.517-MONOMER", "reference_complex": "RIBONUCLEOSIDE-DIP-REDUCTII-CPLX"}
+
+{"complex": "g.25881.CDS.532-MONOMER", "reference_complex": "GCVMULTI-CPLX"}
+
+{"complex": "g.25881.CDS.557-MONOMER", "reference_complex": "CPLX0-7428"}
+
+{"complex": "g.25881.CDS.596-MONOMER", "reference_complex": "PYRUVFORMLY-MONOMER_EG11784-MONOMER"}
+
+{"complex": "g.25881.CDS.737-MONOMER", "reference_complex": "RIBONUCLEOSIDE-DIP-REDUCTI-CPLX"}
+
+{"complex": "g.25881.CDS.762-MONOMER", "reference_complex": "SULFITE-REDUCT-CPLX"}
+
+{"complex": "g.25881.CDS.818-MONOMER", "reference_complex": "ACETYL-COA-CARBOXYLMULTI-CPLX"}
+
+{"complex": "g.25881.CDS.920-MONOMER", "reference_complex": "ABC-59-CPLX"}
+
+{"complex": "g.25881.CDS.988-MONOMER", "reference_complex": "ABC-2-CPLX"}
+
+{"complex": "g.25881.CDS.1024-MONOMER", "reference_complex": "ABC-22-CPLX"}
+
+{"complex": "g.25881.CDS.1058-MONOMER", "reference_complex": "CPLX0-1762"}
+
+{"complex": "g.25881.CDS.1069-MONOMER", "reference_complex": "FORMATEDEHYDROGN-CPLX"}
+
+{"complex": "g.25881.CDS.1074-MONOMER", "reference_complex": "ABC-13-CPLX"}
+
+{"complex": "g.25881.CDS.1123-MONOMER", "reference_complex": "GLUTAMIDOTRANS-CPLX"}
+
+{"complex": "g.25881.CDS.1128-MONOMER", "reference_complex": "NITRATREDUCTA-CPLX"}
+
+{"complex": "g.25881.CDS.1242-MONOMER", "reference_complex": "CPLX0-3970"}
+
+{"complex": "g.25881.CDS.1255-MONOMER", "reference_complex": "ABC-63-CPLX"}
+
+{"complex": "g.25881.CDS.1264-MONOMER", "reference_complex": "ABC-10-CPLX"}
+
+{"complex": "1259823.3.peg.1374-MONOMER", "reference_complex": "TRYPSYN"}
+
+{"complex": "1259823.3.peg.1377-MONOMER", "reference_complex": "ANTHRANSYN-CPLX"}
+
+{"complex": "g.25881.CDS.1470-MONOMER", "reference_complex": "NITRATREDUCTZ-CPLX"}
+
+{"complex": "g.25881.CDS.1507-MONOMER", "reference_complex": "PABASYN-CPLX"}
+
+{"complex": "g.25881.CDS.1745-MONOMER", "reference_complex": "TRKA-MONOMER_SAPD-MONOMER_TRKH-MONOMER"}
+
+{"complex": "g.25881.CDS.1990-MONOMER", "reference_complex": "ABC-42-CPLX"}
+
+{"complex": "g.25881.CDS.2002-MONOMER", "reference_complex": "PYRUVATEDEH-CPLX"}
+
+{"complex": "g.25881.CDS.2018-MONOMER", "reference_complex": "CYT-O-UBIOX-CPLX"}
+
+{"complex": "g.25881.CDS.2032-MONOMER", "reference_complex": "CPLX0-246_CPLX0-1342"}
+
+{"complex": "g.25881.CDS.2050-MONOMER", "reference_complex": "Phe_RS_tetra"}
+
+{"complex": "g.25881.CDS.2091-MONOMER", "reference_complex": "ABC-8-CPLX"}
+
+{"complex": "g.25881.CDS.2115-MONOMER", "reference_complex": "ABC-32-CPLX"}
+
+{"complex": "g.25881.CDS.2118-MONOMER", "reference_complex": "ABC-46-CPLX"}
+
+{"complex": "g.25881.CDS.2191-MONOMER", "reference_complex": "hRNAP"}
+
+{"complex": "g.25881.CDS.2196-MONOMER", "reference_complex": "ABC-16-CPLX"}
+
+{"complex": "1259823.3.peg.2203-MONOMER", "reference_complex": "ACETOLACTSYNIII-CPLX"}
+
+{"complex": "g.25881.CDS.2229-MONOMER", "reference_complex": "TatBC_octa"}
+
+{"complex": "1259823.3.peg.2238-MONOMER", "reference_complex": "CARBPSYN-CPLX"}
+
+{"complex": "g.25881.CDS.2274-MONOMER", "reference_complex": "ABC-64-CPLX"}
+
+{"complex": "g.25881.CDS.2294-MONOMER", "reference_complex": "METNIQ-METHIONINE-ABC-CPLX"}
+
+{"complex": "g.25881.CDS.2295-MONOMER", "reference_complex": "ABC-5-CPLX"}
+
+{"complex": "g.25881.CDS.2356-MONOMER", "reference_complex": "3-ISOPROPYLMALISOM-CPLX"}
+
+{"complex": "g.25881.CDS.2365-MONOMER", "reference_complex": "ABC-11-CPLX"}
+
+{"complex": "g.25881.CDS.2384-MONOMER", "reference_complex": "NRDACTMULTI-CPLX"}
+
+{"complex": "1259823.3.peg.2417-MONOMER", "reference_complex": "ASPCARBTRANS-CPLX"}
+
+{"complex": "g.25881.CDS.2442-MONOMER", "reference_complex": "CPLX0-1341"}
+
+{"complex": "g.25881.CDS.2503-MONOMER", "reference_complex": "THIH-MONOMER_THIF-MONOMER_THII-MONOMER_THIS-MONOMER"}
+
+{"complex": "g.25881.CDS.2519-MONOMER", "reference_complex": "Sec-CPLX"}
+
+{"complex": "g.25881.CDS.2519-MONOMER", "reference_complex": "SecYE-CPLX"}
+
+{"complex": "1259823.3.peg.2522-MONOMER", "reference_complex": "FUMARATE-REDUCTASE"}
+
+{"complex": "g.25881.CDS.2570-MONOMER", "reference_complex": "2OXOGLUTARATEDEH-CPLX"}
+
+{"complex": "g.25881.CDS.2623-MONOMER", "reference_complex": "CPLX0-3951_G6561-MONOMER"}
+
+{"complex": "g.25881.CDS.2907-MONOMER", "reference_complex": "ABC-4-CPLX"}
+
+{"complex": "g.25881.CDS.2912-MONOMER", "reference_complex": "CPLX0-3976_edit"}
+
+{"complex": "g.25881.CDS.2934-MONOMER", "reference_complex": "ABC-24-CPLX"}
+
+{"complex": "g.25881.CDS.2955-MONOMER", "reference_complex": "ABC-33-CPLX"}
+
+{"complex": "g.25881.CDS.2990-MONOMER", "reference_complex": "CPLX0-7720"}
+
+{"complex": "g.25881.CDS.3047-MONOMER", "reference_complex": "G6523-MONOMER_G6518-MONOMER"}
+
+{"complex": "g.25881.CDS.3070-MONOMER", "reference_complex": "ABC-34-CPLX"}
+
+{"complex": "g.25881.CDS.3135-MONOMER", "reference_complex": "ABC-25-CPLX"}
+
+{"complex": "g.25881.CDS.3147-MONOMER", "reference_complex": "LolCDE-CPLX"}
+
+{"complex": "g.25881.CDS.3149-MONOMER", "reference_complex": "YheLMN_cplx"}
+
+{"complex": "g.25881.CDS.3153-MONOMER", "reference_complex": "ABC-49-CPLX"}
+
+{"complex": "g.25881.CDS.3154-MONOMER", "reference_complex": "DIMESULFREDUCT-CPLX"}
+
+{"complex": "g.25881.CDS.3177-MONOMER", "reference_complex": "ABC-53-CPLX"}
+
+{"complex": "g.25881.CDS.3192-MONOMER", "reference_complex": "ABC-15-CPLX"}
+
+{"complex": "g.25881.CDS.3212-MONOMER", "reference_complex": "ABC-12-CPLX"}
+
+{"complex": "g.25881.CDS.3223-MONOMER", "reference_complex": "ABC-6-CPLX"}
+
+{"complex": "g.25881.CDS.3241-MONOMER", "reference_complex": "CPLX0-7717_G6561-MONOMER"}
+
+{"complex": "g.25881.CDS.3303-MONOMER", "reference_complex": "NITRITREDUCT-CPLX"}
+
+{"complex": "g.25881.CDS.3362-MONOMER", "reference_complex": "ABC-56-CPLX"}
+
+{"complex": "g.25881.CDS.3447-MONOMER", "reference_complex": "ABC-304-CPLX"}
+
+{"complex": "1259823.3.peg.3687-MONOMER", "reference_complex": "GLUTAMATESYN-CPLX"}
+
+{"complex": "g.25881.CDS.3704-MONOMER", "reference_complex": "Gly_RS_tetra"}
+
+{"complex": "g.25881.CDS.3798-MONOMER", "reference_complex": "CPLX0-240"}
+
+{"complex": "g.25881.CDS.3922-MONOMER", "reference_complex": "FORMATEDEHYDROGO-CPLX"}
+
+{"complex": "g.25881.CDS.3931-MONOMER", "reference_complex": "ATPSYN-CPLX_EG10106-MONOMER"}
+
+{"complex": "g.25881.CDS.3931-MONOMER", "reference_complex": "ATPSYN-CPLX"}
+
+{"complex": "g.25881.CDS.3941-MONOMER", "reference_complex": "YDGEF-CPLX"}
+
+{"complex": "g.25881.CDS.3946-MONOMER", "reference_complex": "PYRNUTRANSHYDROGEN-CPLX"}
+
+{"complex": "g.25881.CDS.3978-MONOMER", "reference_complex": "ABC-27-CPLX"}
+
+{"complex": "g.25881.CDS.4008-MONOMER", "reference_complex": "EG11829-MONOMER_EG11828-MONOMER"}
+
+{"complex": "g.25881.CDS.4032-MONOMER", "reference_complex": "EG11595-MONOMER_EG11666-MONOMER"}
+
+{"complex": "g.25881.CDS.4056-MONOMER", "reference_complex": "ABC-28-CPLX_EG10817-MONOMER"}
+
+{"complex": "g.25881.CDS.4066-MONOMER", "reference_complex": "ATPASE-1-CPLX_no_MONOMER0-12"}
+
+{"complex": "g.25881.CDS.4072-MONOMER", "reference_complex": "ACETOLACTSYNI-CPLX"}
+
+{"complex": "g.25881.CDS.4202-MONOMER", "reference_complex": "CYT-D-UBIOX-CPLX"}
+
+{"complex": "1259823.3.peg.4244-MONOMER", "reference_complex": "SUCCCOASYN"}
+
+{"complex": "g.25881.CDS.4245-MONOMER", "reference_complex": "ABC-19-CPLX"}
+
+{"complex": "1259823.3.peg.4248-MONOMER", "reference_complex": "SUCC-DEHASE"}
+
+{"complex": "g.25881.CDS.4260-MONOMER", "reference_complex": "MnmEG_cplx"}
+
+{"complex": "RNAP-CPLX", "reference_complex": "RpoZ_mono"}
+
+{"complex": "CPLX_3OAS100-0", "reference_complex": "CPLX0-252"}
+
+{"complex": "CPLX_3OAS100-0", "reference_complex": "3-OXOACYL-ACP-SYNTHII-CPLX"}
+
+{"complex": "CPLX_ACGApts-1", "reference_complex": "PTSI-MONOMER"}
+
+{"complex": "CPLX_DADNt2r-1", "reference_complex": "NUPG-MONOMER"}
+
+{"complex": "CPLX_DADNt2r-1", "reference_complex": "NUPC-MONOMER"}
+
+{"complex": "CPLX_G3PAT120-0", "reference_complex": "EG11674-MONOMER"}
+
+{"complex": "CPLX_G3PAT120-0", "reference_complex": "EG11437-MONOMER"}
+
+{"complex": "CPLX_PHEt2r-0", "reference_complex": "PHEP-MONOMER"}
+
+{"complex": "CPLX_PHEt2r-0", "reference_complex": "AROP-MONOMER"}
+
+{"complex": "CPLX_YUMPS-0", "reference_complex": "TruB_mono"}
+
+{"complex": "CPLX_YUMPS-0", "reference_complex": "TruA_dim"}
+
+{"complex": "CPLX_YUMPS-2", "reference_complex": "RluD_mono"}
+
+{"complex": "CPLX_YUMPS-2", "reference_complex": "RsuA_mono"}
+
+{"complex": "CPLX_YUMPS-2", "reference_complex": "RluC_mono"}
+
+{"complex": "CPLX_YUMPS-2", "reference_complex": "YmfC_mono"}
+
+{"complex": "CPLX_YUMPS-2", "reference_complex": "RluA_mono"}
+
+{"complex": "CPLX_YUMPS-2", "reference_complex": "RluB_mono"}
+
+{"complex": "CPLX_dreplication-0", "reference_complex": "EG10534-MONOMER"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsI_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "LeuS_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsF_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsK_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpmI_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplF_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplC_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplU_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsC_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsD_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "TilS_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplA_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplQ_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "Tyr_RS_dim"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "Thr_RS_dim"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsL_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "His_RS_dim"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplJ_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsQ_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpmF_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplX_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpmD_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsP_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsJ_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsM_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "CysS_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "Ala_RS_tetra"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "Fmt_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplT_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsH_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpmA_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplV_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "IleS_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplE_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "Met_RS_dim"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplS_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsT_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "ValS_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "ArgS_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "rpL7/12"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsN_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "Trp_RS_dim"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplB_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpmC_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplO_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplP_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "Asn_RS_dim"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplN_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "Ser_RS_dim"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpmG_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplI_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplR_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpmB_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsE_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplM_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "LysI_RS_dim"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsB_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsG_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsR_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplD_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RplW_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpmH_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsO_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "GltX_mono"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "Asp_RS_dim"}
+
+{"complex": "CPLX_pbiosynthesis-0", "reference_complex": "RpsU_mono"}
+
+{"complex": "CPLX_pbiosynthesis-1", "reference_complex": "RpmE_mono"}
+
+{"complex": "CPLX_rtranscription-0", "reference_complex": "RpoD_mono"}
+
+{"complex": "CPLX_rtranscription-0", "reference_complex": "TrmD_dim"}
+
+{"complex": "CPLX_rtranscription-0", "reference_complex": "NusA_mono"}
+
+{"complex": "CPLX_rtranscription-0", "reference_complex": "RNase_III_dim"}
+
+**********Solution:
+Curate these manually in protein_corrections.txt
+
+
+
+
+#################### medium@update_me_mets ####################
+********** Some metabolites in me_metabolites.txt are not in m_model, so they were skipped.
+The following items triggered the warning:
+sufbcd_2fe2s_c
+sufbcd_2fe2s2_c
+sufbcd_4fe4s_c
+iscu_2fe2s_c
+iscu_2fe2s2_c
+iscu_4fe4s_c
+
+**********Solution:
+Confirm these metabolites are correctly defined in me_metabolites.txt
+
+
+
+
+#################### medium@update_ribosome_subreactions_from_homology ####################
+********** Some enzymes defined in me_builder.org.ribosome_subreactions are different from the ones inferred from homology
+The following items triggered the warning:
+
+{"subreaction": "gtp_bound_30S_assembly_factor_phase1", "defined_complex": "", "inferred_complex": "g.25881.CDS.624-MONOMER"}
+
+{"subreaction": "RbfA_mono_assembly_factor_phase1", "defined_complex": "", "inferred_complex": "g.25881.CDS.3195-MONOMER"}
+
+{"subreaction": "RimM_mono_assembly_factor_phase1", "defined_complex": "", "inferred_complex": "g.25881.CDS.35-MONOMER"}
+
+**********Solution:
+Confirm whether the definitions or homology calls are correct in me_builder.org.ribosome_subreactions. Curate the inputs in ribosome_subreactions.txt accordingly.
+
+
+
+
+#################### medium@update_peptide_release_factors_from_homology ####################
+********** Some enzymes defined in me_builder.org.peptide_release_factors are different from the ones inferred from homology
+The following items triggered the warning:
+
+{"subreaction": "UAG", "defined_complex": "", "inferred_complex": "g.25881.CDS.1230-MONOMER"}
+
+{"subreaction": "UGA", "defined_complex": "", "inferred_complex": "g.25881.CDS.181-MONOMER"}
+
+**********Solution:
+Confirm whether the definitions or homology calls are correct in me_builder.org.peptide_release_factors. Curate the inputs in peptide_release_factors.txt accordingly.
+
+
+
+
+#################### critical@get_trna_to_codon ####################
+********** Some tRNAs could be missing in the files.
+The following items triggered the warning:
+Gln
+
+**********Solution:
+Identify the respective missing tRNAs and add them to a file (RNAs.txt or genome.gb)
+
+
+
+
+#################### medium@check ####################
+********** Some metabolites in me_metabolites.txt need curation
+The following items triggered the warning:
+10m3hddcaACP_c
+10m3hundecACP_c
+10m3oddcaACP_c
+10m3oundecACP_c
+10mddcaACP_c
+10mtddec2eACP_c
+10mtundec2eACP_c
+10mundecACP_c
+11m3hddcaACP_c
+11m3oddcaACP_c
+11mddcaACP_c
+11mtddec2eACP_c
+12m3hmyrsACP_c
+12m3htridecACP_c
+12m3omyrsACP_c
+12m3otridecACP_c
+12mmyrsACP_c
+12mtmrs2eACP_c
+12mtridecACP_c
+12mttritec2eACP_c
+13m3hmyrsACP_c
+13m3omyrsACP_c
+13mmyrsACP_c
+13mtmrs2eACP_c
+14m3hpalmACP_c
+14m3hpentdecACP_c
+14m3opalmACP_c
+14m3opentdecACP_c
+14mpalmACP_c
+14mpentdecACP_c
+14mtpalm2eACP_c
+14mtpentdec2eACP_c
+15m3hpalmACP_c
+15m3opalmACP_c
+15mpalmACP_c
+15mtpalm2eACP_c
+2mbutACP_c
+2mpropACP_c
+3hgACPm_c
+3hpACPm_c
+3mbutACP_c
+3ogACPm_c
+3opACPm_c
+4m3hhexACP_c
+4m3hpentACP_c
+4m3ohexACP_c
+4m3opentACP_c
+4mhexACP_c
+4mpentACP_c
+4mthex2eACP_c
+4mtpent2eACP_c
+5m3hhexACP_c
+5m3ohexACP_c
+5mhexACP_c
+5mthex2eACP_c
+6m3hheptACP_c
+6m3hocACP_c
+6m3oheptACP_c
+6m3oocACP_c
+6mheptACP_c
+6mocACP_c
+6mthept2eACP_c
+6mtoct2eACP_c
+7m3hocACP_c
+7m3oocACP_c
+7mocACP_c
+7mtoct2eACP_c
+8m3hdcaACP_c
+8m3hnonACP_c
+8m3odcaACP_c
+8m3ononACP_c
+8mdcaACP_c
+8mnonACP_c
+8mtdec2eACP_c
+8mtnon2eACP_c
+9m3hdcaACP_c
+9m3odcaACP_c
+9mdcaACP_c
+9mtdec2eACP_c
+egACPm_c
+epACPm_c
+gACPm_c
+pmACP_c
+pmACPm_c
+LI_c
+sufbcd_c
+sufse_c
+sufsesh_c
+dsbaox_p
+3hcpalm9eACP_c
+3ocpalm9eACP_c
+iscssh_c
+
+**********Solution:
+Map or remove these metabolites in me_metabolites.txt
+
+
+

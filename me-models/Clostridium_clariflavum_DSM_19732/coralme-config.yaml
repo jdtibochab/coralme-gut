@@ -1,0 +1,192 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: g.27460.CDS.283-MONOMER
+  UGA: g.27460.CDS.3221-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - CPLX_dummy
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass071
+- FMETTRS
+- ATPM
+ME-Model-ID: Clostridium_clariflavum_DSM_19732-ME
+m-model-path: ./me-models/Clostridium_clariflavum_DSM_19732//building_data/m_model_modified.json
+genbank-path: ./me-models/Clostridium_clariflavum_DSM_19732//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Clostridium_clariflavum_DSM_19732/Clostridium_clariflavum_DSM_19732.xlsx
+df_TranscriptionalUnits: ./me-models/Clostridium_clariflavum_DSM_19732//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Clostridium_clariflavum_DSM_19732/
+out_directory: ./me-models/Clostridium_clariflavum_DSM_19732/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- g.27460.CDS.2434-MONOMER
+- g.27460.CDS.2783-MONOMER
+other_lipids: []
+default_sigma_factor: g.27460.CDS.271-MONOMER
+rna_polymerases:
+  RNAP_g27460CDS271MONOMER:
+    sigma_factor: g.27460.CDS.271-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS560MONOMER:
+    sigma_factor: g.27460.CDS.560-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS812MONOMER:
+    sigma_factor: g.27460.CDS.812-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS1035MONOMER:
+    sigma_factor: g.27460.CDS.1035-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS1247MONOMER:
+    sigma_factor: g.27460.CDS.1247-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS1325MONOMER:
+    sigma_factor: g.27460.CDS.1325-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS1670MONOMER:
+    sigma_factor: g.27460.CDS.1670-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS1712MONOMER:
+    sigma_factor: g.27460.CDS.1712-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS1741MONOMER:
+    sigma_factor: g.27460.CDS.1741-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS2076MONOMER:
+    sigma_factor: g.27460.CDS.2076-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS2096MONOMER:
+    sigma_factor: g.27460.CDS.2096-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS2119MONOMER:
+    sigma_factor: g.27460.CDS.2119-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS2120MONOMER:
+    sigma_factor: g.27460.CDS.2120-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS2180MONOMER:
+    sigma_factor: g.27460.CDS.2180-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS2428MONOMER:
+    sigma_factor: g.27460.CDS.2428-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS2450MONOMER:
+    sigma_factor: g.27460.CDS.2450-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS2580MONOMER:
+    sigma_factor: g.27460.CDS.2580-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS2604MONOMER:
+    sigma_factor: g.27460.CDS.2604-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS2747MONOMER:
+    sigma_factor: g.27460.CDS.2747-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS3260MONOMER:
+    sigma_factor: g.27460.CDS.3260-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS3389MONOMER:
+    sigma_factor: g.27460.CDS.3389-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS3501MONOMER:
+    sigma_factor: g.27460.CDS.3501-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS3613MONOMER:
+    sigma_factor: g.27460.CDS.3613-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS3722MONOMER:
+    sigma_factor: g.27460.CDS.3722-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS3915MONOMER:
+    sigma_factor: g.27460.CDS.3915-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS4010MONOMER:
+    sigma_factor: g.27460.CDS.4010-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS4044MONOMER:
+    sigma_factor: g.27460.CDS.4044-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g27460CDS4311MONOMER:
+    sigma_factor: g.27460.CDS.4311-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  MetQ: g.27460.CDS.3541
+ngam: 1.0
+gam: 41.257
+translocation_multipliers:
+  g.27460.CDS.4022-MONOMER:
+    g.27460.CDS.774: 2.0
+amino_acid_trna_synthetase:
+  ala__L_c: g.27460.CDS.2085-MONOMER
+  arg__L_c: g.27460.CDS.10-MONOMER
+  asn__L_c: g.27460.CDS.1256-MONOMER
+  asp__L_c: g.27460.CDS.2832-MONOMER
+  cys__L_c: g.27460.CDS.4042-MONOMER
+  gln__L_c: g.27460.CDS.2701-MONOMER
+  glu__L_c: g.27460.CDS.979-MONOMER
+  gly_c: g.27460.CDS.2924-MONOMER
+  his__L_c: g.27460.CDS.2365-MONOMER
+  ile__L_c: g.27460.CDS.1271-MONOMER
+  leu__L_c: g.27460.CDS.1808-MONOMER
+  lys__L_c: g.27460.CDS.4286-MONOMER
+  met__L_c: g.27460.CDS.4034-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: generic_pro_ligase
+  ser__L_c: g.27460.CDS.484-MONOMER
+  thr__L_c: g.27460.CDS.3531-MONOMER
+  trp__L_c: g.27460.CDS.1743-MONOMER
+  tyr__L_c: g.27460.CDS.1569-MONOMER
+  val__L_c: g.27460.CDS.1060-MONOMER
+braun's_lipoproteins: []

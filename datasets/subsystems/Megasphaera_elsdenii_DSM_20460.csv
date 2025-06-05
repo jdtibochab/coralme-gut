@@ -1,0 +1,785 @@
+,subsystem
+g.28311.CDS.1,Metabolic:Nucleotide interconversion
+g.28311.CDS.2,Transcription
+g.28311.CDS.3,Metabolic:Exchange/demand reaction
+g.28311.CDS.4,Metabolic:Pyruvate metabolism
+g.28311.CDS.6,Metabolic:Respiration
+g.28311.CDS.12,Metabolic:Respiration
+g.28311.CDS.13,Metabolic:Histidine metabolism
+g.28311.CDS.16,"Metabolic:Transport, extracellular"
+g.28311.CDS.18,Transcription
+g.28311.CDS.23,tRNA-Charging
+g.28311.CDS.24,Metabolic:Tryptophan metabolism
+g.28311.CDS.25,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.27,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.28,Metabolic:Arginine and proline metabolism
+g.28311.CDS.29,Metabolic:NAD metabolism
+g.28311.CDS.30,Metabolic:Butanoate metabolism
+g.28311.CDS.33,tRNA-Charging
+g.28311.CDS.36,"Metabolic:Transport, extracellular"
+g.28311.CDS.40,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.41,Metabolic:Citric acid cycle
+g.28311.CDS.46,"Metabolic:Transport, extracellular"
+g.28311.CDS.48,Metabolic:Nucleotide sugar metabolism
+g.28311.CDS.50,Metabolic:Tryptophan metabolism
+g.28311.CDS.51,Metabolic:Pyruvate metabolism
+g.28311.CDS.56,Metabolic:Folate metabolism
+g.28311.CDS.60,Metabolic:Phenylalanine metabolism
+g.28311.CDS.61,"Metabolic:Transport, extracellular"
+g.28311.CDS.69,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.72,Translation
+g.28311.CDS.73,tRNA-Charging
+g.28311.CDS.76,Metabolic:Fatty acid synthesis
+g.28311.CDS.81,Metabolic:Exchange/demand reaction
+g.28311.CDS.82,Metabolic:Exchange/demand reaction
+g.28311.CDS.85,Translation
+g.28311.CDS.88,"Metabolic:Transport, extracellular"
+g.28311.CDS.89,Metabolic:Pyruvate metabolism
+g.28311.CDS.93,Metabolic:Nucleotide interconversion
+g.28311.CDS.97,Metabolic:Heme synthesis
+g.28311.CDS.100,"Metabolic:Transport, extracellular"
+g.28311.CDS.103,Metabolic:Pentose phosphate pathway
+g.28311.CDS.107,Metabolic:Cell wall biosynthesis
+g.28311.CDS.109,Metabolic:Starch and sucrose metabolism
+g.28311.CDS.113,Metabolic:Naphthalene degradation
+g.28311.CDS.116,Metabolic:Galactose metabolism
+g.28311.CDS.118,Metabolic:Vitamin B6 metabolism
+g.28311.CDS.122,tRNA-Charging
+g.28311.CDS.123,Metabolic:Cell wall biosynthesis
+g.28311.CDS.126,Metabolic:Aminosugar metabolism
+g.28311.CDS.130,"Metabolic:Transport, extracellular"
+g.28311.CDS.133,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.137,Metabolic:Glycerophospholipid metabolism
+g.28311.CDS.140,"Metabolic:Transport, extracellular"
+g.28311.CDS.143,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.144,Metabolic:Cell wall biosynthesis
+g.28311.CDS.148,tRNA-Charging
+g.28311.CDS.150,"Metabolic:Transport, extracellular"
+g.28311.CDS.151,"Metabolic:Transport, extracellular"
+g.28311.CDS.156,tRNA-Charging
+g.28311.CDS.158,Metabolic:Histidine metabolism
+g.28311.CDS.159,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.160,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.161,Metabolic:Tryptophan metabolism
+g.28311.CDS.163,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.166,Metabolic:Exchange/demand reaction
+g.28311.CDS.167,Translation
+g.28311.CDS.174,Metabolic:Nucleotide interconversion
+g.28311.CDS.178,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.189,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.193,Translation
+g.28311.CDS.196,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.197,Metabolic:Exchange/demand reaction
+g.28311.CDS.199,Translation
+g.28311.CDS.204,Metabolic:Citric acid cycle
+g.28311.CDS.206,Metabolic:Phenylalanine metabolism
+g.28311.CDS.209,Metabolic:Pentose and glucuronate interconversions
+g.28311.CDS.210,"Metabolic:Transport, extracellular"
+g.28311.CDS.218,Metabolic:Exchange/demand reaction
+g.28311.CDS.219,"Metabolic:Transport, extracellular"
+g.28311.CDS.229,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.233,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.238,Metabolic:NAD metabolism
+g.28311.CDS.250,Metabolic:Nucleotide interconversion
+g.28311.CDS.251,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.252,Metabolic:Phenylalanine metabolism
+g.28311.CDS.260,tRNA-Charging
+g.28311.CDS.261,Metabolic:Tryptophan metabolism
+g.28311.CDS.262,Metabolic:Fatty acid synthesis
+g.28311.CDS.264,"Metabolic:Transport, extracellular"
+g.28311.CDS.267,Metabolic:Pyrimidine catabolism
+g.28311.CDS.268,Metabolic:Folate metabolism
+g.28311.CDS.272,Metabolic:Thiamine metabolism
+g.28311.CDS.276,Metabolic:Folate metabolism
+g.28311.CDS.279,Metabolic:Exchange/demand reaction
+g.28311.CDS.283,"Metabolic:Transport, extracellular"
+g.28311.CDS.289,Metabolic:Pyrimidine catabolism
+g.28311.CDS.292,Metabolic:Pyrimidine catabolism
+g.28311.CDS.296,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.298,Metabolic:Heme synthesis
+g.28311.CDS.308,Metabolic:Exchange/demand reaction
+g.28311.CDS.314,"Metabolic:Transport, extracellular"
+g.28311.CDS.317,"Metabolic:Transport, extracellular"
+g.28311.CDS.320,Metabolic:Pentose phosphate pathway
+g.28311.CDS.322,Metabolic:Glycerophospholipid metabolism
+g.28311.CDS.327,Metabolic:Exchange/demand reaction
+g.28311.CDS.329,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.330,Metabolic:Urea cycle
+g.28311.CDS.337,Metabolic:Phenylalanine metabolism
+g.28311.CDS.340,Metabolic:Pyruvate metabolism
+g.28311.CDS.341,tRNA-Charging
+g.28311.CDS.346,Metabolic:Naphthalene degradation
+g.28311.CDS.352,Metabolic:tRNA Charging
+g.28311.CDS.353,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.354,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.357,Metabolic:Arginine and proline metabolism
+g.28311.CDS.361,"Metabolic:Transport, extracellular"
+g.28311.CDS.366,Metabolic:Benzoate degradation
+g.28311.CDS.372,Metabolic:Lysine metabolism
+g.28311.CDS.374,tRNA-Charging
+g.28311.CDS.375,Metabolic:Tyrosine metabolism
+g.28311.CDS.379,tRNA-Charging
+g.28311.CDS.383,"Metabolic:Transport, extracellular"
+g.28311.CDS.385,Metabolic:Fatty acid synthesis
+g.28311.CDS.388,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.390,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.392,Metabolic:Glutamate metabolism
+g.28311.CDS.395,tRNA-Charging
+g.28311.CDS.398,Metabolic:Folate metabolism
+g.28311.CDS.400,Translation
+g.28311.CDS.411,Metabolic:Thiamine metabolism
+g.28311.CDS.412,Metabolic:Exchange/demand reaction
+g.28311.CDS.414,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.417,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.418,"Metabolic:Transport, extracellular"
+g.28311.CDS.419,Translation
+g.28311.CDS.428,Metabolic:Heme synthesis
+g.28311.CDS.429,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.430,Metabolic:Purine catabolism
+g.28311.CDS.434,Metabolic:Aminosugar metabolism
+g.28311.CDS.435,Metabolic:Citric acid cycle
+g.28311.CDS.436,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.439,"Metabolic:Transport, extracellular"
+g.28311.CDS.440,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.442,Metabolic:Thiamine metabolism
+g.28311.CDS.444,Metabolic:Tyrosine metabolism
+g.28311.CDS.446,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.447,Metabolic:Nucleotide interconversion
+g.28311.CDS.449,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.450,Metabolic:Butanoate metabolism
+g.28311.CDS.451,Metabolic:CoA synthesis
+g.28311.CDS.453,Metabolic:Pyruvate metabolism
+g.28311.CDS.454,Metabolic:Pyruvate metabolism
+g.28311.CDS.455,Metabolic:Biotin metabolism
+g.28311.CDS.456,tRNA-Charging
+g.28311.CDS.460,tRNA-Charging
+g.28311.CDS.461,Metabolic:Aminosugar metabolism
+g.28311.CDS.463,Metabolic:Vitamin B2 metabolism
+g.28311.CDS.467,Metabolic:Urea cycle
+g.28311.CDS.469,Metabolic:Arginine and proline metabolism
+g.28311.CDS.473,Metabolic:Aminosugar metabolism
+g.28311.CDS.476,Metabolic:Histidine metabolism
+g.28311.CDS.481,tRNA-Charging
+g.28311.CDS.486,Metabolic:Butanoate metabolism
+g.28311.CDS.487,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.488,"Metabolic:Transport, extracellular"
+g.28311.CDS.490,Metabolic:Tryptophan metabolism
+g.28311.CDS.491,Metabolic:NAD metabolism
+g.28311.CDS.492,Metabolic:Exchange/demand reaction
+g.28311.CDS.493,Metabolic:Thiamine metabolism
+g.28311.CDS.494,Post-translation
+g.28311.CDS.496,Metabolic:Fatty acid synthesis
+g.28311.CDS.497,Metabolic:Glycerophospholipid metabolism
+g.28311.CDS.501,Metabolic:Phenylalanine metabolism
+g.28311.CDS.502,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.505,"Metabolic:Transport, extracellular"
+g.28311.CDS.519,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.525,"Metabolic:Transport, extracellular"
+g.28311.CDS.531,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.532,Metabolic:Arginine and proline metabolism
+g.28311.CDS.533,Metabolic:Vitamin B6 metabolism
+g.28311.CDS.537,Metabolic:Pentose phosphate pathway
+g.28311.CDS.540,Metabolic:Arginine and proline metabolism
+g.28311.CDS.541,Metabolic:Exchange/demand reaction
+g.28311.CDS.546,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.551,Metabolic:Pentose phosphate pathway
+g.28311.CDS.552,tRNA-Charging
+g.28311.CDS.553,Metabolic:Pyrimidine catabolism
+g.28311.CDS.554,Metabolic:Phenylalanine metabolism
+g.28311.CDS.562,Metabolic:Pyrimidine synthesis
+g.28311.CDS.566,Metabolic:Lysine metabolism
+g.28311.CDS.584,Metabolic:Aminosugar metabolism
+g.28311.CDS.587,Metabolic:Exchange/demand reaction
+g.28311.CDS.592,Metabolic:Thiamine metabolism
+g.28311.CDS.594,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.595,Metabolic:Nitrogen metabolism
+g.28311.CDS.600,"Metabolic:Transport, extracellular"
+g.28311.CDS.606,tRNA-Charging
+g.28311.CDS.609,Metabolic:Pyruvate metabolism
+g.28311.CDS.611,Metabolic:Glycerophospholipid metabolism
+g.28311.CDS.613,Metabolic:Glutamate metabolism
+g.28311.CDS.614,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.615,Metabolic:Galactose metabolism
+g.28311.CDS.616,"Metabolic:Transport, extracellular"
+g.28311.CDS.618,"Metabolic:Transport, extracellular"
+g.28311.CDS.621,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.623,"Metabolic:Transport, extracellular"
+g.28311.CDS.631,Metabolic:Lysine metabolism
+g.28311.CDS.632,Metabolic:Histidine metabolism
+g.28311.CDS.635,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.638,"Metabolic:Transport, extracellular"
+g.28311.CDS.640,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.645,Metabolic:Nucleotide salvage pathway
+g.28311.CDS.647,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.649,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.654,"Metabolic:Transport, extracellular"
+g.28311.CDS.655,Metabolic:CoA synthesis
+g.28311.CDS.656,Metabolic:Pyruvate metabolism
+g.28311.CDS.657,Metabolic:Phenylalanine metabolism
+g.28311.CDS.658,Metabolic:Nucleotide interconversion
+g.28311.CDS.659,Metabolic:Pyrimidine synthesis
+g.28311.CDS.660,Metabolic:Nucleotide interconversion
+g.28311.CDS.662,Metabolic:Pyruvate metabolism
+g.28311.CDS.663,Metabolic:Respiration
+g.28311.CDS.665,Metabolic:Nucleotide sugar metabolism
+g.28311.CDS.672,Metabolic:Biotin metabolism
+g.28311.CDS.678,Metabolic:Fructose and mannose metabolism
+g.28311.CDS.682,Translation
+g.28311.CDS.684,Metabolic:Fatty acid synthesis
+g.28311.CDS.685,Metabolic:Nucleotide interconversion
+g.28311.CDS.688,Metabolic:Tryptophan metabolism
+g.28311.CDS.691,Metabolic:Aminosugar metabolism
+g.28311.CDS.695,Metabolic:Oxidative phosphorylation
+g.28311.CDS.702,Post-translation
+g.28311.CDS.712,Metabolic:Pentose phosphate pathway
+g.28311.CDS.716,Metabolic:Respiration
+g.28311.CDS.717,Metabolic:Aminosugar metabolism
+g.28311.CDS.720,Metabolic:Pentose phosphate pathway
+g.28311.CDS.722,Metabolic:Glutamate metabolism
+g.28311.CDS.723,Metabolic:Starch and sucrose metabolism
+g.28311.CDS.725,Metabolic:Nucleotide interconversion
+g.28311.CDS.727,Metabolic:Pentose phosphate pathway
+g.28311.CDS.728,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.734,Metabolic:Starch and sucrose metabolism
+g.28311.CDS.735,Metabolic:Tyrosine metabolism
+g.28311.CDS.737,"Metabolic:Transport, extracellular"
+g.28311.CDS.739,Metabolic:Thiamine metabolism
+g.28311.CDS.742,Transcription
+g.28311.CDS.745,tRNA-Charging
+g.28311.CDS.750,Metabolic:NAD metabolism
+g.28311.CDS.755,Translation
+g.28311.CDS.758,Metabolic:Cell wall biosynthesis
+g.28311.CDS.760,Metabolic:Tryptophan metabolism
+g.28311.CDS.762,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.763,Metabolic:Phenylalanine metabolism
+g.28311.CDS.766,Metabolic:Pyrimidine synthesis
+g.28311.CDS.769,Metabolic:Fatty acid synthesis
+g.28311.CDS.771,Metabolic:Heme synthesis
+g.28311.CDS.773,Metabolic:Thiamine metabolism
+g.28311.CDS.774,Metabolic:Pyruvate metabolism
+g.28311.CDS.775,Metabolic:Pentose phosphate pathway
+g.28311.CDS.776,Metabolic:Histidine metabolism
+g.28311.CDS.777,Metabolic:Arginine and proline metabolism
+g.28311.CDS.779,"Metabolic:Transport, extracellular"
+g.28311.CDS.780,tRNA-Charging
+g.28311.CDS.781,Metabolic:Terpenoid backbone biosynthesis
+g.28311.CDS.796,Metabolic:NAD metabolism
+g.28311.CDS.797,Metabolic:Cell wall biosynthesis
+g.28311.CDS.798,Metabolic:Lysine metabolism
+g.28311.CDS.804,Metabolic:Histidine metabolism
+g.28311.CDS.806,Metabolic:Aminobenzoate degradation
+g.28311.CDS.808,tRNA-Charging
+g.28311.CDS.813,Metabolic:Cell wall biosynthesis
+g.28311.CDS.814,Metabolic:Respiration
+g.28311.CDS.815,Metabolic:Exchange/demand reaction
+g.28311.CDS.821,Metabolic:Nitrogen metabolism
+g.28311.CDS.822,"Metabolic:Transport, extracellular"
+g.28311.CDS.827,Metabolic:Pyruvate metabolism
+g.28311.CDS.840,"Metabolic:Transport, extracellular"
+g.28311.CDS.841,Post-translation
+g.28311.CDS.846,Metabolic:Pentose phosphate pathway
+g.28311.CDS.848,tRNA-Charging
+g.28311.CDS.853,Metabolic:Nucleotide interconversion
+g.28311.CDS.856,Metabolic:Exchange/demand reaction
+g.28311.CDS.857,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.861,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.865,Metabolic:Cell wall biosynthesis
+g.28311.CDS.866,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.867,Metabolic:Pentose phosphate pathway
+g.28311.CDS.869,Metabolic:Pyrimidine catabolism
+g.28311.CDS.870,tRNA-Charging
+g.28311.CDS.871,"Metabolic:Transport, extracellular"
+g.28311.CDS.872,Metabolic:NAD metabolism
+g.28311.CDS.878,Metabolic:CoA synthesis
+g.28311.CDS.880,Metabolic:Glutathione metabolism
+g.28311.CDS.882,Metabolic:Vitamin B2 metabolism
+g.28311.CDS.884,Metabolic:Histidine metabolism
+g.28311.CDS.889,Metabolic:Pentose phosphate pathway
+g.28311.CDS.892,Metabolic:CoA synthesis
+g.28311.CDS.893,"Metabolic:Transport, extracellular"
+g.28311.CDS.895,tRNA-Charging
+g.28311.CDS.896,Metabolic:Exchange/demand reaction
+g.28311.CDS.898,"Metabolic:Transport, extracellular"
+g.28311.CDS.899,Metabolic:Propanoate metabolism
+g.28311.CDS.906,Metabolic:Starch and sucrose metabolism
+g.28311.CDS.907,Metabolic:Glycerophospholipid metabolism
+g.28311.CDS.910,"Metabolic:Transport, extracellular"
+g.28311.CDS.911,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.912,Metabolic:Glycerophospholipid metabolism
+g.28311.CDS.915,Metabolic:Folate metabolism
+g.28311.CDS.916,Metabolic:Cell wall biosynthesis
+g.28311.CDS.917,Metabolic:Terpenoid backbone biosynthesis
+g.28311.CDS.919,Metabolic:Purine catabolism
+g.28311.CDS.929,Metabolic:Pyrimidine synthesis
+g.28311.CDS.933,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.934,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.938,Metabolic:Cell wall biosynthesis
+g.28311.CDS.939,Metabolic:Folate metabolism
+g.28311.CDS.940,Metabolic:Pyruvate metabolism
+g.28311.CDS.943,Translation
+g.28311.CDS.946,Metabolic:Cell wall biosynthesis
+g.28311.CDS.952,Metabolic:ROS detoxification
+g.28311.CDS.958,Metabolic:Pentose phosphate pathway
+g.28311.CDS.959,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.960,tRNA-Charging
+g.28311.CDS.962,Translation
+g.28311.CDS.964,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.966,Metabolic:Pyrimidine synthesis
+g.28311.CDS.967,Metabolic:Naphthalene degradation
+g.28311.CDS.973,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.981,Metabolic:Pyruvate metabolism
+g.28311.CDS.982,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.983,tRNA-Charging
+g.28311.CDS.986,Metabolic:Glycerophospholipid metabolism
+g.28311.CDS.987,tRNA-Charging
+g.28311.CDS.991,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.993,Metabolic:Pyrimidine synthesis
+g.28311.CDS.995,Metabolic:Exchange/demand reaction
+g.28311.CDS.1004,Metabolic:Phenylalanine metabolism
+g.28311.CDS.1005,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.1006,Translation
+g.28311.CDS.1007,"Metabolic:Transport, extracellular"
+g.28311.CDS.1009,Transcription
+g.28311.CDS.1018,Metabolic:Nucleotide interconversion
+g.28311.CDS.1019,"Metabolic:Transport, extracellular"
+g.28311.CDS.1022,Metabolic:Terpenoid backbone biosynthesis
+g.28311.CDS.1024,Metabolic:Pentose and glucuronate interconversions
+g.28311.CDS.1026,tRNA-Charging
+g.28311.CDS.1027,Metabolic:NAD metabolism
+g.28311.CDS.1028,Metabolic:Folate metabolism
+g.28311.CDS.1034,Metabolic:Nucleotide interconversion
+g.28311.CDS.1038,"Metabolic:Transport, extracellular"
+g.28311.CDS.1044,Metabolic:Lysine metabolism
+g.28311.CDS.1047,Metabolic:Pyrimidine synthesis
+g.28311.CDS.1053,tRNA-Charging
+g.28311.CDS.1055,Metabolic:Lysine metabolism
+g.28311.CDS.1056,"Metabolic:Transport, extracellular"
+g.28311.CDS.1070,Metabolic:Butanoate metabolism
+g.28311.CDS.1071,Translation
+g.28311.CDS.1073,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.1075,Metabolic:Nucleotide interconversion
+g.28311.CDS.1077,Metabolic:Nucleotide interconversion
+g.28311.CDS.1080,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.1081,tRNA-Charging
+g.28311.CDS.1083,Translation
+g.28311.CDS.1084,Transcription
+g.28311.CDS.1085,tRNA-Charging
+g.28311.CDS.1086,Metabolic:Galactose metabolism
+g.28311.CDS.1089,Metabolic:Cell wall biosynthesis
+g.28311.CDS.1090,Metabolic:Nucleotide interconversion
+g.28311.CDS.1094,Translation
+g.28311.CDS.1096,Metabolic:Thiamine metabolism
+g.28311.CDS.1103,tRNA-Charging
+g.28311.CDS.1106,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.1107,Metabolic:Exchange/demand reaction
+g.28311.CDS.1110,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.1112,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.1113,"Metabolic:Transport, extracellular"
+g.28311.CDS.1114,tRNA-Charging
+g.28311.CDS.1124,Metabolic:Exchange/demand reaction
+g.28311.CDS.1125,Metabolic:Pyruvate metabolism
+g.28311.CDS.1127,Metabolic:Respiration
+g.28311.CDS.1128,Metabolic:Galactose metabolism
+g.28311.CDS.1131,tRNA-Charging
+g.28311.CDS.1132,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.1134,Metabolic:Pentose and glucuronate interconversions
+g.28311.CDS.1140,Metabolic:Selenoamino acid metabolism
+g.28311.CDS.1145,tRNA-Charging
+g.28311.CDS.1146,Metabolic:Exchange/demand reaction
+g.28311.CDS.1154,Metabolic:Cell wall biosynthesis
+g.28311.CDS.1159,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.1163,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.1167,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.1171,Metabolic:Cell wall biosynthesis
+g.28311.CDS.1173,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.1177,Metabolic:Lysine metabolism
+g.28311.CDS.1180,Metabolic:Aminosugar metabolism
+g.28311.CDS.1186,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.1191,Translation
+g.28311.CDS.1196,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.1198,Metabolic:Respiration
+g.28311.CDS.1203,Metabolic:Exchange/demand reaction
+g.28311.CDS.1209,tRNA-Charging
+g.28311.CDS.1215,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.1217,Metabolic:Thiamine metabolism
+g.28311.CDS.1221,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.1225,Metabolic:Galactose metabolism
+g.28311.CDS.1227,tRNA-Charging
+g.28311.CDS.1228,Metabolic:Pyruvate metabolism
+g.28311.CDS.1229,Metabolic:Benzoate degradation
+g.28311.CDS.1230,Metabolic:NAD metabolism
+g.28311.CDS.1233,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.1235,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.1240,tRNA-Charging
+g.28311.CDS.1241,Metabolic:Exchange/demand reaction
+g.28311.CDS.1243,"Metabolic:Transport, extracellular"
+g.28311.CDS.1248,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.1250,tRNA-Charging
+g.28311.CDS.1252,tRNA-Charging
+g.28311.CDS.1253,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.1255,Metabolic:CoA synthesis
+g.28311.CDS.1260,Translation
+g.28311.CDS.1261,Metabolic:Nucleotide salvage pathway
+g.28311.CDS.1278,Metabolic:Terpenoid backbone biosynthesis
+g.28311.CDS.1286,Metabolic:Glycerophospholipid metabolism
+g.28311.CDS.1287,Metabolic:NAD metabolism
+g.28311.CDS.1289,tRNA-Charging
+g.28311.CDS.1293,tRNA-Charging
+g.28311.CDS.1296,"Metabolic:Transport, extracellular"
+g.28311.CDS.1299,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.1301,tRNA-Charging
+g.28311.CDS.1304,Translation
+g.28311.CDS.1305,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.1306,Metabolic:NAD metabolism
+g.28311.CDS.1307,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.1314,tRNA-Charging
+g.28311.CDS.1316,"Metabolic:Transport, extracellular"
+g.28311.CDS.1323,"Metabolic:Transport, extracellular"
+g.28311.CDS.1324,"Metabolic:Transport, extracellular"
+g.28311.CDS.1326,Metabolic:Pyruvate metabolism
+g.28311.CDS.1327,tRNA-Charging
+g.28311.CDS.1332,Metabolic:Folate metabolism
+g.28311.CDS.1334,tRNA-Charging
+g.28311.CDS.1336,tRNA-Charging
+g.28311.CDS.1337,Metabolic:Pyrimidine catabolism
+g.28311.CDS.1339,Metabolic:Vitamin B2 metabolism
+g.28311.CDS.1351,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.1353,Metabolic:Nucleotide interconversion
+g.28311.CDS.1360,"Metabolic:Transport, extracellular"
+g.28311.CDS.1361,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.1367,Metabolic:Glutathione metabolism
+g.28311.CDS.1371,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.1372,Metabolic:Pyruvate metabolism
+g.28311.CDS.1378,"Metabolic:Transport, extracellular"
+g.28311.CDS.1381,Metabolic:Exchange/demand reaction
+g.28311.CDS.1395,Metabolic:Glycerophospholipid metabolism
+g.28311.CDS.1396,Metabolic:Fatty acid synthesis
+g.28311.CDS.1397,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.1400,Metabolic:Aminosugar metabolism
+g.28311.CDS.1404,Metabolic:CoA synthesis
+g.28311.CDS.1408,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.1416,Translation
+g.28311.CDS.1418,tRNA-Charging
+g.28311.CDS.1419,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.1424,Translation
+g.28311.CDS.1425,Metabolic:Nucleotide interconversion
+g.28311.CDS.1427,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.1431,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.1433,tRNA-Charging
+g.28311.CDS.1435,Metabolic:Pyruvate metabolism
+g.28311.CDS.1436,Metabolic:Arginine and proline metabolism
+g.28311.CDS.1439,"Metabolic:Transport, extracellular"
+g.28311.CDS.1444,Metabolic:Arginine and proline metabolism
+g.28311.CDS.1445,Metabolic:Exchange/demand reaction
+g.28311.CDS.1446,Translation
+g.28311.CDS.1447,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.1450,tRNA-Charging
+g.28311.CDS.1457,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.1462,Metabolic:Pyrimidine synthesis
+g.28311.CDS.1464,"Metabolic:Transport, extracellular"
+g.28311.CDS.1470,Metabolic:Glutathione metabolism
+g.28311.CDS.1473,Metabolic:Folate metabolism
+g.28311.CDS.1482,Metabolic:Exchange/demand reaction
+g.28311.CDS.1483,Metabolic:Purine synthesis
+g.28311.CDS.1486,Translation
+g.28311.CDS.1487,Metabolic:Glutathione metabolism
+g.28311.CDS.1495,tRNA-Charging
+g.28311.CDS.1496,Metabolic:Terpenoid backbone biosynthesis
+g.28311.CDS.1503,Metabolic:Arginine and proline metabolism
+g.28311.CDS.1504,Metabolic:Biotin metabolism
+g.28311.CDS.1505,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.1515,Metabolic:Nucleotide interconversion
+g.28311.CDS.1516,tRNA-Charging
+g.28311.CDS.1522,Translation
+g.28311.CDS.1525,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.1526,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.1528,Metabolic:Exchange/demand reaction
+g.28311.CDS.1531,Metabolic:Glutamate metabolism
+g.28311.CDS.1535,Translation
+g.28311.CDS.1536,Metabolic:Pyrimidine synthesis
+g.28311.CDS.1540,Metabolic:Exchange/demand reaction
+g.28311.CDS.1541,Metabolic:Urea cycle
+g.28311.CDS.1543,Metabolic:Galactose metabolism
+g.28311.CDS.1544,Metabolic:Biotin metabolism
+g.28311.CDS.1546,Metabolic:Glutathione metabolism
+g.28311.CDS.1551,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.1554,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.1561,Translation
+g.28311.CDS.1562,Metabolic:Urea cycle
+g.28311.CDS.1563,Metabolic:Vitamin B2 metabolism
+g.28311.CDS.1565,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.1570,Translation
+g.28311.CDS.1571,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.1572,Metabolic:Naphthalene degradation
+g.28311.CDS.1575,Metabolic:Purine catabolism
+g.28311.CDS.1578,tRNA-Charging
+g.28311.CDS.1581,tRNA-Charging
+g.28311.CDS.1583,Metabolic:Cell wall biosynthesis
+g.28311.CDS.1585,Metabolic:Folate metabolism
+g.28311.CDS.1588,tRNA-Charging
+g.28311.CDS.1591,Metabolic:Purine synthesis
+g.28311.CDS.1592,Metabolic:Cell wall biosynthesis
+g.28311.CDS.1594,tRNA-Charging
+g.28311.CDS.1595,Metabolic:Benzoate degradation
+g.28311.CDS.1598,Metabolic:Tyrosine metabolism
+g.28311.CDS.1602,Metabolic:Pentose and glucuronate interconversions
+g.28311.CDS.1617,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.1620,Metabolic:Urea cycle
+g.28311.CDS.1625,"Metabolic:Transport, extracellular"
+g.28311.CDS.1628,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.1630,Metabolic:Glutamate metabolism
+g.28311.CDS.1633,Translation
+g.28311.CDS.1634,tRNA-Charging
+g.28311.CDS.1642,Metabolic:Pentose phosphate pathway
+g.28311.CDS.1645,Metabolic:Pyruvate metabolism
+g.28311.CDS.1650,tRNA-Charging
+g.28311.CDS.1651,Metabolic:Urea cycle
+g.28311.CDS.1652,Metabolic:Starch and sucrose metabolism
+g.28311.CDS.1659,"Metabolic:Transport, extracellular"
+g.28311.CDS.1660,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.1663,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.1664,Metabolic:Unassigned
+g.28311.CDS.1669,tRNA-Charging
+g.28311.CDS.1672,"Metabolic:Transport, extracellular"
+g.28311.CDS.1681,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.1683,Metabolic:Glutathione metabolism
+g.28311.CDS.1685,Metabolic:Tetrahydrobiopterin metabolism
+g.28311.CDS.1687,Metabolic:Pyruvate metabolism
+g.28311.CDS.1688,Translation
+g.28311.CDS.1692,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.1696,Metabolic:Selenoamino acid metabolism
+g.28311.CDS.1704,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.1710,"Metabolic:Transport, extracellular"
+g.28311.CDS.1718,Metabolic:Cell wall biosynthesis
+g.28311.CDS.1722,tRNA-Charging
+g.28311.CDS.1725,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.1726,Metabolic:Urea cycle
+g.28311.CDS.1729,Metabolic:Pyrimidine catabolism
+g.28311.CDS.1738,tRNA-Charging
+g.28311.CDS.1739,"Metabolic:Transport, extracellular"
+g.28311.CDS.1744,tRNA-Charging
+g.28311.CDS.1746,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.1747,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.1755,Metabolic:CoA synthesis
+g.28311.CDS.1758,Metabolic:Cell wall biosynthesis
+g.28311.CDS.1759,Metabolic:Fructose and mannose metabolism
+g.28311.CDS.1760,Metabolic:Glycolysis/gluconeogenesis
+g.28311.CDS.1762,Metabolic:Exchange/demand reaction
+g.28311.CDS.1763,Metabolic:Purine synthesis
+g.28311.CDS.1764,tRNA-Charging
+g.28311.CDS.1766,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.1767,"Metabolic:Transport, extracellular"
+g.28311.CDS.1768,Translation
+g.28311.CDS.1774,tRNA-Charging
+g.28311.CDS.1775,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.1783,"Metabolic:Transport, extracellular"
+g.28311.CDS.1786,"Metabolic:Transport, extracellular"
+g.28311.CDS.1791,Translation
+g.28311.CDS.1799,Translation
+g.28311.CDS.1801,Metabolic:Arginine and proline metabolism
+g.28311.CDS.1805,Translation
+g.28311.CDS.1806,Translation
+g.28311.CDS.1810,Metabolic:Arginine and proline metabolism
+g.28311.CDS.1811,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.1819,Metabolic:Cell wall biosynthesis
+g.28311.CDS.1821,"Metabolic:Transport, extracellular"
+g.28311.CDS.1824,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.1825,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.1827,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.1828,"Metabolic:Valine, leucine, and isoleucine metabolism"
+g.28311.CDS.1831,tRNA-Charging
+g.28311.CDS.1832,tRNA-Charging
+g.28311.CDS.1833,Translation
+g.28311.CDS.1836,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.1837,Metabolic:Pyrimidine synthesis
+g.28311.CDS.1843,tRNA-Charging
+g.28311.CDS.1845,tRNA-Charging
+g.28311.CDS.1854,"Metabolic:Transport, extracellular"
+g.28311.CDS.1858,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.1861,Metabolic:Exchange/demand reaction
+g.28311.CDS.1863,"Metabolic:Transport, extracellular"
+g.28311.CDS.1866,tRNA-Charging
+g.28311.CDS.1869,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.1871,"Metabolic:Transport, extracellular"
+g.28311.CDS.1876,Metabolic:Pentose and glucuronate interconversions
+g.28311.CDS.1880,"Metabolic:Transport, extracellular"
+g.28311.CDS.1882,Metabolic:Nucleotide interconversion
+g.28311.CDS.1883,Metabolic:Terpenoid backbone biosynthesis
+g.28311.CDS.1885,tRNA-Charging
+g.28311.CDS.1887,Metabolic:Glutamate metabolism
+g.28311.CDS.1889,Metabolic:Pyruvate metabolism
+g.28311.CDS.1897,Metabolic:Glycerophospholipid metabolism
+g.28311.CDS.1899,Metabolic:Folate metabolism
+g.28311.CDS.1900,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.1904,"Metabolic:Transport, extracellular"
+g.28311.CDS.1908,Metabolic:Exchange/demand reaction
+g.28311.CDS.1909,Metabolic:Thiamine metabolism
+g.28311.CDS.1911,"Metabolic:Transport, extracellular"
+g.28311.CDS.1913,"Metabolic:Transport, extracellular"
+g.28311.CDS.1914,Metabolic:Purine synthesis
+g.28311.CDS.1915,tRNA-Charging
+g.28311.CDS.1921,"Metabolic:Transport, extracellular"
+g.28311.CDS.1924,Metabolic:Fatty acid synthesis
+g.28311.CDS.1931,Metabolic:Purine synthesis
+g.28311.CDS.1935,"Metabolic:Transport, extracellular"
+g.28311.CDS.1939,tRNA-Charging
+g.28311.CDS.1943,Metabolic:Sulfur metabolism
+g.28311.CDS.1944,Metabolic:Vitamin B2 metabolism
+g.28311.CDS.1945,Metabolic:Terpenoid backbone biosynthesis
+g.28311.CDS.1950,Metabolic:Glyoxylate and dicarboxylate metabolism
+g.28311.CDS.1957,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+g.28311.CDS.1961,"Metabolic:Transport, extracellular"
+g.28311.CDS.1965,Translation
+g.28311.CDS.1970,Metabolic:Vitamin B2 metabolism
+g.28311.CDS.1973,Metabolic:Arginine and proline metabolism
+g.28311.CDS.1974,Metabolic:Benzoate degradation
+g.28311.CDS.1975,Metabolic:Terpenoid backbone biosynthesis
+g.28311.CDS.1976,Metabolic:Nucleotide interconversion
+g.28311.CDS.1983,"Metabolic:Transport, extracellular"
+g.28311.CDS.1984,Transcription
+g.28311.CDS.1987,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.1991,Metabolic:Folate metabolism
+g.28311.CDS.2001,Metabolic:Lipopolysaccharide biosynthesis
+g.28311.CDS.2010,Metabolic:Terpenoid backbone biosynthesis
+g.28311.CDS.2016,tRNA-Charging
+g.28311.CDS.2018,Metabolic:Purine synthesis
+g.28311.CDS.2019,Metabolic:Nucleotide interconversion
+g.28311.CDS.2020,"Metabolic:Transport, extracellular"
+g.28311.CDS.2022,"Metabolic:Transport, extracellular"
+g.28311.CDS.2024,Metabolic:Folate metabolism
+g.28311.CDS.2025,Metabolic:Citric acid cycle
+g.28311.CDS.2027,Metabolic:Purine synthesis
+g.28311.CDS.2032,"Metabolic:Transport, extracellular"
+g.28311.CDS.2037,Metabolic:Glutamate metabolism
+g.28311.CDS.2044,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.2045,"Metabolic:Transport, extracellular"
+g.28311.CDS.2046,Metabolic:Glycerophospholipid metabolism
+g.28311.CDS.2049,"Metabolic:Transport, extracellular"
+g.28311.CDS.2055,Metabolic:Purine synthesis
+g.28311.CDS.2069,Metabolic:Nucleotide interconversion
+g.28311.CDS.2074,Metabolic:Folate metabolism
+g.28311.CDS.2075,Metabolic:Nucleotide interconversion
+g.28311.CDS.2077,Translation
+g.28311.CDS.2079,"Metabolic:Transport, extracellular"
+g.28311.CDS.2083,Metabolic:Exchange/demand reaction
+g.28311.CDS.2084,Metabolic:Pentose and glucuronate interconversions
+g.28311.CDS.2085,Translation
+g.28311.CDS.2093,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.2094,"Metabolic:Transport, extracellular"
+g.28311.CDS.2096,Metabolic:Nucleotide interconversion
+g.28311.CDS.2098,"Metabolic:Transport, extracellular"
+g.28311.CDS.2099,Metabolic:Naphthalene degradation
+g.28311.CDS.2103,Metabolic:Vitamin B2 metabolism
+g.28311.CDS.2105,tRNA-Charging
+g.28311.CDS.2106,Transcription
+g.28311.CDS.2107,Metabolic:Cell wall biosynthesis
+g.28311.CDS.2109,tRNA-Charging
+g.28311.CDS.2110,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.2111,Translation
+g.28311.CDS.2115,Metabolic:Exchange/demand reaction
+g.28311.CDS.2120,Metabolic:Pentose and glucuronate interconversions
+g.28311.CDS.2121,Translation
+g.28311.CDS.2125,Metabolic:Alanine and aspartate metabolism
+g.28311.CDS.2127,Metabolic:Glutamate metabolism
+g.28311.CDS.2132,Metabolic:Arginine and proline metabolism
+g.28311.CDS.2134,Metabolic:Purine synthesis
+g.28311.CDS.2135,tRNA-Charging
+g.28311.CDS.2137,"Metabolic:Transport, extracellular"
+g.28311.CDS.2143,Metabolic:Pentose phosphate pathway
+g.28311.CDS.2144,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.2148,"Metabolic:Transport, extracellular"
+g.28311.CDS.2152,Metabolic:Methionine and cysteine metabolism
+g.28311.CDS.2156,Metabolic:CoA synthesis
+g.28311.CDS.2158,Metabolic:Nucleotide interconversion
+g.28311.CDS.2161,Metabolic:Vitamin B12 metabolism
+g.28311.CDS.2167,Metabolic:Arginine and proline metabolism
+g.28311.CDS.2168,tRNA-Charging
+g.28311.CDS.2173,Metabolic:Purine synthesis
+g.28311.CDS.2174,Metabolic:Sulfur metabolism
+C6362_RS00080,tRNA-Charging
+C6362_RS00585,tRNA-Charging
+C6362_RS01235,tRNA-Charging
+C6362_RS01240,tRNA-Charging
+C6362_RS01305,tRNA-Charging
+C6362_RS01310,tRNA-Charging
+C6362_RS01315,Translation
+C6362_RS01320,Translation
+C6362_RS01325,Translation
+C6362_RS01405,tRNA-Charging
+C6362_RS01640,tRNA-Charging
+C6362_RS01665,tRNA-Charging
+C6362_RS02170,tRNA-Charging
+C6362_RS02175,tRNA-Charging
+C6362_RS02180,tRNA-Charging
+C6362_RS02240,tRNA-Charging
+C6362_RS02255,Translation
+C6362_RS02260,Translation
+C6362_RS02265,Translation
+C6362_RS02425,tRNA-Charging
+C6362_RS02610,tRNA-Charging
+C6362_RS02615,tRNA-Charging
+C6362_RS02620,tRNA-Charging
+C6362_RS02625,tRNA-Charging
+C6362_RS02630,tRNA-Charging
+C6362_RS11775,tRNA-Charging
+C6362_RS03340,tRNA-Charging
+C6362_RS03345,tRNA-Charging
+C6362_RS03350,tRNA-Charging
+C6362_RS03355,tRNA-Charging
+C6362_RS03360,tRNA-Charging
+C6362_RS03365,tRNA-Charging
+C6362_RS03520,Translation
+C6362_RS03525,Translation
+C6362_RS03530,Translation
+C6362_RS03770,Translation
+C6362_RS03775,Translation
+C6362_RS03780,Translation
+C6362_RS04460,tRNA-Charging
+C6362_RS04465,Translation
+C6362_RS04470,tRNA-Charging
+C6362_RS04475,Translation
+C6362_RS04480,Translation
+C6362_RS04860,tRNA-Charging
+C6362_RS04865,tRNA-Charging
+C6362_RS04870,tRNA-Charging
+C6362_RS04875,tRNA-Charging
+C6362_RS04880,tRNA-Charging
+C6362_RS04885,tRNA-Charging
+C6362_RS05070,tRNA-Charging
+C6362_RS05245,tRNA-Charging
+C6362_RS05250,tRNA-Charging
+C6362_RS05255,tRNA-Charging
+C6362_RS05260,tRNA-Charging
+C6362_RS05265,tRNA-Charging
+C6362_RS05340,tRNA-Charging
+C6362_RS06045,Translation
+C6362_RS06050,tRNA-Charging
+C6362_RS06055,tRNA-Charging
+C6362_RS06060,Translation
+C6362_RS06065,Translation
+C6362_RS06325,tRNA-Charging
+C6362_RS06330,tRNA-Charging
+C6362_RS06335,tRNA-Charging
+C6362_RS06340,tRNA-Charging
+C6362_RS06345,tRNA-Charging
+C6362_RS06755,tRNA-Charging
+C6362_RS06830,tRNA-Charging
+C6362_RS06835,tRNA-Charging
+C6362_RS07310,tRNA-Charging
+C6362_RS07675,tRNA-Charging
+C6362_RS07685,tRNA-Charging
+C6362_RS07995,Translation
+C6362_RS08000,tRNA-Charging
+C6362_RS08005,tRNA-Charging
+C6362_RS08010,Translation
+C6362_RS08015,Translation
+C6362_RS08080,tRNA-Charging
+C6362_RS08085,tRNA-Charging
+C6362_RS08115,tRNA-Charging
+C6362_RS08120,tRNA-Charging
+C6362_RS09970,tRNA-Charging
+C6362_RS11135,tRNA-Charging
+C6362_RS11140,tRNA-Charging
+C6362_RS11145,tRNA-Charging
+C6362_RS11150,tRNA-Charging
+C6362_RS11610,tRNA-Charging

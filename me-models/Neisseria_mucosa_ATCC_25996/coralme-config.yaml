@@ -1,0 +1,131 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: g.2185.peg.799-MONOMER
+  UGA: g.2185.peg.566-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - g.2185.peg.1707-MONOMER
+  - g.2185.peg.347-MONOMER
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass359
+- FMETTRS
+- ATPM
+ME-Model-ID: Neisseria_mucosa_ATCC_25996-ME
+m-model-path: ./me-models/Neisseria_mucosa_ATCC_25996//building_data/m_model_modified.json
+genbank-path: ./me-models/Neisseria_mucosa_ATCC_25996//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Neisseria_mucosa_ATCC_25996/Neisseria_mucosa_ATCC_25996.xlsx
+df_TranscriptionalUnits: ./me-models/Neisseria_mucosa_ATCC_25996//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Neisseria_mucosa_ATCC_25996/
+out_directory: ./me-models/Neisseria_mucosa_ATCC_25996/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- g.2185.peg.2155-MONOMER
+- g.2185.peg.1306-MONOMER
+other_lipids:
+- g.2185.peg.1539-MONOMER
+default_sigma_factor: g.2185.peg.507-MONOMER
+rna_polymerases:
+  RNAP_g2185peg291MONOMER:
+    sigma_factor: g.2185.peg.291-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g2185peg507MONOMER:
+    sigma_factor: g.2185.peg.507-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g2185peg1643MONOMER:
+    sigma_factor: g.2185.peg.1643-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g2185peg1959MONOMER:
+    sigma_factor: g.2185.peg.1959-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g2185peg2034MONOMER:
+    sigma_factor: g.2185.peg.2034-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  AcrE: g.2185.peg.2692
+  BamD: g.2185.peg.638
+  BamE: g.2185.peg.749
+  CusC: g.2185.peg.2148
+  MetQ: g.2185.peg.142
+  MltA: g.2185.peg.889
+  MltB: g.2185.peg.818
+ngam: 1.0
+gam: 40.0
+translocation_multipliers:
+  g.2185.peg.2104-MONOMER:
+    g.2185.peg.2478: 2.0
+amino_acid_trna_synthetase:
+  ala__L_c: g.2185.peg.2062-MONOMER
+  arg__L_c: g.2185.peg.1303-MONOMER
+  asn__L_c: CPLX_dummy
+  asp__L_c: g.2185.peg.1161-MONOMER
+  cys__L_c: g.2185.peg.2213-MONOMER
+  gln__L_c: g.2185.peg.2120-MONOMER
+  glu__L_c: g.2185.peg.145-MONOMER
+  gly_c: generic_gly_c_ligase
+  his__L_c: g.2185.peg.1822-MONOMER
+  ile__L_c: g.2185.peg.1614-MONOMER
+  leu__L_c: g.2185.peg.1515-MONOMER
+  lys__L_c: g.2185.peg.475-MONOMER
+  met__L_c: g.2185.peg.108-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: g.2185.peg.2488-MONOMER
+  ser__L_c: g.2185.peg.437-MONOMER
+  thr__L_c: g.2185.peg.1344-MONOMER
+  trp__L_c: g.2185.peg.2038-MONOMER
+  tyr__L_c: g.2185.peg.2736-MONOMER
+  val__L_c: g.2185.peg.1349-MONOMER
+braun's_lipoproteins: []

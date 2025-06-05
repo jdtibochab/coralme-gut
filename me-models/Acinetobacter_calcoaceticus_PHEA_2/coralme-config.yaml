@@ -1,0 +1,140 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: g.3519.peg.609-MONOMER
+  UGA: g.3519.peg.1736-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - g.3519.peg.1925-MONOMER
+  - g.3519.peg.3031-MONOMER
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass259
+- FMETTRS
+- ATPM
+ME-Model-ID: Acinetobacter_calcoaceticus_PHEA_2-ME
+m-model-path: ./me-models/Acinetobacter_calcoaceticus_PHEA_2//building_data/m_model_modified.json
+genbank-path: ./me-models/Acinetobacter_calcoaceticus_PHEA_2//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Acinetobacter_calcoaceticus_PHEA_2/Acinetobacter_calcoaceticus_PHEA_2.xlsx
+df_TranscriptionalUnits: ./me-models/Acinetobacter_calcoaceticus_PHEA_2//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Acinetobacter_calcoaceticus_PHEA_2/
+out_directory: ./me-models/Acinetobacter_calcoaceticus_PHEA_2/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- g.3519.peg.2842-MONOMER
+- g.3519.peg.2023-MONOMER
+other_lipids:
+- g.3519.peg.2295-MONOMER
+default_sigma_factor: g.3519.peg.787-MONOMER
+rna_polymerases:
+  RNAP_g3519peg178MONOMER:
+    sigma_factor: g.3519.peg.178-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g3519peg787MONOMER:
+    sigma_factor: g.3519.peg.787-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g3519peg1629MONOMER:
+    sigma_factor: g.3519.peg.1629-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g3519peg1711MONOMER:
+    sigma_factor: g.3519.peg.1711-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g3519peg2319MONOMER:
+    sigma_factor: g.3519.peg.2319-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g3519peg3500MONOMER:
+    sigma_factor: g.3519.peg.3500-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g3519peg3520MONOMER:
+    sigma_factor: g.3519.peg.3520-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  AcrA: g.3519.peg.1236
+  BamB: g.3519.peg.2716
+  BamD: g.3519.peg.191
+  BamE: g.3519.peg.436
+  CusC: g.3519.peg.1094
+  MetQ: g.3519.peg.3392
+  MltB: g.3519.peg.525
+ngam: 1.0
+gam: 40.0
+translocation_multipliers:
+  g.3519.peg.1398-MONOMER:
+    g.3519.peg.2068: 2.0
+  g.3519.peg.2160-MONOMER:
+    g.3519.peg.2177: 23.0
+    g.3519.peg.170: 27.0
+amino_acid_trna_synthetase:
+  ala__L_c: g.3519.peg.2462-MONOMER
+  arg__L_c: g.3519.peg.2361-MONOMER
+  asn__L_c: CPLX_dummy
+  asp__L_c: g.3519.peg.1205-MONOMER
+  cys__L_c: g.3519.peg.3429-MONOMER
+  gln__L_c: g.3519.peg.997-MONOMER
+  glu__L_c: g.3519.peg.1312-MONOMER
+  gly_c: generic_gly_c_ligase
+  his__L_c: g.3519.peg.2453-MONOMER
+  ile__L_c: g.3519.peg.2075-MONOMER
+  leu__L_c: g.3519.peg.2863-MONOMER
+  lys__L_c: g.3519.peg.1333-MONOMER
+  met__L_c: g.3519.peg.3194-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: g.3519.peg.1635-MONOMER
+  ser__L_c: g.3519.peg.1030-MONOMER
+  thr__L_c: g.3519.peg.2997-MONOMER
+  trp__L_c: g.3519.peg.1965-MONOMER
+  tyr__L_c: g.3519.peg.1739-MONOMER
+  val__L_c: g.3519.peg.1789-MONOMER
+braun's_lipoproteins: []

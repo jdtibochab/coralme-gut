@@ -1,0 +1,113 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: 1042156.7.peg.2238-MONOMER
+  UGA: 1042156.7.peg.207-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - CPLX_dummy
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass205
+- FMETTRS
+- ATPM
+ME-Model-ID: Clostridium_sp_SY8519-ME
+m-model-path: ./me-models/Clostridium_sp_SY8519//building_data/m_model_modified.json
+genbank-path: ./me-models/Clostridium_sp_SY8519//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Clostridium_sp_SY8519/Clostridium_sp_SY8519.xlsx
+df_TranscriptionalUnits: ./me-models/Clostridium_sp_SY8519//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Clostridium_sp_SY8519/
+out_directory: ./me-models/Clostridium_sp_SY8519/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- 1042156.7.peg.265-MONOMER
+other_lipids: []
+default_sigma_factor: 1042156.7.peg.1524-MONOMER
+rna_polymerases:
+  RNAP_10421567peg1524MONOMER:
+    sigma_factor: 1042156.7.peg.1524-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_10421567peg1553MONOMER:
+    sigma_factor: 1042156.7.peg.1553-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_10421567peg2592MONOMER:
+    sigma_factor: 1042156.7.peg.2592-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors: {}
+ngam: 1.0
+gam: 41.257
+translocation_multipliers: {}
+amino_acid_trna_synthetase:
+  ala__L_c: generic_ala_ligase
+  arg__L_c: 1042156.7.peg.253-MONOMER
+  asn__L_c: 1042156.7.peg.1761-MONOMER
+  asp__L_c: 1042156.7.peg.877-MONOMER
+  cys__L_c: 1042156.7.peg.2101-MONOMER
+  gln__L_c: 1042156.7.peg.2269-MONOMER
+  glu__L_c: 1042156.7.peg.1406-MONOMER
+  gly_c: 1042156.7.peg.2322-MONOMER
+  his__L_c: 1042156.7.peg.878-MONOMER
+  ile__L_c: 1042156.7.peg.547-MONOMER
+  leu__L_c: 1042156.7.peg.2503-MONOMER
+  lys__L_c: 1042156.7.peg.789-MONOMER
+  met__L_c: 1042156.7.peg.1137-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: 1042156.7.peg.1240-MONOMER
+  ser__L_c: 1042156.7.peg.1772-MONOMER
+  thr__L_c: 1042156.7.peg.266-MONOMER
+  trp__L_c: 1042156.7.peg.2344-MONOMER
+  tyr__L_c: 1042156.7.peg.1135-MONOMER
+  val__L_c: 1042156.7.peg.1449-MONOMER
+braun's_lipoproteins: []

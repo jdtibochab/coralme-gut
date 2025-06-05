@@ -1,0 +1,655 @@
+
+#################### critical@org.check_m_model ####################
+********** Some metabolites have a problematic formula. If these metabolites are used in protein modifications, or other subreactions, it will cause an error.
+The following items triggered the warning:
+10m3hddcaACP_c
+10m3hundecACP_c
+10m3oddcaACP_c
+10m3oundecACP_c
+10mddcaACP_c
+10mtddec2eACP_c
+10mundecACP_c
+11m3hddcaACP_c
+11m3oddcaACP_c
+11mddcaACP_c
+11mtddec2eACP_c
+12m3hmyrsACP_c
+12m3htridecACP_c
+12m3omyrsACP_c
+12m3otridecACP_c
+12mmyrsACP_c
+12mtmrs2eACP_c
+12mtridecACP_c
+13m3hmyrsACP_c
+13m3omyrsACP_c
+13mmyrsACP_c
+13mtmrs2eACP_c
+14m3hpalmACP_c
+14m3hpentdecACP_c
+14m3opalmACP_c
+14m3opentdecACP_c
+14mpalmACP_c
+14mpentdecACP_c
+14mtpalm2eACP_c
+15m3hpalmACP_c
+15m3opalmACP_c
+15mpalmACP_c
+15mtpalm2eACP_c
+2mbutACP_c
+2mpropACP_c
+3haACP_c
+3hddecACP_c
+3hdecACP_c
+3hhexACP_c
+3hmrsACP_c
+3hoctACP_c
+3hoctaACP_c
+3hpalmACP_c
+3mbutACP_c
+3ocddec5eACP_c
+3ocmrs7eACP_c
+3ocpalm9eACP_c
+3ocvac11eACP_c
+3oddecACP_c
+3odecACP_c
+3ohexACP_c
+3omrsACP_c
+3ooctACP_c
+3ooctdACP_c
+3opalmACP_c
+4m3hhexACP_c
+4m3hpentACP_c
+4m3ohexACP_c
+4m3opentACP_c
+4mhexACP_c
+4mpentACP_c
+4mthex2eACP_c
+5m3hhexACP_c
+5m3ohexACP_c
+5mhexACP_c
+5mthex2eACP_c
+6m3hheptACP_c
+6m3hocACP_c
+6m3oheptACP_c
+6m3oocACP_c
+6mheptACP_c
+6mocACP_c
+6mtoct2eACP_c
+7m3hocACP_c
+7m3oocACP_c
+7mocACP_c
+7mtoct2eACP_c
+8m3hdcaACP_c
+8m3hnonACP_c
+8m3odcaACP_c
+8m3ononACP_c
+8mdcaACP_c
+8mnonACP_c
+8mtdec2eACP_c
+9m3hdcaACP_c
+9m3odcaACP_c
+9mdcaACP_c
+9mtdec2eACP_c
+ACP_c
+M00512_c
+PGP_c
+PGPm1_c
+Tyr_ggn_e
+acACP_c
+actACP_c
+alpro_c
+apoACP_c
+apoC_Lys_btn_c
+biomass_c
+btn_co2_c
+butACP_c
+cddec5eACP_c
+cdec3eACP_c
+dcaACP_c
+ddcaACP_c
+dhlpro_c
+dnarep_c
+gd1b_hs_c
+glutrna_c
+glyc45tca_c
+glyc45tcaala__D_c
+glyc45tcaglc_c
+glygn2_e
+glygn4_e
+glygn5_e
+gt1b_hs_c
+hdeACP_c
+hexACP_c
+lpro_c
+malACP_c
+myrsACP_c
+ocACP_c
+ocdcaACP_c
+octeACP_c
+palmACP_c
+peptmet__L_c
+peptmetox__L_c
+plasmetha_c
+proteinsynth_c
+rnatrans_c
+t3c11vaceACP_c
+t3c5ddeceACP_c
+t3c9palmeACP_c
+tcam_c
+tdeACP_c
+teich_45_BS_c
+trdox_c
+trdrd_c
+trnaglu_c
+
+**********Solution:
+Correct the formulas of the listed metabolites. Some metabolite formulas are critical for the completion of this pipeline. If homology is ON, this pipeline will try to fill in the formulas from the reference.
+
+#################### high@org.check_m_model ####################
+********** Some reactions are missing their subsystem
+The following items triggered the warning:
+biomass209
+
+**********Solution:
+Make sure the subsystems of these reactions are correct
+
+
+
+
+#################### high@org.read_optional_file ####################
+********** No genes file was found. Initializing an empty one.
+
+**********Solution:
+Download genes from BioCyc if available
+
+#################### high@org.read_optional_file ####################
+********** No proteins file was found. Initializing an empty one.
+
+**********Solution:
+Download proteins from BioCyc if available
+
+#################### high@org.read_optional_file ####################
+********** No RNAs file was found. Initializing an empty one.
+
+**********Solution:
+Download RNAs from BioCyc if available
+
+#################### high@org.read_optional_file ####################
+********** No TUs file was found. Initializing an empty one.
+
+**********Solution:
+Download TUs from BioCyc if available
+
+
+
+
+#################### critical@org.check_gene_overlap ####################
+********** M-model has a 0 gene overlap with optional files (BioCyc)
+
+**********Solution:
+Check whether optional files where downloaded correctly.
+
+
+
+
+#################### high@org.get_rpod ####################
+********** g.27495.CDS.186-MONOMER was identified as RpoD. If this is not true, define RpoD!
+
+**********Solution:
+Check whether you need to correct RpoD by running me_builder.org.rpod = correct_rpod
+
+
+
+
+#################### medium@org.get_rna_polymerase ####################
+********** RNAP was identified with subunits g.27495.CDS.2447, g.27495.CDS.4943, g.27495.CDS.4962, g.27495.CDS.5061, g.27495.CDS.6131
+
+**********Solution:
+Check whether the correct proteins were called as subunits of RNAP. If not find correct RNAP complex and run me_builder.org.get_rna_polymerase(force_RNAP_as=correct_RNAP)
+
+
+
+
+#################### high@org.update_ribosome_stoich ####################
+********** Some ribosomal proteins do not contain subunit information (30S, 50S). Check whether they are ribosomal proteins!
+The following items triggered the warning:
+g.27495.CDS.180-MONOMER
+g.27495.CDS.429-MONOMER
+g.27495.CDS.1568-MONOMER
+g.27495.CDS.2196-MONOMER
+g.27495.CDS.2890-MONOMER
+g.27495.CDS.3280-MONOMER
+g.27495.CDS.3404-MONOMER
+g.27495.CDS.4110-MONOMER
+g.27495.CDS.4507-MONOMER
+g.27495.CDS.5127-MONOMER
+g.27495.CDS.5161-MONOMER
+g.27495.CDS.5393-MONOMER
+g.27495.CDS.5882-MONOMER
+
+**********Solution:
+Curate them in ribosomal_proteins.txt
+
+
+
+
+#################### high@org.purge_genes_in_model ####################
+********** Some genes in M-model were not found in genes.txt or genome.gb. These genes will be skipped in reconstruction.
+The following items triggered the warning:
+Unknown
+743719.3.peg.1427
+743719.3.peg.1428
+743719.3.peg.2672
+743719.3.peg.1612
+743719.3.peg.1613
+743719.3.peg.1614
+743719.3.peg.1615
+743719.3.peg.1616
+743719.3.peg.1617
+743719.3.peg.1618
+743719.3.peg.1619
+743719.3.peg.3105
+743719.3.peg.3241
+743719.3.peg.3242
+743719.3.peg.3243
+743719.3.peg.3244
+743719.3.peg.2698
+743719.3.peg.2699
+743719.3.peg.2700
+743719.3.peg.4925
+743719.3.peg.2673
+743719.3.peg.4306
+743719.3.peg.4219
+743719.3.peg.4220
+743719.3.peg.4221
+743719.3.peg.4222
+743719.3.peg.3193
+743719.3.peg.3194
+743719.3.peg.3195
+743719.3.peg.3196
+743719.3.peg.1000
+743719.3.peg.1001
+743719.3.peg.1809
+743719.3.peg.1810
+743719.3.peg.6025
+743719.3.peg.6027
+743719.3.peg.1483
+743719.3.peg.1484
+743719.3.peg.2674
+743719.3.peg.4896
+743719.3.peg.1680
+743719.3.peg.2510
+743719.3.peg.4805
+743719.3.peg.1626
+743719.3.peg.5059
+
+**********Solution:
+Confirm the gene is correct in the m_model. If so, add it to genes.txt
+
+
+
+
+#################### high@prepare_model ####################
+********** NGAM could not be identified in M-model, setting a standard value of 1.
+
+**********Solution:
+Manually define NGAM with me_builder.org.NGAM = NGAM_value. Check if a reaction with identifier NGAM or ATPM has a zero or negative lower bound.
+
+
+
+
+#################### medium@org.get_complex_homology ####################
+********** Some complexes were partial hits in the BLAST
+The following items triggered the warning:
+
+{"complex": "g.27495.CDS.0-MONOMER", "reference_complex": "Phe_RS_tetra"}
+
+{"complex": "743719.3.peg.69-MONOMER", "reference_complex": "ACETOLACTSYNIII-CPLX"}
+
+{"complex": "g.27495.CDS.335-MONOMER", "reference_complex": "ABC-70-CPLX"}
+
+{"complex": "g.27495.CDS.402-MONOMER", "reference_complex": "CPLX-158"}
+
+{"complex": "g.27495.CDS.411-MONOMER", "reference_complex": "ABC-63-CPLX"}
+
+{"complex": "g.27495.CDS.420-MONOMER", "reference_complex": "ACETYL-COA-CARBOXYLMULTI-CPLX"}
+
+{"complex": "g.27495.CDS.954-MONOMER", "reference_complex": "G6176-MONOMER_G6177-MONOMER_G6178-MONOMER"}
+
+{"complex": "g.27495.CDS.1082-MONOMER", "reference_complex": "CPLX-166"}
+
+{"complex": "g.27495.CDS.1121-MONOMER", "reference_complex": "2OXOGLUTARATEDEH-CPLX"}
+
+{"complex": "g.27495.CDS.1148-MONOMER", "reference_complex": "CPLX-157"}
+
+{"complex": "g.27495.CDS.1148-MONOMER", "reference_complex": "CPLX-168"}
+
+{"complex": "g.27495.CDS.1401-MONOMER", "reference_complex": "ABC-49-CPLX"}
+
+{"complex": "g.27495.CDS.1433-MONOMER", "reference_complex": "CYT-D-UBIOX-CPLX"}
+
+{"complex": "743719.3.peg.1606-MONOMER", "reference_complex": "SUCCCOASYN"}
+
+{"complex": "g.27495.CDS.1701-MONOMER", "reference_complex": "EG11829-MONOMER_EG11828-MONOMER"}
+
+{"complex": "g.27495.CDS.1829-MONOMER", "reference_complex": "EG11595-MONOMER_EG11666-MONOMER"}
+
+{"complex": "g.27495.CDS.1915-MONOMER", "reference_complex": "GCVMULTI-CPLX"}
+
+{"complex": "g.27495.CDS.2054-MONOMER", "reference_complex": "ABC-28-CPLX_EG10817-MONOMER"}
+
+{"complex": "g.27495.CDS.2211-MONOMER", "reference_complex": "Gly_RS_tetra"}
+
+{"complex": "743719.3.peg.2352-MONOMER", "reference_complex": "CARBPSYN-CPLX"}
+
+{"complex": "g.27495.CDS.2355-MONOMER", "reference_complex": "MnmEG_cplx"}
+
+{"complex": "743719.3.peg.2683-MONOMER", "reference_complex": "PABASYN-CPLX"}
+
+{"complex": "743719.3.peg.2687-MONOMER", "reference_complex": "TRYPSYN"}
+
+{"complex": "743719.3.peg.2746-MONOMER", "reference_complex": "3-ISOPROPYLMALISOM-CPLX"}
+
+{"complex": "743719.3.peg.2866-MONOMER", "reference_complex": "GLUTAMATESYN-CPLX"}
+
+{"complex": "g.27495.CDS.3066-MONOMER", "reference_complex": "RIBONUCLEOSIDE-DIP-REDUCTII-CPLX"}
+
+{"complex": "g.27495.CDS.3199-MONOMER", "reference_complex": "ATPASE-1-CPLX_no_MONOMER0-12"}
+
+{"complex": "g.27495.CDS.3390-MONOMER", "reference_complex": "ABC-33-CPLX"}
+
+{"complex": "g.27495.CDS.3821-MONOMER", "reference_complex": "SULFITE-REDUCT-CPLX"}
+
+{"complex": "g.27495.CDS.4098-MONOMER", "reference_complex": "ABC-56-CPLX"}
+
+{"complex": "g.27495.CDS.4548-MONOMER", "reference_complex": "ABC-6-CPLX"}
+
+{"complex": "g.27495.CDS.4943-MONOMER", "reference_complex": "hRNAP"}
+
+{"complex": "g.27495.CDS.4950-MONOMER", "reference_complex": "ABC-34-CPLX"}
+
+{"complex": "g.27495.CDS.5235-MONOMER", "reference_complex": "METNIQ-METHIONINE-ABC-CPLX"}
+
+{"complex": "g.27495.CDS.5948-MONOMER", "reference_complex": "GLUTAMIDOTRANS-CPLX"}
+
+{"complex": "g.27495.CDS.5966-MONOMER", "reference_complex": "ABC-24-CPLX"}
+
+{"complex": "CPLX_3OAS100-2", "reference_complex": "3-OXOACYL-ACP-SYNTHII-CPLX"}
+
+{"complex": "CPLX_3OAS100-2", "reference_complex": "CPLX0-252"}
+
+{"complex": "CPLX_G3PAT120-0", "reference_complex": "EG11437-MONOMER"}
+
+{"complex": "CPLX_G3PAT120-0", "reference_complex": "EG11674-MONOMER"}
+
+{"complex": "CPLX_THZPSN-1", "reference_complex": "ThiI_mono"}
+
+{"complex": "CPLX_THZPSN-1", "reference_complex": "IscS"}
+
+{"complex": "CPLX_YUMPS-0", "reference_complex": "TruB_mono"}
+
+{"complex": "CPLX_YUMPS-0", "reference_complex": "TruA_dim"}
+
+{"complex": "CPLX_YUMPS-1", "reference_complex": "RluB_mono"}
+
+{"complex": "CPLX_YUMPS-1", "reference_complex": "RluD_mono"}
+
+{"complex": "CPLX_YUMPS-1", "reference_complex": "RsuA_mono"}
+
+**********Solution:
+Curate these manually in protein_corrections.txt
+
+
+
+
+#################### medium@update_me_mets ####################
+********** Some metabolites in me_metabolites.txt are not in m_model, so they were skipped.
+The following items triggered the warning:
+sufbcd_2fe2s_c
+sufbcd_2fe2s2_c
+sufbcd_4fe4s_c
+iscu_2fe2s_c
+iscu_2fe2s2_c
+iscu_4fe4s_c
+
+**********Solution:
+Confirm these metabolites are correctly defined in me_metabolites.txt
+
+
+
+
+#################### medium@update_ribosome_subreactions_from_homology ####################
+********** Some enzymes defined in me_builder.org.ribosome_subreactions are different from the ones inferred from homology
+The following items triggered the warning:
+
+{"subreaction": "gtp_bound_30S_assembly_factor_phase1", "defined_complex": "", "inferred_complex": "g.27495.CDS.2554-MONOMER"}
+
+{"subreaction": "RbfA_mono_assembly_factor_phase1", "defined_complex": "", "inferred_complex": "g.27495.CDS.1789-MONOMER"}
+
+{"subreaction": "RimM_mono_assembly_factor_phase1", "defined_complex": "", "inferred_complex": "g.27495.CDS.5529-MONOMER"}
+
+**********Solution:
+Confirm whether the definitions or homology calls are correct in me_builder.org.ribosome_subreactions. Curate the inputs in ribosome_subreactions.txt accordingly.
+
+
+
+
+#################### medium@update_peptide_release_factors_from_homology ####################
+********** Some enzymes defined in me_builder.org.peptide_release_factors are different from the ones inferred from homology
+The following items triggered the warning:
+
+{"subreaction": "UAG", "defined_complex": "", "inferred_complex": "g.27495.CDS.1699-MONOMER"}
+
+{"subreaction": "UGA", "defined_complex": "", "inferred_complex": "g.27495.CDS.4952-MONOMER"}
+
+**********Solution:
+Confirm whether the definitions or homology calls are correct in me_builder.org.peptide_release_factors. Curate the inputs in peptide_release_factors.txt accordingly.
+
+
+
+
+#################### medium@check ####################
+********** Some metabolites in me_metabolites.txt need curation
+The following items triggered the warning:
+10m3hddcaACP_c
+10m3hundecACP_c
+10m3oddcaACP_c
+10m3oundecACP_c
+10mddcaACP_c
+10mtddec2eACP_c
+10mundecACP_c
+11m3hddcaACP_c
+11m3oddcaACP_c
+11mddcaACP_c
+11mtddec2eACP_c
+12m3hmyrsACP_c
+12m3htridecACP_c
+12m3omyrsACP_c
+12m3otridecACP_c
+12mmyrsACP_c
+12mtmrs2eACP_c
+12mtridecACP_c
+13m3hmyrsACP_c
+13m3omyrsACP_c
+13mmyrsACP_c
+13mtmrs2eACP_c
+14m3hpalmACP_c
+14m3hpentdecACP_c
+14m3opalmACP_c
+14m3opentdecACP_c
+14mpalmACP_c
+14mpentdecACP_c
+14mtpalm2eACP_c
+15m3hpalmACP_c
+15m3opalmACP_c
+15mpalmACP_c
+15mtpalm2eACP_c
+2mbutACP_c
+2mpropACP_c
+3mbutACP_c
+4m3hhexACP_c
+4m3hpentACP_c
+4m3ohexACP_c
+4m3opentACP_c
+4mhexACP_c
+4mpentACP_c
+4mthex2eACP_c
+5m3hhexACP_c
+5m3ohexACP_c
+5mhexACP_c
+5mthex2eACP_c
+6m3hheptACP_c
+6m3hocACP_c
+6m3oheptACP_c
+6m3oocACP_c
+6mheptACP_c
+6mocACP_c
+6mtoct2eACP_c
+7m3hocACP_c
+7m3oocACP_c
+7mocACP_c
+7mtoct2eACP_c
+8m3hdcaACP_c
+8m3hnonACP_c
+8m3odcaACP_c
+8m3ononACP_c
+8mdcaACP_c
+8mnonACP_c
+8mtdec2eACP_c
+9m3hdcaACP_c
+9m3odcaACP_c
+9mdcaACP_c
+9mtdec2eACP_c
+LI_c
+sufbcd_c
+sufse_c
+sufsesh_c
+dsbard_p
+dsbaox_p
+dsbcrd_p
+dsbcox_p
+dsbdrd_c
+dsbdox_c
+dsbgrd_p
+dsbgox_p
+lpp_p
+alpp_p
+moadamp_c
+moadcoo_c
+moadcosh_c
+3hcpalm9eACP_c
+3ocpalm9eACP_c
+flxr_c
+fldrd_c
+flxso_c
+fldox_c
+grxrd_c
+grxox_c
+iscssh_c
+
+**********Solution:
+Map or remove these metabolites in me_metabolites.txt
+
+
+
+
+#################### critical@troubleshoot ####################
+********** Some metabolites are necessary for growth
+The following items triggered the warning:
+TS_4fe4s_c
+
+**********Solution:
+Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!
+
+#################### critical@troubleshoot ####################
+********** Some metabolites are necessary for growth
+The following items triggered the warning:
+TS_adocbl_c
+TS_4fe4s_c
+TS_cd2_c
+TS_dpm_c
+
+**********Solution:
+Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!
+
+#################### critical@troubleshoot ####################
+********** Some metabolites are necessary for growth
+The following items triggered the warning:
+TS_adocbl_c
+TS_cd2_c
+TS_4fe4s_c
+TS_dpm_c
+
+**********Solution:
+Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!
+
+#################### critical@troubleshoot ####################
+********** Some metabolites are necessary for growth
+The following items triggered the warning:
+TS_4fe4s_c
+TS_adocbl_c
+TS_cd2_c
+TS_dpm_c
+
+**********Solution:
+Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!
+
+#################### critical@troubleshoot ####################
+********** Some metabolites are necessary for growth
+The following items triggered the warning:
+TS_4fe4s_c
+TS_cd2_c
+TS_dpm_c
+
+**********Solution:
+Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!
+
+#################### critical@troubleshoot ####################
+********** Some metabolites are necessary for growth
+The following items triggered the warning:
+TS_cd2_c
+TS_2fe2s_c
+TS_4fe4s_c
+TS_ni2_c
+TS_hemed_c
+TS_tl_c
+TS_dpm_c
+TS_cs_c
+TS_cu_c
+TS_glycyl_c
+
+**********Solution:
+Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!
+
+#################### critical@troubleshoot ####################
+********** Some metabolites are necessary for growth
+The following items triggered the warning:
+TS_4fe4s_c
+TS_cd2_c
+TS_dpm_c
+
+**********Solution:
+Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!
+
+#################### critical@troubleshoot ####################
+********** Some metabolites are necessary for growth
+The following items triggered the warning:
+TS_cd2_c
+TS_4fe4s_c
+TS_dpm_c
+
+**********Solution:
+Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!
+
+#################### critical@troubleshoot ####################
+********** Some metabolites are necessary for growth
+The following items triggered the warning:
+TS_4fe4s_c
+TS_dpm_c
+TS_cd2_c
+
+**********Solution:
+Fix the gaps by adding reactions or solving other warnings. If some items are from the E-matrix, fix these first!
+
+
+

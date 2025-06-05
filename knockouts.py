@@ -62,6 +62,10 @@ def get_targets(model,condition,NormalizedTCounts):
     model_genes = [i.id.split("RNA_")[1] for i in model.all_genes]
     return [g for g in model_genes if g not in NormalizedTCounts.index or NormalizedTCounts.loc[g][condition]<1e-16]
 
+def get_m_targets(model,condition,NormalizedTCounts):
+    model_genes = [i.id for i in model.genes]
+    return [g for g in model_genes if g not in NormalizedTCounts.index or NormalizedTCounts.loc[g][condition]<1e-16]
+
 def get_killable(index_dct,me_nlp,basis,kill_genes,limit=lambda x:0,ListHandler=None,org="Model"):
     killable = []
     for idx,k in enumerate(kill_genes):
@@ -75,6 +79,22 @@ def get_killable(index_dct,me_nlp,basis,kill_genes,limit=lambda x:0,ListHandler=
             continue
         if ListHandler:ListHandler.print_and_log("{} not feasible if {} knockout ({} out of {})".format(org,k,idx+1,len(kill_genes)))
         restore(index_dct,k,me_nlp)
+    if ListHandler:ListHandler.print_and_log("Done with {}".format(org))
+    return killable
+
+def get_m_killable(model,kill_genes,ListHandler=None,org="Model"):
+    killable = []
+    for idx,k in enumerate(kill_genes):
+        # k = "RNA_" + k
+        with model as m:
+            m.genes.get_by_id(k).knock_out()
+            f = m.optimize().objective_value 
+        if not f or f > 1e-3:
+            if ListHandler:ListHandler.print_and_log("{} feasible if {} knockout ({} out of {})".format(org,k,idx+1,len(kill_genes)))
+            model.genes.get_by_id(k).knock_out()
+            killable.append(k)
+            continue
+        if ListHandler:ListHandler.print_and_log("{} not feasible if {} knockout ({} out of {})".format(org,k,idx+1,len(kill_genes)))
     if ListHandler:ListHandler.print_and_log("Done with {}".format(org))
     return killable
 

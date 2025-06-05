@@ -1,0 +1,131 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: g.2606.peg.321-MONOMER
+  UGA: g.2606.peg.1984-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - g.2606.peg.1175-MONOMER
+  - g.2606.peg.602-MONOMER
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass339
+- FMETTRS
+- ATPM
+ME-Model-ID: Neisseria_flavescens_SK114-ME
+m-model-path: ./me-models/Neisseria_flavescens_SK114//building_data/m_model_modified.json
+genbank-path: ./me-models/Neisseria_flavescens_SK114//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Neisseria_flavescens_SK114/Neisseria_flavescens_SK114.xlsx
+df_TranscriptionalUnits: ./me-models/Neisseria_flavescens_SK114//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Neisseria_flavescens_SK114/
+out_directory: ./me-models/Neisseria_flavescens_SK114/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- g.2606.peg.594-MONOMER
+- g.2606.peg.971-MONOMER
+other_lipids:
+- g.2606.peg.1406-MONOMER
+default_sigma_factor: g.2606.peg.1312-MONOMER
+rna_polymerases:
+  RNAP_g2606peg394MONOMER:
+    sigma_factor: g.2606.peg.394-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g2606peg1277MONOMER:
+    sigma_factor: g.2606.peg.1277-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g2606peg1312MONOMER:
+    sigma_factor: g.2606.peg.1312-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g2606peg1357MONOMER:
+    sigma_factor: g.2606.peg.1357-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g2606peg1997MONOMER:
+    sigma_factor: g.2606.peg.1997-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  AcrE: g.2606.peg.981
+  BamD: g.2606.peg.572
+  BamE: g.2606.peg.1831
+  CusC: g.2606.peg.732
+  MetQ: g.2606.peg.1540
+  MltA: g.2606.peg.1113
+  MltB: g.2606.peg.555
+ngam: 1.0
+gam: 40.0
+translocation_multipliers:
+  g.2606.peg.1566-MONOMER:
+    g.2606.peg.1013: 2.0
+amino_acid_trna_synthetase:
+  ala__L_c: g.2606.peg.612-MONOMER
+  arg__L_c: g.2606.peg.272-MONOMER
+  asn__L_c: CPLX_dummy
+  asp__L_c: g.2606.peg.1643-MONOMER
+  cys__L_c: g.2606.peg.1362-MONOMER
+  gln__L_c: g.2606.peg.1937-MONOMER
+  glu__L_c: g.2606.peg.1519-MONOMER
+  gly_c: generic_gly_c_ligase
+  his__L_c: g.2606.peg.626-MONOMER
+  ile__L_c: g.2606.peg.999-MONOMER
+  leu__L_c: g.2606.peg.357-MONOMER
+  lys__L_c: g.2606.peg.391-MONOMER
+  met__L_c: g.2606.peg.1008-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: g.2606.peg.244-MONOMER
+  ser__L_c: g.2606.peg.879-MONOMER
+  thr__L_c: g.2606.peg.430-MONOMER
+  trp__L_c: g.2606.peg.1009-MONOMER
+  tyr__L_c: g.2606.peg.1529-MONOMER
+  val__L_c: g.2606.peg.843-MONOMER
+braun's_lipoproteins: []

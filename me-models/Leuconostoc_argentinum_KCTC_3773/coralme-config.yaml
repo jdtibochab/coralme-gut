@@ -1,0 +1,108 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: g.28083.CDS.986-MONOMER
+  UGA: g.28083.CDS.241-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - CPLX_dummy
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass159
+- FMETTRS
+- ATPM
+ME-Model-ID: Leuconostoc_argentinum_KCTC_3773-ME
+m-model-path: ./me-models/Leuconostoc_argentinum_KCTC_3773//building_data/m_model_modified.json
+genbank-path: ./me-models/Leuconostoc_argentinum_KCTC_3773//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Leuconostoc_argentinum_KCTC_3773/Leuconostoc_argentinum_KCTC_3773.xlsx
+df_TranscriptionalUnits: ./me-models/Leuconostoc_argentinum_KCTC_3773//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Leuconostoc_argentinum_KCTC_3773/
+out_directory: ./me-models/Leuconostoc_argentinum_KCTC_3773/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160: []
+other_lipids: []
+default_sigma_factor: g.28083.CDS.1679-MONOMER
+rna_polymerases:
+  RNAP_g28083CDS1679MONOMER:
+    sigma_factor: g.28083.CDS.1679-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  MetQ: g.28083.CDS.182
+ngam: 1.0
+gam: 41.257
+translocation_multipliers:
+  g.28083.CDS.684-MONOMER: {}
+amino_acid_trna_synthetase:
+  ala__L_c: g.28083.CDS.1361-MONOMER
+  arg__L_c: g.28083.CDS.794-MONOMER
+  asn__L_c: g.28083.CDS.330-MONOMER
+  asp__L_c: g.28083.CDS.402-MONOMER
+  cys__L_c: g.28083.CDS.1428-MONOMER
+  gln__L_c: CPLX_dummy
+  glu__L_c: g.28083.CDS.300-MONOMER
+  gly_c: generic_gly_c_ligase
+  his__L_c: g.28083.CDS.24-MONOMER
+  ile__L_c: g.28083.CDS.1485-MONOMER
+  leu__L_c: g.28083.CDS.1120-MONOMER
+  lys__L_c: g.28083.CDS.473-MONOMER
+  met__L_c: g.28083.CDS.1080-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: g.28083.CDS.269-MONOMER
+  ser__L_c: g.28083.CDS.260-MONOMER
+  thr__L_c: g.28083.CDS.1005-MONOMER
+  trp__L_c: g.28083.CDS.234-MONOMER
+  tyr__L_c: g.28083.CDS.546-MONOMER
+  val__L_c: g.28083.CDS.985-MONOMER
+braun's_lipoproteins: []

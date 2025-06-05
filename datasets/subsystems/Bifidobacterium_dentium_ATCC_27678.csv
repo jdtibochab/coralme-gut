@@ -1,0 +1,707 @@
+,subsystem
+6x7.58910.peg.5,Metabolic:Nucleotide sugar metabolism
+6x7.58910.peg.6,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.7,Transcription
+6x7.58910.peg.9,Translation
+6x7.58910.peg.11,Translation
+6x7.58910.peg.12,tRNA-Charging
+6x7.58910.peg.13,tRNA-Charging
+6x7.58910.peg.15,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.17,Metabolic:Purine synthesis
+6x7.58910.peg.18,Metabolic:Purine synthesis
+6x7.58910.peg.19,Metabolic:Purine synthesis
+6x7.58910.peg.23,Metabolic:Purine synthesis
+6x7.58910.peg.24,Metabolic:Purine synthesis
+6x7.58910.peg.25,Metabolic:Purine synthesis
+6x7.58910.peg.28,Metabolic:Purine synthesis
+6x7.58910.peg.29,Metabolic:Purine synthesis
+6x7.58910.peg.31,Metabolic:Terpenoid backbone biosynthesis
+6x7.58910.peg.37,Metabolic:Glycerophospholipid metabolism
+6x7.58910.peg.39,"Metabolic:Transport, extracellular"
+6x7.58910.peg.40,"Metabolic:Transport, extracellular"
+6x7.58910.peg.42,Metabolic:Pyruvate metabolism
+6x7.58910.peg.45,"Metabolic:Transport, extracellular"
+6x7.58910.peg.46,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.47,Metabolic:Alanine and aspartate metabolism
+6x7.58910.peg.48,"Metabolic:Transport, extracellular"
+6x7.58910.peg.51,"Metabolic:Transport, extracellular"
+6x7.58910.peg.52,Metabolic:CoA synthesis
+6x7.58910.peg.53,"Metabolic:Transport, extracellular"
+6x7.58910.peg.58,Translation
+6x7.58910.peg.63,Metabolic:Exchange/demand reaction
+6x7.58910.peg.64,Metabolic:Nucleotide interconversion
+6x7.58910.peg.65,Metabolic:Alanine and aspartate metabolism
+6x7.58910.peg.68,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.70,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.71,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.73,"Metabolic:Transport, extracellular"
+6x7.58910.peg.78,Metabolic:CoA synthesis
+6x7.58910.peg.79,Metabolic:CoA synthesis
+6x7.58910.peg.82,Metabolic:Plant polysaccharide degradation
+6x7.58910.peg.83,Metabolic:Galactose metabolism
+6x7.58910.peg.89,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.90,Metabolic:Aminosugar metabolism
+6x7.58910.peg.100,Translation
+6x7.58910.peg.103,Metabolic:Lysine metabolism
+6x7.58910.peg.105,Metabolic:Citric acid cycle
+6x7.58910.peg.106,Metabolic:Glutathione metabolism
+6x7.58910.peg.109,Metabolic:Exchange/demand reaction
+6x7.58910.peg.111,tRNA-Charging
+6x7.58910.peg.115,Translation
+6x7.58910.peg.117,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.121,Metabolic:Nucleotide interconversion
+6x7.58910.peg.127,Metabolic:Exchange/demand reaction
+6x7.58910.peg.132,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.134,"Metabolic:Transport, extracellular"
+6x7.58910.peg.135,"Metabolic:Transport, extracellular"
+6x7.58910.peg.136,"Metabolic:Transport, extracellular"
+6x7.58910.peg.137,"Metabolic:Transport, extracellular"
+6x7.58910.peg.138,"Metabolic:Transport, extracellular"
+6x7.58910.peg.140,Translation
+6x7.58910.peg.141,tRNA-Charging
+6x7.58910.peg.168,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.172,"Metabolic:Transport, extracellular"
+6x7.58910.peg.173,"Metabolic:Transport, extracellular"
+6x7.58910.peg.174,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.176,"Metabolic:Transport, extracellular"
+6x7.58910.peg.178,"Metabolic:Transport, extracellular"
+6x7.58910.peg.181,Metabolic:Pentose and glucuronate interconversions
+6x7.58910.peg.182,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.185,Metabolic:Folate metabolism
+6x7.58910.peg.186,Metabolic:Folate metabolism
+6x7.58910.peg.190,Metabolic:Folate metabolism
+6x7.58910.peg.191,Metabolic:Folate metabolism
+6x7.58910.peg.192,Metabolic:Tetrahydrobiopterin metabolism
+6x7.58910.peg.194,Metabolic:Nucleotide salvage pathway
+6x7.58910.peg.195,tRNA-Charging
+6x7.58910.peg.203,Metabolic:Glyoxylate and dicarboxylate metabolism
+6x7.58910.peg.210,Metabolic:Galactose metabolism
+6x7.58910.peg.213,Metabolic:Folate metabolism
+6x7.58910.peg.214,Metabolic:Nucleotide interconversion
+6x7.58910.peg.219,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.220,Metabolic:Fructose and mannose metabolism
+6x7.58910.peg.225,Metabolic:Glycolysis/gluconeogenesis
+6x7.58910.peg.226,Metabolic:Ubiquinone and other terpenoid-quinone biosynthesis
+6x7.58910.peg.228,tRNA-Charging
+6x7.58910.peg.229,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.245,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.253,Metabolic:Plant polysaccharide degradation
+6x7.58910.peg.255,tRNA-Charging
+6x7.58910.peg.258,"Metabolic:Transport, extracellular"
+6x7.58910.peg.259,Metabolic:Glycolysis/gluconeogenesis
+6x7.58910.peg.263,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.266,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.272,Metabolic:Vitamin B2 metabolism
+6x7.58910.peg.273,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.274,Translation
+6x7.58910.peg.275,Translation
+6x7.58910.peg.276,Metabolic:Exchange/demand reaction
+6x7.58910.peg.280,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.281,tRNA-Charging
+6x7.58910.peg.282,Metabolic:Exchange/demand reaction
+6x7.58910.peg.283,tRNA-Charging
+6x7.58910.peg.284,tRNA-Charging
+6x7.58910.peg.285,tRNA-Charging
+6x7.58910.peg.286,Translation
+6x7.58910.peg.287,Metabolic:Nucleotide interconversion
+6x7.58910.peg.289,tRNA-Charging
+6x7.58910.peg.290,tRNA-Charging
+6x7.58910.peg.291,tRNA-Charging
+6x7.58910.peg.292,tRNA-Charging
+6x7.58910.peg.293,tRNA-Charging
+6x7.58910.peg.294,tRNA-Charging
+6x7.58910.peg.295,tRNA-Charging
+6x7.58910.peg.296,tRNA-Charging
+6x7.58910.peg.297,tRNA-Charging
+6x7.58910.peg.298,tRNA-Charging
+6x7.58910.peg.299,tRNA-Charging
+6x7.58910.peg.300,tRNA-Charging
+6x7.58910.peg.301,tRNA-Charging
+6x7.58910.peg.302,tRNA-Charging
+6x7.58910.peg.303,tRNA-Charging
+6x7.58910.peg.304,tRNA-Charging
+6x7.58910.peg.305,tRNA-Charging
+6x7.58910.peg.306,tRNA-Charging
+6x7.58910.peg.307,tRNA-Charging
+6x7.58910.peg.308,tRNA-Charging
+6x7.58910.peg.309,tRNA-Charging
+6x7.58910.peg.311,Metabolic:Pyruvate metabolism
+6x7.58910.peg.315,Metabolic:Fructose and mannose metabolism
+6x7.58910.peg.317,tRNA-Charging
+6x7.58910.peg.318,tRNA-Charging
+6x7.58910.peg.319,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.322,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.329,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.330,tRNA-Charging
+6x7.58910.peg.332,Translation
+6x7.58910.peg.334,Translation
+6x7.58910.peg.335,Metabolic:Folate metabolism
+6x7.58910.peg.342,tRNA-Charging
+6x7.58910.peg.343,tRNA-Charging
+6x7.58910.peg.345,"Metabolic:Transport, extracellular"
+6x7.58910.peg.346,"Metabolic:Transport, extracellular"
+6x7.58910.peg.347,"Metabolic:Transport, extracellular"
+6x7.58910.peg.348,"Metabolic:Transport, extracellular"
+6x7.58910.peg.349,"Metabolic:Transport, extracellular"
+6x7.58910.peg.353,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.354,Metabolic:Phenylalanine metabolism
+6x7.58910.peg.355,Metabolic:Phenylalanine metabolism
+6x7.58910.peg.359,Metabolic:Terpenoid backbone biosynthesis
+6x7.58910.peg.364,Metabolic:Alanine and aspartate metabolism
+6x7.58910.peg.369,Translation
+6x7.58910.peg.370,tRNA-Charging
+6x7.58910.peg.372,Metabolic:Lipopolysaccharide biosynthesis
+6x7.58910.peg.375,Metabolic:Pyruvate metabolism
+6x7.58910.peg.376,Metabolic:Biotin metabolism
+6x7.58910.peg.377,"Metabolic:Transport, extracellular"
+6x7.58910.peg.378,Metabolic:Biotin metabolism
+6x7.58910.peg.382,tRNA-Charging
+6x7.58910.peg.383,Translation
+6x7.58910.peg.384,Transcription
+6x7.58910.peg.386,Metabolic:Arginine and proline metabolism
+6x7.58910.peg.387,Metabolic:Arginine and proline metabolism
+6x7.58910.peg.389,tRNA-Charging
+6x7.58910.peg.390,tRNA-Charging
+6x7.58910.peg.391,Transcription
+6x7.58910.peg.392,Metabolic:Lysine metabolism
+6x7.58910.peg.398,tRNA-Charging
+6x7.58910.peg.399,Metabolic:Glycolysis/gluconeogenesis
+6x7.58910.peg.400,Metabolic:Fructose and mannose metabolism
+6x7.58910.peg.404,Transcription
+6x7.58910.peg.406,Metabolic:NAD metabolism
+6x7.58910.peg.410,Metabolic:CoA synthesis
+6x7.58910.peg.413,tRNA-Charging
+6x7.58910.peg.414,Metabolic:Exchange/demand reaction
+6x7.58910.peg.415,"Metabolic:Valine, leucine, and isoleucine metabolism"
+6x7.58910.peg.416,"Metabolic:Valine, leucine, and isoleucine metabolism"
+6x7.58910.peg.419,tRNA-Charging
+6x7.58910.peg.422,tRNA-Charging
+6x7.58910.peg.425,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.426,Metabolic:Exchange/demand reaction
+6x7.58910.peg.427,Translation
+6x7.58910.peg.429,tRNA-Charging
+6x7.58910.peg.436,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.439,Metabolic:Alanine and aspartate metabolism
+6x7.58910.peg.446,"Metabolic:Transport, extracellular"
+6x7.58910.peg.447,"Metabolic:Transport, extracellular"
+6x7.58910.peg.450,Metabolic:Alanine and aspartate metabolism
+6x7.58910.peg.451,Metabolic:Glycerophospholipid metabolism
+6x7.58910.peg.452,Metabolic:Glycerophospholipid metabolism
+6x7.58910.peg.458,Metabolic:Aminosugar metabolism
+6x7.58910.peg.459,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.464,"Metabolic:Valine, leucine, and isoleucine metabolism"
+6x7.58910.peg.465,"Metabolic:Valine, leucine, and isoleucine metabolism"
+6x7.58910.peg.468,tRNA-Charging
+6x7.58910.peg.475,Metabolic:Folate metabolism
+6x7.58910.peg.478,"Metabolic:Transport, extracellular"
+6x7.58910.peg.481,Metabolic:Exchange/demand reaction
+6x7.58910.peg.482,Metabolic:Nucleotide interconversion
+6x7.58910.peg.483,Metabolic:Exchange/demand reaction
+6x7.58910.peg.486,Metabolic:Aminosugar metabolism
+6x7.58910.peg.487,Metabolic:Inositol phosphate metabolism
+6x7.58910.peg.488,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.497,"Metabolic:Valine, leucine, and isoleucine metabolism"
+6x7.58910.peg.500,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.501,Metabolic:Alanine and aspartate metabolism
+6x7.58910.peg.502,Metabolic:Alanine and aspartate metabolism
+6x7.58910.peg.504,Metabolic:Exchange/demand reaction
+6x7.58910.peg.505,Metabolic:Plant polysaccharide degradation
+6x7.58910.peg.510,Metabolic:Galactose metabolism
+6x7.58910.peg.512,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.515,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.527,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.532,Metabolic:Nucleotide salvage pathway
+6x7.58910.peg.533,Metabolic:Glycerophospholipid metabolism
+6x7.58910.peg.537,Metabolic:Ubiquinone and other terpenoid-quinone biosynthesis
+6x7.58910.peg.544,"Metabolic:Transport, extracellular"
+6x7.58910.peg.546,Post-translation
+6x7.58910.peg.558,"Metabolic:Transport, extracellular"
+6x7.58910.peg.559,"Metabolic:Transport, extracellular"
+6x7.58910.peg.560,"Metabolic:Transport, extracellular"
+6x7.58910.peg.584,Metabolic:Thiamine metabolism
+6x7.58910.peg.585,Metabolic:Thiamine metabolism
+6x7.58910.peg.586,Metabolic:Thiamine metabolism
+6x7.58910.peg.598,"Metabolic:Transport, extracellular"
+6x7.58910.peg.599,Metabolic:Plant polysaccharide degradation
+6x7.58910.peg.609,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.614,"Metabolic:Valine, leucine, and isoleucine metabolism"
+6x7.58910.peg.615,"Metabolic:Valine, leucine, and isoleucine metabolism"
+6x7.58910.peg.620,"Metabolic:Transport, extracellular"
+6x7.58910.peg.625,Metabolic:Lipopolysaccharide biosynthesis
+6x7.58910.peg.627,Metabolic:Biotin metabolism
+6x7.58910.peg.628,Metabolic:Arginine and proline metabolism
+6x7.58910.peg.631,Metabolic:Folate metabolism
+6x7.58910.peg.633,"Metabolic:Transport, extracellular"
+6x7.58910.peg.634,"Metabolic:Transport, extracellular"
+6x7.58910.peg.635,"Metabolic:Transport, extracellular"
+6x7.58910.peg.636,"Metabolic:Transport, extracellular"
+6x7.58910.peg.637,"Metabolic:Transport, extracellular"
+6x7.58910.peg.638,"Metabolic:Transport, extracellular"
+6x7.58910.peg.641,"Metabolic:Transport, extracellular"
+6x7.58910.peg.642,Metabolic:Nucleotide interconversion
+6x7.58910.peg.644,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.668,Metabolic:Respiration
+6x7.58910.peg.671,Metabolic:Alanine and aspartate metabolism
+6x7.58910.peg.672,"Metabolic:Transport, extracellular"
+6x7.58910.peg.680,Metabolic:Glycerophospholipid metabolism
+6x7.58910.peg.685,Metabolic:Nucleotide interconversion
+6x7.58910.peg.692,Metabolic:Folate metabolism
+6x7.58910.peg.700,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.703,tRNA-Charging
+6x7.58910.peg.704,"Metabolic:Transport, extracellular"
+6x7.58910.peg.707,Metabolic:Pyruvate metabolism
+6x7.58910.peg.709,Metabolic:Miscellaneous
+6x7.58910.peg.711,Metabolic:Vitamin B2 metabolism
+6x7.58910.peg.714,Metabolic:Methane metabolism
+6x7.58910.peg.715,Metabolic:Methane metabolism
+6x7.58910.peg.716,Metabolic:Pentose and glucuronate interconversions
+6x7.58910.peg.720,Metabolic:Glutamate metabolism
+6x7.58910.peg.722,Metabolic:Exchange/demand reaction
+6x7.58910.peg.723,Metabolic:Exchange/demand reaction
+6x7.58910.peg.726,Metabolic:Exchange/demand reaction
+6x7.58910.peg.727,Metabolic:Exchange/demand reaction
+6x7.58910.peg.728,tRNA-Charging
+6x7.58910.peg.729,Metabolic:Exchange/demand reaction
+6x7.58910.peg.730,Post-translation
+6x7.58910.peg.732,Translation
+6x7.58910.peg.735,Metabolic:Sulfur metabolism
+6x7.58910.peg.740,Metabolic:Exchange/demand reaction
+6x7.58910.peg.742,Metabolic:Terpenoid backbone biosynthesis
+6x7.58910.peg.743,Translation
+6x7.58910.peg.747,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.749,Metabolic:Vitamin B2 metabolism
+6x7.58910.peg.752,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.754,Metabolic:Galactose metabolism
+6x7.58910.peg.758,"Metabolic:Transport, extracellular"
+6x7.58910.peg.760,"Metabolic:Transport, extracellular"
+6x7.58910.peg.761,"Metabolic:Transport, extracellular"
+6x7.58910.peg.763,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.764,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.765,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.766,"Metabolic:Transport, extracellular"
+6x7.58910.peg.768,"Metabolic:Transport, extracellular"
+6x7.58910.peg.769,"Metabolic:Transport, extracellular"
+6x7.58910.peg.783,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.784,Metabolic:Aminobenzoate degradation
+6x7.58910.peg.785,Translation
+6x7.58910.peg.793,"Metabolic:Transport, extracellular"
+6x7.58910.peg.800,"Metabolic:Transport, extracellular"
+6x7.58910.peg.801,"Metabolic:Transport, extracellular"
+6x7.58910.peg.805,"Metabolic:Transport, extracellular"
+6x7.58910.peg.806,"Metabolic:Transport, extracellular"
+6x7.58910.peg.814,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.819,Metabolic:Galactose metabolism
+6x7.58910.peg.822,Metabolic:Glutamate metabolism
+6x7.58910.peg.823,Metabolic:Butanoate metabolism
+6x7.58910.peg.826,"Metabolic:Transport, extracellular"
+6x7.58910.peg.827,"Metabolic:Transport, extracellular"
+6x7.58910.peg.829,"Metabolic:Transport, extracellular"
+6x7.58910.peg.830,Metabolic:Glyoxylate and dicarboxylate metabolism
+6x7.58910.peg.839,Translation
+6x7.58910.peg.843,tRNA-Charging
+6x7.58910.peg.845,Metabolic:Galactose metabolism
+6x7.58910.peg.846,"Metabolic:Transport, extracellular"
+6x7.58910.peg.860,Metabolic:Plant polysaccharide degradation
+6x7.58910.peg.863,"Metabolic:Transport, extracellular"
+6x7.58910.peg.864,"Metabolic:Transport, extracellular"
+6x7.58910.peg.870,Metabolic:Plant polysaccharide degradation
+6x7.58910.peg.884,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.885,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.888,Metabolic:Alanine and aspartate metabolism
+6x7.58910.peg.889,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.894,"Metabolic:Transport, extracellular"
+6x7.58910.peg.896,"Metabolic:Transport, extracellular"
+6x7.58910.peg.900,"Metabolic:Transport, extracellular"
+6x7.58910.peg.902,Translation
+6x7.58910.peg.905,Metabolic:Nucleotide interconversion
+6x7.58910.peg.907,"Metabolic:Transport, extracellular"
+6x7.58910.peg.909,Metabolic:Plant polysaccharide degradation
+6x7.58910.peg.912,"Metabolic:Transport, extracellular"
+6x7.58910.peg.913,"Metabolic:Transport, extracellular"
+6x7.58910.peg.914,"Metabolic:Transport, extracellular"
+6x7.58910.peg.917,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.923,Metabolic:Aminosugar metabolism
+6x7.58910.peg.926,"Metabolic:Transport, extracellular"
+6x7.58910.peg.927,"Metabolic:Transport, extracellular"
+6x7.58910.peg.928,"Metabolic:Transport, extracellular"
+6x7.58910.peg.946,Metabolic:Terpenoid backbone biosynthesis
+6x7.58910.peg.947,Metabolic:Nucleotide sugar metabolism
+6x7.58910.peg.949,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.962,Metabolic:Pentose and glucuronate interconversions
+6x7.58910.peg.969,Metabolic:Nucleotide interconversion
+6x7.58910.peg.971,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.972,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.973,tRNA-Charging
+6x7.58910.peg.974,Metabolic:Exchange/demand reaction
+6x7.58910.peg.975,tRNA-Charging
+6x7.58910.peg.976,tRNA-Charging
+6x7.58910.peg.988,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1000,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1006,tRNA-Charging
+6x7.58910.peg.1007,tRNA-Charging
+6x7.58910.peg.1008,tRNA-Charging
+6x7.58910.peg.1016,Metabolic:Phenylalanine metabolism
+6x7.58910.peg.1018,tRNA-Charging
+6x7.58910.peg.1019,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1024,Metabolic:Oxidative phosphorylation
+6x7.58910.peg.1030,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.1032,Metabolic:Respiration
+6x7.58910.peg.1033,Metabolic:Respiration
+6x7.58910.peg.1034,Metabolic:Respiration
+6x7.58910.peg.1035,Metabolic:Respiration
+6x7.58910.peg.1036,Metabolic:Respiration
+6x7.58910.peg.1037,Metabolic:Respiration
+6x7.58910.peg.1038,Metabolic:Respiration
+6x7.58910.peg.1039,Metabolic:Respiration
+6x7.58910.peg.1058,tRNA-Charging
+6x7.58910.peg.1059,Metabolic:Lysine metabolism
+6x7.58910.peg.1060,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1061,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.1062,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.1065,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.1066,Metabolic:Pentose and glucuronate interconversions
+6x7.58910.peg.1067,Metabolic:Pentose and glucuronate interconversions
+6x7.58910.peg.1069,Metabolic:Nucleotide interconversion
+6x7.58910.peg.1072,Metabolic:Propanoate metabolism
+6x7.58910.peg.1074,Metabolic:Vitamin B6 metabolism
+6x7.58910.peg.1075,Metabolic:Vitamin B6 metabolism
+6x7.58910.peg.1080,Metabolic:Galactose metabolism
+6x7.58910.peg.1087,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1102,tRNA-Charging
+6x7.58910.peg.1103,tRNA-Charging
+6x7.58910.peg.1104,tRNA-Charging
+6x7.58910.peg.1105,tRNA-Charging
+6x7.58910.peg.1106,Translation
+6x7.58910.peg.1116,Metabolic:Ubiquinone and other terpenoid-quinone biosynthesis
+6x7.58910.peg.1124,Metabolic:Nucleotide sugar metabolism
+6x7.58910.peg.1125,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1126,Metabolic:Nucleotide sugar metabolism
+6x7.58910.peg.1133,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.1171,Metabolic:Nucleotide interconversion
+6x7.58910.peg.1176,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.1179,"Metabolic:Valine, leucine, and isoleucine metabolism"
+6x7.58910.peg.1181,Metabolic:Lipoate metabolism
+6x7.58910.peg.1183,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1185,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.1188,Metabolic:Galactose metabolism
+6x7.58910.peg.1189,Metabolic:Galactose metabolism
+6x7.58910.peg.1193,Metabolic:Pentose and glucuronate interconversions
+6x7.58910.peg.1198,Metabolic:Exchange/demand reaction
+6x7.58910.peg.1201,Metabolic:Exchange/demand reaction
+6x7.58910.peg.1202,Metabolic:Exchange/demand reaction
+6x7.58910.peg.1221,Metabolic:Lysine metabolism
+6x7.58910.peg.1224,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1227,Metabolic:Lysine metabolism
+6x7.58910.peg.1230,Metabolic:Glutathione metabolism
+6x7.58910.peg.1231,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1233,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1235,Metabolic:Glutamate metabolism
+6x7.58910.peg.1261,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.1262,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.1270,Metabolic:Arginine and proline metabolism
+6x7.58910.peg.1273,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1277,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1287,Metabolic:Nucleotide interconversion
+6x7.58910.peg.1291,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1296,Metabolic:Galactose metabolism
+6x7.58910.peg.1303,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.1308,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.1317,Metabolic:Fatty acid synthesis
+6x7.58910.peg.1322,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.1323,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.1331,Metabolic:Galactose metabolism
+6x7.58910.peg.1334,tRNA-Charging
+6x7.58910.peg.1345,Metabolic:Glutamate metabolism
+6x7.58910.peg.1346,Metabolic:Lysine metabolism
+6x7.58910.peg.1347,Metabolic:Thiamine metabolism
+6x7.58910.peg.1358,Metabolic:Terpenoid backbone biosynthesis
+6x7.58910.peg.1359,Metabolic:Terpenoid backbone biosynthesis
+6x7.58910.peg.1364,Metabolic:Nucleotide interconversion
+6x7.58910.peg.1374,Metabolic:Thiamine metabolism
+6x7.58910.peg.1375,Metabolic:Thiamine metabolism
+6x7.58910.peg.1376,Metabolic:Thiamine metabolism
+6x7.58910.peg.1379,tRNA-Charging
+6x7.58910.peg.1386,Translation
+6x7.58910.peg.1388,Metabolic:Exchange/demand reaction
+6x7.58910.peg.1390,Metabolic:Histidine metabolism
+6x7.58910.peg.1391,Metabolic:Histidine metabolism
+6x7.58910.peg.1392,Metabolic:Histidine metabolism
+6x7.58910.peg.1394,Metabolic:Histidine metabolism
+6x7.58910.peg.1395,Metabolic:Tryptophan metabolism
+6x7.58910.peg.1409,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1415,Metabolic:Pyruvate metabolism
+6x7.58910.peg.1416,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1420,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.1421,Metabolic:Folate metabolism
+6x7.58910.peg.1423,Translation
+6x7.58910.peg.1426,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1427,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1428,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1429,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1431,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1433,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1435,Metabolic:Aminosugar metabolism
+6x7.58910.peg.1439,Metabolic:Fructose and mannose metabolism
+6x7.58910.peg.1443,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1448,Metabolic:Folate metabolism
+6x7.58910.peg.1453,Transcription
+6x7.58910.peg.1456,Metabolic:Terpenoid backbone biosynthesis
+6x7.58910.peg.1458,Metabolic:Glycolysis/gluconeogenesis
+6x7.58910.peg.1459,Metabolic:Thiamine metabolism
+6x7.58910.peg.1460,Metabolic:Alanine and aspartate metabolism
+6x7.58910.peg.1461,Translation
+6x7.58910.peg.1462,tRNA-Charging
+6x7.58910.peg.1463,tRNA-Charging
+6x7.58910.peg.1472,Metabolic:Phenylalanine metabolism
+6x7.58910.peg.1473,Metabolic:Tyrosine metabolism
+6x7.58910.peg.1478,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1479,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1486,Translation
+6x7.58910.peg.1522,Metabolic:Citric acid cycle
+6x7.58910.peg.1524,Metabolic:Starch and sucrose metabolism
+6x7.58910.peg.1528,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1535,Metabolic:Vitamin B2 metabolism
+6x7.58910.peg.1541,Metabolic:Glycerophospholipid metabolism
+6x7.58910.peg.1548,Post-translation
+6x7.58910.peg.1549,Metabolic:Tryptophan metabolism
+6x7.58910.peg.1551,Metabolic:Glycerophospholipid metabolism
+6x7.58910.peg.1553,Metabolic:Cholesterol metabolism
+6x7.58910.peg.1555,Metabolic:Exchange/demand reaction
+6x7.58910.peg.1556,Metabolic:Exchange/demand reaction
+6x7.58910.peg.1562,Metabolic:Exchange/demand reaction
+6x7.58910.peg.1567,Metabolic:Pyrimidine catabolism
+6x7.58910.peg.1568,Metabolic:Vitamin B2 metabolism
+6x7.58910.peg.1580,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1582,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1584,Metabolic:NAD metabolism
+6x7.58910.peg.1588,Metabolic:Unassigned
+6x7.58910.peg.1590,Metabolic:Pyruvate metabolism
+6x7.58910.peg.1591,Metabolic:Pyruvate metabolism
+6x7.58910.peg.1594,Translation
+6x7.58910.peg.1595,Metabolic:Exchange/demand reaction
+6x7.58910.peg.1598,"Metabolic:Valine, leucine, and isoleucine metabolism"
+6x7.58910.peg.1599,Translation
+6x7.58910.peg.1606,Metabolic:Nucleotide interconversion
+6x7.58910.peg.1609,Metabolic:Pyruvate metabolism
+6x7.58910.peg.1616,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.1627,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1628,Metabolic:Glycolysis/gluconeogenesis
+6x7.58910.peg.1634,Metabolic:Exchange/demand reaction
+6x7.58910.peg.1637,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1638,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1648,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1658,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1661,Metabolic:Pyruvate metabolism
+6x7.58910.peg.1663,Metabolic:Arginine and proline metabolism
+6x7.58910.peg.1667,tRNA-Charging
+6x7.58910.peg.1668,tRNA-Charging
+6x7.58910.peg.1670,Metabolic:Urea cycle
+6x7.58910.peg.1671,Metabolic:Arginine and proline metabolism
+6x7.58910.peg.1672,Metabolic:Arginine and proline metabolism
+6x7.58910.peg.1673,Metabolic:Lysine metabolism
+6x7.58910.peg.1674,Metabolic:Arginine and proline metabolism
+6x7.58910.peg.1676,Metabolic:Alanine and aspartate metabolism
+6x7.58910.peg.1677,Metabolic:Alanine and aspartate metabolism
+6x7.58910.peg.1682,tRNA-Charging
+6x7.58910.peg.1687,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1688,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1689,Metabolic:NAD metabolism
+6x7.58910.peg.1701,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.1702,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.1703,Metabolic:Arginine and proline metabolism
+6x7.58910.peg.1705,Metabolic:NAD metabolism
+6x7.58910.peg.1706,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.1731,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1742,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1744,tRNA-Charging
+6x7.58910.peg.1749,Metabolic:Exchange/demand reaction
+6x7.58910.peg.1752,Translation
+6x7.58910.peg.1756,Metabolic:Propanoate metabolism
+6x7.58910.peg.1758,Metabolic:Citric acid cycle
+6x7.58910.peg.1759,Metabolic:Nucleotide interconversion
+6x7.58910.peg.1761,Metabolic:Propanoate metabolism
+6x7.58910.peg.1762,Translation
+6x7.58910.peg.1763,tRNA-Charging
+6x7.58910.peg.1764,Translation
+6x7.58910.peg.1765,Metabolic:Nucleotide interconversion
+6x7.58910.peg.1766,Translation
+6x7.58910.peg.1767,Metabolic:Glycerophospholipid metabolism
+6x7.58910.peg.1768,Translation
+6x7.58910.peg.1770,Metabolic:Histidine metabolism
+6x7.58910.peg.1771,Metabolic:Tryptophan metabolism
+6x7.58910.peg.1772,Metabolic:Tryptophan metabolism
+6x7.58910.peg.1775,Metabolic:Pentose and glucuronate interconversions
+6x7.58910.peg.1776,Metabolic:Histidine metabolism
+6x7.58910.peg.1777,Metabolic:Histidine metabolism
+6x7.58910.peg.1778,Metabolic:Glycerophospholipid metabolism
+6x7.58910.peg.1782,tRNA-Charging
+6x7.58910.peg.1783,Metabolic:Glycerophospholipid metabolism
+6x7.58910.peg.1791,Metabolic:Nucleotide salvage pathway
+6x7.58910.peg.1792,Metabolic:Citric acid cycle
+6x7.58910.peg.1793,Metabolic:Citric acid cycle
+6x7.58910.peg.1795,Metabolic:Purine synthesis
+6x7.58910.peg.1798,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.1801,Metabolic:Galactose metabolism
+6x7.58910.peg.1806,Metabolic:Glyoxylate and dicarboxylate metabolism
+6x7.58910.peg.1814,Metabolic:Cell wall biosynthesis
+6x7.58910.peg.1816,Translation
+6x7.58910.peg.1818,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.1819,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.1820,Metabolic:Arginine and proline metabolism
+6x7.58910.peg.1823,Metabolic:Glycolysis/gluconeogenesis
+6x7.58910.peg.1824,Metabolic:Glycolysis/gluconeogenesis
+6x7.58910.peg.1827,Metabolic:Phenylalanine metabolism
+6x7.58910.peg.1841,Metabolic:Citric acid cycle
+6x7.58910.peg.1843,Metabolic:NAD metabolism
+6x7.58910.peg.1850,Metabolic:Benzoate degradation
+6x7.58910.peg.1863,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.1864,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.1865,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.1866,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.1867,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.1869,Metabolic:Pyrimidine synthesis
+6x7.58910.peg.1873,Metabolic:Folate metabolism
+6x7.58910.peg.1874,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.1880,Metabolic:Glutamate metabolism
+6x7.58910.peg.1881,Metabolic:Glutamate metabolism
+6x7.58910.peg.1884,tRNA-Charging
+6x7.58910.peg.1886,"Metabolic:Valine, leucine, and isoleucine metabolism"
+6x7.58910.peg.1887,Translation
+6x7.58910.peg.1892,Metabolic:Nucleotide interconversion
+6x7.58910.peg.1893,Metabolic:Arginine and proline metabolism
+6x7.58910.peg.1900,Metabolic:Benzoate degradation
+6x7.58910.peg.1908,Metabolic:NAD metabolism
+6x7.58910.peg.1909,Metabolic:NAD metabolism
+6x7.58910.peg.1910,Metabolic:NAD metabolism
+6x7.58910.peg.1911,Metabolic:Fatty acid synthesis
+6x7.58910.peg.1913,Translation
+6x7.58910.peg.1920,Metabolic:Glycolysis/gluconeogenesis
+6x7.58910.peg.1927,Metabolic:Nucleotide interconversion
+6x7.58910.peg.1929,Metabolic:Phenylalanine metabolism
+6x7.58910.peg.1930,Metabolic:Phenylalanine metabolism
+6x7.58910.peg.1931,Metabolic:Phenylalanine metabolism
+6x7.58910.peg.1935,tRNA-Charging
+6x7.58910.peg.1940,tRNA-Charging
+6x7.58910.peg.1944,Metabolic:Exchange/demand reaction
+6x7.58910.peg.1945,Metabolic:Purine catabolism
+6x7.58910.peg.1946,"Metabolic:Transport, extracellular"
+6x7.58910.peg.1948,Metabolic:Pyruvate metabolism
+6x7.58910.peg.1949,Metabolic:Pyruvate metabolism
+6x7.58910.peg.1950,Metabolic:Fructose and mannose metabolism
+6x7.58910.peg.1951,Metabolic:Nucleotide interconversion
+6x7.58910.peg.1960,Metabolic:Phenylalanine metabolism
+6x7.58910.peg.1963,Metabolic:Nucleotide interconversion
+6x7.58910.peg.2006,Metabolic:Galactose metabolism
+6x7.58910.peg.2018,Metabolic:Exchange/demand reaction
+6x7.58910.peg.2050,Metabolic:Nucleotide interconversion
+6x7.58910.peg.2051,Metabolic:Glycolysis/gluconeogenesis
+6x7.58910.peg.2055,Metabolic:CoA synthesis
+6x7.58910.peg.2056,Translation
+6x7.58910.peg.2057,Metabolic:Folate metabolism
+6x7.58910.peg.2058,"Metabolic:Transport, extracellular"
+6x7.58910.peg.2059,"Metabolic:Transport, extracellular"
+6x7.58910.peg.2060,"Metabolic:Transport, extracellular"
+6x7.58910.peg.2061,Metabolic:Terpenoid backbone biosynthesis
+6x7.58910.peg.2067,Metabolic:Glycolysis/gluconeogenesis
+6x7.58910.peg.2079,Transcription
+6x7.58910.peg.2081,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.2085,"Metabolic:Transport, extracellular"
+6x7.58910.peg.2086,Translation
+6x7.58910.peg.2087,Transcription
+6x7.58910.peg.2093,"Metabolic:Transport, extracellular"
+6x7.58910.peg.2096,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.2103,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.2105,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.2106,Metabolic:Pentose phosphate pathway
+6x7.58910.peg.2114,Metabolic:Fatty acid synthesis
+6x7.58910.peg.2121,Metabolic:Nucleotide interconversion
+6x7.58910.peg.2131,Metabolic:Arginine and proline metabolism
+6x7.58910.peg.2141,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.2143,Metabolic:Vitamin B6 metabolism
+6x7.58910.peg.2147,Metabolic:Citric acid cycle
+6x7.58910.peg.2148,Metabolic:Citric acid cycle
+6x7.58910.peg.2150,"Metabolic:Transport, extracellular"
+6x7.58910.peg.2154,"Metabolic:Transport, extracellular"
+6x7.58910.peg.2166,tRNA-Charging
+6x7.58910.peg.2167,tRNA-Charging
+6x7.58910.peg.2179,Translation
+6x7.58910.peg.2183,Metabolic:Oxidative phosphorylation
+6x7.58910.peg.2191,Metabolic:Purine synthesis
+6x7.58910.peg.2198,Metabolic:Inositol phosphate metabolism
+6x7.58910.peg.2201,"Metabolic:Glycine, serine, alanine, and threonine metabolism"
+6x7.58910.peg.2202,tRNA-Charging
+6x7.58910.peg.2204,Metabolic:Exchange/demand reaction
+6x7.58910.peg.2205,Metabolic:Methionine and cysteine metabolism
+6x7.58910.peg.2206,Transcription
+6x7.58910.peg.2207,"Metabolic:Valine, leucine, and isoleucine metabolism"
+6x7.58910.peg.2210,Metabolic:Nucleotide interconversion
+6x7.58910.peg.2212,Metabolic:Pyrimidine synthesis
+BIFDEN_RS00070,tRNA-Charging
+BIFDEN_RS00290,tRNA-Charging
+BIFDEN_RS00295,tRNA-Charging
+BIFDEN_RS00300,tRNA-Charging
+BIFDEN_RS00315,tRNA-Charging
+BIFDEN_RS00695,tRNA-Charging
+BIFDEN_RS11315,tRNA-Charging
+BIFDEN_RS01020,tRNA-Charging
+BIFDEN_RS01025,tRNA-Charging
+BIFDEN_RS01030,tRNA-Charging
+BIFDEN_RS01050,tRNA-Charging
+BIFDEN_RS01055,tRNA-Charging
+BIFDEN_RS01145,tRNA-Charging
+BIFDEN_RS01265,tRNA-Charging
+BIFDEN_RS01385,tRNA-Charging
+BIFDEN_RS01615,tRNA-Charging
+BIFDEN_RS01655,tRNA-Charging
+BIFDEN_RS01660,tRNA-Charging
+BIFDEN_RS01665,tRNA-Charging
+BIFDEN_RS01870,tRNA-Charging
+BIFDEN_RS01940,tRNA-Charging
+BIFDEN_RS02020,tRNA-Charging
+BIFDEN_RS02025,tRNA-Charging
+BIFDEN_RS02355,tRNA-Charging
+BIFDEN_RS02360,tRNA-Charging
+BIFDEN_RS02780,tRNA-Charging
+BIFDEN_RS03335,tRNA-Charging
+BIFDEN_RS03385,tRNA-Charging
+BIFDEN_RS03560,tRNA-Charging
+BIFDEN_RS03565,tRNA-Charging
+BIFDEN_RS03570,tRNA-Charging
+BIFDEN_RS03730,tRNA-Charging
+BIFDEN_RS03750,Translation
+BIFDEN_RS03755,Translation
+BIFDEN_RS03760,Translation
+BIFDEN_RS04015,tRNA-Charging
+BIFDEN_RS04415,Translation
+BIFDEN_RS04420,Translation
+BIFDEN_RS04425,Translation
+BIFDEN_RS04595,Translation
+BIFDEN_RS04600,Translation
+BIFDEN_RS04605,Translation
+BIFDEN_RS04610,tRNA-Charging
+BIFDEN_RS04895,tRNA-Charging
+BIFDEN_RS05145,tRNA-Charging
+BIFDEN_RS05275,tRNA-Charging
+BIFDEN_RS06115,Translation
+BIFDEN_RS06120,Translation
+BIFDEN_RS06125,Translation
+BIFDEN_RS06310,Translation
+BIFDEN_RS06350,tRNA-Charging
+BIFDEN_RS06725,tRNA-Charging
+BIFDEN_RS08390,tRNA-Charging
+BIFDEN_RS08535,tRNA-Charging
+BIFDEN_RS08625,tRNA-Charging
+BIFDEN_RS08860,tRNA-Charging
+BIFDEN_RS08915,tRNA-Charging
+BIFDEN_RS08920,tRNA-Charging
+BIFDEN_RS08925,tRNA-Charging
+BIFDEN_RS08930,tRNA-Charging
+BIFDEN_RS09045,tRNA-Charging
+BIFDEN_RS09135,tRNA-Charging
+BIFDEN_RS09140,tRNA-Charging
+BIFDEN_RS09455,tRNA-Charging
+BIFDEN_RS09670,tRNA-Charging
+BIFDEN_RS10110,tRNA-Charging
+BIFDEN_RS10270,tRNA-Charging
+BIFDEN_RS10595,tRNA-Charging
+BIFDEN_RS10600,tRNA-Charging

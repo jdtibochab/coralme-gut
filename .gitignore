@@ -147,10 +147,11 @@ ibdmdb/metaG*/
 ibdmdb/metaT*/
 ibdmdb/whole_genomes/
 ibdmdb/annotated_genomes/
+ibdmdb/metagenomes/
 ibdmdb/WoL/
 ibdmdb/index*
 
-# File is too large
+# File is too large
 ibdmdb/gene_to_genome.csv
 
 # M-models from agora
@@ -163,3 +164,8 @@ fluxes_reconstruction-HFD/
 
 # Temporary
 tmp/
+
+**/building_data/
+**/blast_files_and_results/
+# me-models/*/building_data/reference_files/
+# me-models/*/building_data/builder_info/

@@ -1,0 +1,1354 @@
+{
+    "org.check_m_model": [
+        {
+            "msg": "Some metabolites have a problematic formula. If these metabolites are used in protein modifications, or other subreactions, it will cause an error.",
+            "triggered_by": [
+                "10m3hddcaACP_c",
+                "10m3hundecACP_c",
+                "10m3oddcaACP_c",
+                "10m3oundecACP_c",
+                "10mddcaACP_c",
+                "10mtddec2eACP_c",
+                "10mtundec2eACP_c",
+                "10mundecACP_c",
+                "11m3hddcaACP_c",
+                "11m3oddcaACP_c",
+                "11mddcaACP_c",
+                "11mtddec2eACP_c",
+                "12m3hmyrsACP_c",
+                "12m3htridecACP_c",
+                "12m3omyrsACP_c",
+                "12m3otridecACP_c",
+                "12mmyrsACP_c",
+                "12mtmrs2eACP_c",
+                "12mtridecACP_c",
+                "12mttritec2eACP_c",
+                "13m3hmyrsACP_c",
+                "13m3omyrsACP_c",
+                "13mmyrsACP_c",
+                "13mtmrs2eACP_c",
+                "14m3hpalmACP_c",
+                "14m3hpentdecACP_c",
+                "14m3opalmACP_c",
+                "14m3opentdecACP_c",
+                "14mpalmACP_c",
+                "14mpentdecACP_c",
+                "14mtpalm2eACP_c",
+                "14mtpentdec2eACP_c",
+                "15m3hpalmACP_c",
+                "15m3opalmACP_c",
+                "15mpalmACP_c",
+                "15mtpalm2eACP_c",
+                "2mbutACP_c",
+                "2mpropACP_c",
+                "3haACP_c",
+                "3hddecACP_c",
+                "3hdecACP_c",
+                "3hgACPm_c",
+                "3hhexACP_c",
+                "3hmrsACP_c",
+                "3hoctACP_c",
+                "3hoctaACP_c",
+                "3hpACPm_c",
+                "3hpalmACP_c",
+                "3mbutACP_c",
+                "3ocddec5eACP_c",
+                "3ocmrs7eACP_c",
+                "3ocpalm9eACP_c",
+                "3ocvac11eACP_c",
+                "3oddecACP_c",
+                "3odecACP_c",
+                "3ogACPm_c",
+                "3ohexACP_c",
+                "3omrsACP_c",
+                "3ooctACP_c",
+                "3ooctdACP_c",
+                "3opACPm_c",
+                "3opalmACP_c",
+                "4m3hhexACP_c",
+                "4m3hpentACP_c",
+                "4m3ohexACP_c",
+                "4m3opentACP_c",
+                "4mhexACP_c",
+                "4mpentACP_c",
+                "4mthex2eACP_c",
+                "4mtpent2eACP_c",
+                "5m3hhexACP_c",
+                "5m3ohexACP_c",
+                "5mhexACP_c",
+                "5mthex2eACP_c",
+                "6m3hheptACP_c",
+                "6m3hocACP_c",
+                "6m3oheptACP_c",
+                "6m3oocACP_c",
+                "6mheptACP_c",
+                "6mocACP_c",
+                "6mthept2eACP_c",
+                "6mtoct2eACP_c",
+                "7m3hocACP_c",
+                "7m3oocACP_c",
+                "7mocACP_c",
+                "7mtoct2eACP_c",
+                "8m3hdcaACP_c",
+                "8m3hnonACP_c",
+                "8m3odcaACP_c",
+                "8m3ononACP_c",
+                "8mdcaACP_c",
+                "8mnonACP_c",
+                "8mtdec2eACP_c",
+                "8mtnon2eACP_c",
+                "9m3hdcaACP_c",
+                "9m3odcaACP_c",
+                "9mdcaACP_c",
+                "9mtdec2eACP_c",
+                "ACP_c",
+                "M00512_c",
+                "PGP_c",
+                "PGPm1_c",
+                "acACP_c",
+                "actACP_c",
+                "alpro_c",
+                "apoACP_c",
+                "apoC_Lys_btn_c",
+                "biomass_c",
+                "btn_co2_c",
+                "but2eACP_c",
+                "butACP_c",
+                "cddec5eACP_c",
+                "cdec3eACP_c",
+                "dcaACP_c",
+                "ddcaACP_c",
+                "dhlpro_c",
+                "dnarep_c",
+                "egACPm_c",
+                "epACPm_c",
+                "fdxox_c",
+                "fdxrd_c",
+                "gACPm_c",
+                "glutrna_c",
+                "glyc45tca_c",
+                "glyc45tcaala__D_c",
+                "glyc45tcaglc_c",
+                "hdeACP_c",
+                "hexACP_c",
+                "lpro_c",
+                "malACP_c",
+                "myrsACP_c",
+                "ocACP_c",
+                "ocdcaACP_c",
+                "octeACP_c",
+                "palmACP_c",
+                "peptmet__L_c",
+                "peptmetox__L_c",
+                "plasmetha_c",
+                "pmACP_c",
+                "pmACPm_c",
+                "prodslfd_c",
+                "prodthl_c",
+                "proteinsynth_c",
+                "rnatrans_c",
+                "t3c11vaceACP_c",
+                "t3c5ddeceACP_c",
+                "t3c7mrseACP_c",
+                "t3c9palmeACP_c",
+                "tddec2eACP_c",
+                "tdeACP_c",
+                "tdec2eACP_c",
+                "thex2eACP_c",
+                "tmrs2eACP_c",
+                "toct2eACP_c",
+                "toctd2eACP_c",
+                "tpalm2eACP_c",
+                "trdox_c",
+                "trdrd_c",
+                "trnaglu_c"
+            ],
+            "importance": "critical",
+            "to_do": "Correct the formulas of the listed metabolites. Some metabolite formulas are critical for the completion of this pipeline. If homology is ON, this pipeline will try to fill in the formulas from the reference."
+        },
+        {
+            "msg": "Some reactions are missing their subsystem",
+            "triggered_by": [
+                "biomass331"
+            ],
+            "importance": "high",
+            "to_do": "Make sure the subsystems of these reactions are correct"
+        }
+    ],
+    "org.read_optional_file": [
+        {
+            "msg": "No genes file was found. Initializing an empty one.",
+            "importance": "high",
+            "to_do": "Download genes from BioCyc if available"
+        },
+        {
+            "msg": "No proteins file was found. Initializing an empty one.",
+            "importance": "high",
+            "to_do": "Download proteins from BioCyc if available"
+        },
+        {
+            "msg": "No RNAs file was found. Initializing an empty one.",
+            "importance": "high",
+            "to_do": "Download RNAs from BioCyc if available"
+        },
+        {
+            "msg": "No TUs file was found. Initializing an empty one.",
+            "importance": "high",
+            "to_do": "Download TUs from BioCyc if available"
+        }
+    ],
+    "org.check_gene_overlap": [
+        {
+            "msg": "M-model has a 0 gene overlap with optional files (BioCyc)",
+            "importance": "critical",
+            "to_do": "Check whether optional files where downloaded correctly."
+        }
+    ],
+    "org.get_rpod": [
+        {
+            "msg": "g.23113.CDS.714-MONOMER was identified as RpoD. If this is not true, define RpoD!",
+            "importance": "high",
+            "to_do": "Check whether you need to correct RpoD by running me_builder.org.rpod = correct_rpod"
+        }
+    ],
+    "org.get_rna_polymerase": [
+        {
+            "msg": "RNAP was identified with subunits g.23113.CDS.26, g.23113.CDS.250, g.23113.CDS.693, g.23113.CDS.2697",
+            "importance": "medium",
+            "to_do": "Check whether the correct proteins were called as subunits of RNAP. If not find correct RNAP complex and run me_builder.org.get_rna_polymerase(force_RNAP_as=correct_RNAP)"
+        }
+    ],
+    "org.update_ribosome_stoich": [
+        {
+            "msg": "Some ribosomal proteins do not contain subunit information (30S, 50S). Check whether they are ribosomal proteins!",
+            "triggered_by": [
+                "g.23113.CDS.261-MONOMER",
+                "g.23113.CDS.721-MONOMER",
+                "g.23113.CDS.858-MONOMER",
+                "g.23113.CDS.2095-MONOMER",
+                "g.23113.CDS.3235-MONOMER",
+                "g.23113.CDS.3549-MONOMER",
+                "g.23113.CDS.3883-MONOMER",
+                "g.23113.CDS.3907-MONOMER",
+                "g.23113.CDS.4092-MONOMER"
+            ],
+            "importance": "high",
+            "to_do": "Curate them in ribosomal_proteins.txt"
+        }
+    ],
+    "org.purge_genes_in_model": [
+        {
+            "msg": "Some genes in M-model were not found in genes.txt or genome.gb. These genes will be skipped in reconstruction.",
+            "triggered_by": [
+                "Unknown",
+                "1002364.3.peg.4065",
+                "1002364.3.peg.4066",
+                "1002364.3.peg.247",
+                "1002364.3.peg.2793",
+                "1002364.3.peg.2800",
+                "1002364.3.peg.2801",
+                "1002364.3.peg.2802",
+                "1002364.3.peg.2803",
+                "1002364.3.peg.2804",
+                "1002364.3.peg.2805",
+                "1002364.3.peg.2806",
+                "1002364.3.peg.2807",
+                "1002364.3.peg.1551",
+                "1002364.3.peg.1552",
+                "1002364.3.peg.1553",
+                "1002364.3.peg.1554",
+                "1002364.3.peg.3428",
+                "1002364.3.peg.4069",
+                "1002364.3.peg.4070",
+                "1002364.3.peg.2929",
+                "1002364.3.peg.1821",
+                "1002364.3.peg.1851",
+                "1002364.3.peg.3667",
+                "1002364.3.peg.3668",
+                "1002364.3.peg.3669",
+                "1002364.3.peg.3670",
+                "1002364.3.peg.3671",
+                "1002364.3.peg.4103",
+                "1002364.3.peg.4104",
+                "1002364.3.peg.4105",
+                "1002364.3.peg.3429",
+                "1002364.3.peg.1811",
+                "1002364.3.peg.1473",
+                "1002364.3.peg.455",
+                "1002364.3.peg.1172",
+                "1002364.3.peg.1653",
+                "1002364.3.peg.1654",
+                "1002364.3.peg.1655",
+                "1002364.3.peg.1656",
+                "1002364.3.peg.1730",
+                "1002364.3.peg.1731",
+                "1002364.3.peg.1732",
+                "1002364.3.peg.1733",
+                "1002364.3.peg.1734",
+                "1002364.3.peg.1735",
+                "1002364.3.peg.1736",
+                "1002364.3.peg.1170",
+                "1002364.3.peg.1171",
+                "1002364.3.peg.1075",
+                "1002364.3.peg.4020",
+                "1002364.3.peg.1074",
+                "1002364.3.peg.1805",
+                "1002364.3.peg.1806",
+                "1002364.3.peg.2214",
+                "1002364.3.peg.249",
+                "1002364.3.peg.1178",
+                "1002364.3.peg.1067",
+                "1002364.3.peg.1819",
+                "1002364.3.peg.1820",
+                "1002364.3.peg.1823",
+                "1002364.3.peg.1822",
+                "1002364.3.peg.3756",
+                "1002364.3.peg.3757",
+                "1002364.3.peg.4405",
+                "1002364.3.peg.4406",
+                "1002364.3.peg.4407"
+            ],
+            "importance": "high",
+            "to_do": "Confirm the gene is correct in the m_model. If so, add it to genes.txt"
+        }
+    ],
+    "prepare_model": [
+        {
+            "msg": "NGAM could not be identified in M-model, setting a standard value of 1.",
+            "importance": "high",
+            "to_do": "Manually define NGAM with me_builder.org.NGAM = NGAM_value. Check if a reaction with identifier NGAM or ATPM has a zero or negative lower bound."
+        }
+    ],
+    "org.get_complex_homology": [
+        {
+            "msg": "Some complexes were partial hits in the BLAST",
+            "triggered_by": [
+                {
+                    "complex": "g.23113.CDS.21-MONOMER",
+                    "reference_complex": "ABC-304-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.26-MONOMER",
+                    "reference_complex": "hRNAP"
+                },
+                {
+                    "complex": "g.23113.CDS.33-MONOMER",
+                    "reference_complex": "ABC-12-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.41-MONOMER",
+                    "reference_complex": "ABC-5-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.91-MONOMER",
+                    "reference_complex": "LolCDE-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.107-MONOMER",
+                    "reference_complex": "Sec-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.107-MONOMER",
+                    "reference_complex": "SecYE-CPLX"
+                },
+                {
+                    "complex": "1002364.3.peg.112-MONOMER",
+                    "reference_complex": "CARBPSYN-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.117-MONOMER",
+                    "reference_complex": "CPLX0-3976_edit"
+                },
+                {
+                    "complex": "g.23113.CDS.122-MONOMER",
+                    "reference_complex": "FORMATEDEHYDROGO-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.128-MONOMER",
+                    "reference_complex": "TatBC_octa"
+                },
+                {
+                    "complex": "g.23113.CDS.160-MONOMER",
+                    "reference_complex": "ABC-34-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.170-MONOMER",
+                    "reference_complex": "THIH-MONOMER_THIF-MONOMER_THII-MONOMER_THIS-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.233-MONOMER",
+                    "reference_complex": "EG11829-MONOMER_EG11828-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.264-MONOMER",
+                    "reference_complex": "Bam-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.264-MONOMER",
+                    "reference_complex": "BamAD-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.276-MONOMER",
+                    "reference_complex": "TRKA-MONOMER_SAPD-MONOMER_TRKH-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.323-MONOMER",
+                    "reference_complex": "ABC-63-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.327-MONOMER",
+                    "reference_complex": "CPLX0-761"
+                },
+                {
+                    "complex": "g.23113.CDS.361-MONOMER",
+                    "reference_complex": "PYRNUTRANSHYDROGEN-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.373-MONOMER",
+                    "reference_complex": "ABC-51-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.429-MONOMER",
+                    "reference_complex": "CPLX-164"
+                },
+                {
+                    "complex": "g.23113.CDS.468-MONOMER",
+                    "reference_complex": "CPLX-158"
+                },
+                {
+                    "complex": "g.23113.CDS.525-MONOMER",
+                    "reference_complex": "Phe_RS_tetra"
+                },
+                {
+                    "complex": "g.23113.CDS.607-MONOMER",
+                    "reference_complex": "CPLX0-1923_EG10155-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.736-MONOMER",
+                    "reference_complex": "G7322-MONOMER_G6561-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.736-MONOMER",
+                    "reference_complex": "CPLX0-7717_G6561-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.736-MONOMER",
+                    "reference_complex": "CPLX0-3951_G6561-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.790-MONOMER",
+                    "reference_complex": "EG11910-MONOMER_dimer_EG11911-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.793-MONOMER",
+                    "reference_complex": "YDGEF-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.862-MONOMER",
+                    "reference_complex": "CPLX0-1941"
+                },
+                {
+                    "complex": "g.23113.CDS.862-MONOMER",
+                    "reference_complex": "CPLX0-1942"
+                },
+                {
+                    "complex": "g.23113.CDS.862-MONOMER",
+                    "reference_complex": "CPLX0-1924"
+                },
+                {
+                    "complex": "g.23113.CDS.873-MONOMER",
+                    "reference_complex": "CPLX0-7"
+                },
+                {
+                    "complex": "g.23113.CDS.1008-MONOMER",
+                    "reference_complex": "GCVMULTI-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1011-MONOMER",
+                    "reference_complex": "HYDROG3-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1011-MONOMER",
+                    "reference_complex": "FHLMULTI-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1015-MONOMER",
+                    "reference_complex": "CPLX0-1762"
+                },
+                {
+                    "complex": "g.23113.CDS.1017-MONOMER",
+                    "reference_complex": "YheLMN_cplx"
+                },
+                {
+                    "complex": "g.23113.CDS.1073-MONOMER",
+                    "reference_complex": "SULFITE-REDUCT-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1079-MONOMER",
+                    "reference_complex": "ABC-8-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1095-MONOMER",
+                    "reference_complex": "CYT-O-UBIOX-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1136-MONOMER",
+                    "reference_complex": "NAP-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1136-MONOMER",
+                    "reference_complex": "NAPAB-CPLX_NAPC-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.1208-MONOMER",
+                    "reference_complex": "EIISGA"
+                },
+                {
+                    "complex": "g.23113.CDS.1219-MONOMER",
+                    "reference_complex": "ABC-53-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1231-MONOMER",
+                    "reference_complex": "NITRATREDUCTA-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1232-MONOMER",
+                    "reference_complex": "ABC-64-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1234-MONOMER",
+                    "reference_complex": "NITRITREDUCT-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1252-MONOMER",
+                    "reference_complex": "PYRUVFORMLY-MONOMER_EG11784-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.1325-MONOMER",
+                    "reference_complex": "FORMATEDEHYDROGN-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1340-MONOMER",
+                    "reference_complex": "CPLX0-3932"
+                },
+                {
+                    "complex": "g.23113.CDS.1340-MONOMER",
+                    "reference_complex": "TRANS-CPLX-201"
+                },
+                {
+                    "complex": "g.23113.CDS.1388-MONOMER",
+                    "reference_complex": "METNIQ-METHIONINE-ABC-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1452-MONOMER",
+                    "reference_complex": "FORMHYDROG2-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1455-MONOMER",
+                    "reference_complex": "UBIX-MONOMER_DHHB-METHYLTRANSFER-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.1466-MONOMER",
+                    "reference_complex": "EG11595-MONOMER_EG11666-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.1812-MONOMER",
+                    "reference_complex": "RIBONUCLEOSIDE-DIP-REDUCTI-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1843-MONOMER",
+                    "reference_complex": "GLUTAMATESYN-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.1975-MONOMER",
+                    "reference_complex": "PABASYN-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.2010-MONOMER",
+                    "reference_complex": "NADH-DHI-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.2034-MONOMER",
+                    "reference_complex": "ABC-22-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.2034-MONOMER",
+                    "reference_complex": "CPLX0-3970"
+                },
+                {
+                    "complex": "g.23113.CDS.2056-MONOMER",
+                    "reference_complex": "CPLX-157"
+                },
+                {
+                    "complex": "g.23113.CDS.2064-MONOMER",
+                    "reference_complex": "ABC-35-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.2072-MONOMER",
+                    "reference_complex": "ABC-28-CPLX_EG10817-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.2125-MONOMER",
+                    "reference_complex": "CPLX-166"
+                },
+                {
+                    "complex": "g.23113.CDS.2159-MONOMER",
+                    "reference_complex": "ABC-14-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.2196-MONOMER",
+                    "reference_complex": "ABC-27-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.2202-MONOMER",
+                    "reference_complex": "ATPSYN-CPLX_EG10106-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.2202-MONOMER",
+                    "reference_complex": "ATPSYN-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.2238-MONOMER",
+                    "reference_complex": "NRDACTMULTI-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.2271-MONOMER",
+                    "reference_complex": "Gly_RS_tetra"
+                },
+                {
+                    "complex": "g.23113.CDS.2321-MONOMER",
+                    "reference_complex": "MnmEG_cplx"
+                },
+                {
+                    "complex": "g.23113.CDS.2337-MONOMER",
+                    "reference_complex": "ABC-24-CPLX"
+                },
+                {
+                    "complex": "1002364.3.peg.2478-MONOMER",
+                    "reference_complex": "ANTHRANSYN-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.2578-MONOMER",
+                    "reference_complex": "TRYPSYN"
+                },
+                {
+                    "complex": "g.23113.CDS.2600-MONOMER",
+                    "reference_complex": "ACETYL-COA-CARBOXYLMULTI-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.2614-MONOMER",
+                    "reference_complex": "CPLX0-2081"
+                },
+                {
+                    "complex": "1002364.3.peg.2652-MONOMER",
+                    "reference_complex": "FUMARATE-REDUCTASE"
+                },
+                {
+                    "complex": "g.23113.CDS.2830-MONOMER",
+                    "reference_complex": "EG12130-MONOMER_EG12131-MONOMER"
+                },
+                {
+                    "complex": "g.23113.CDS.2845-MONOMER",
+                    "reference_complex": "ABC-70-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.2868-MONOMER",
+                    "reference_complex": "CPLX0-7684"
+                },
+                {
+                    "complex": "g.23113.CDS.2963-MONOMER",
+                    "reference_complex": "CPLX-163"
+                },
+                {
+                    "complex": "g.23113.CDS.3029-MONOMER",
+                    "reference_complex": "CPLX-63"
+                },
+                {
+                    "complex": "g.23113.CDS.3040-MONOMER",
+                    "reference_complex": "ABC-19-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3050-MONOMER",
+                    "reference_complex": "ABC-2-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3069-MONOMER",
+                    "reference_complex": "ABC-25-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3085-MONOMER",
+                    "reference_complex": "CPLX0-2141"
+                },
+                {
+                    "complex": "1002364.3.peg.3101-MONOMER",
+                    "reference_complex": "ACETOLACTSYNIII-CPLX"
+                },
+                {
+                    "complex": "1002364.3.peg.3107-MONOMER",
+                    "reference_complex": "3-ISOPROPYLMALISOM-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3110-MONOMER",
+                    "reference_complex": "CPLX-167"
+                },
+                {
+                    "complex": "g.23113.CDS.3110-MONOMER",
+                    "reference_complex": "CPLX-168"
+                },
+                {
+                    "complex": "g.23113.CDS.3110-MONOMER",
+                    "reference_complex": "CPLX-165"
+                },
+                {
+                    "complex": "g.23113.CDS.3110-MONOMER",
+                    "reference_complex": "CPLX-154"
+                },
+                {
+                    "complex": "g.23113.CDS.3115-MONOMER",
+                    "reference_complex": "ABC-6-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3128-MONOMER",
+                    "reference_complex": "ABC-46-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3143-MONOMER",
+                    "reference_complex": "ABC-16-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3145-MONOMER",
+                    "reference_complex": "ABC-7-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3148-MONOMER",
+                    "reference_complex": "ABC-40-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3149-MONOMER",
+                    "reference_complex": "DIMESULFREDUCT-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3157-MONOMER",
+                    "reference_complex": "ABC-32-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3175-MONOMER",
+                    "reference_complex": "ABC-18-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3229-MONOMER",
+                    "reference_complex": "ABC-26-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3298-MONOMER",
+                    "reference_complex": "ABC-11-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3305-MONOMER",
+                    "reference_complex": "CPLX0-7838_CPLX0-7839"
+                },
+                {
+                    "complex": "g.23113.CDS.3320-MONOMER",
+                    "reference_complex": "ABC-4-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3485-MONOMER",
+                    "reference_complex": "CPLX0-7428"
+                },
+                {
+                    "complex": "g.23113.CDS.3657-MONOMER",
+                    "reference_complex": "GLUTAMIDOTRANS-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3677-MONOMER",
+                    "reference_complex": "PYRUVATEDEH-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3681-MONOMER",
+                    "reference_complex": "CITLY-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.3754-MONOMER",
+                    "reference_complex": "2OXOGLUTARATEDEH-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.4017-MONOMER",
+                    "reference_complex": "ASPCARBTRANS-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.4018-MONOMER",
+                    "reference_complex": "ANGLYC3PDEHYDROG-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.4048-MONOMER",
+                    "reference_complex": "LTARTDEHYDRA-CPLX"
+                },
+                {
+                    "complex": "1002364.3.peg.4068-MONOMER",
+                    "reference_complex": "SUCCCOASYN"
+                },
+                {
+                    "complex": "g.23113.CDS.4111-MONOMER",
+                    "reference_complex": "ACETOACETYL-COA-TRANSFER-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.4133-MONOMER",
+                    "reference_complex": "CYT-D-UBIOX-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.4149-MONOMER",
+                    "reference_complex": "ABC-13-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.4186-MONOMER",
+                    "reference_complex": "SUCC-DEHASE"
+                },
+                {
+                    "complex": "g.23113.CDS.4199-MONOMER",
+                    "reference_complex": "TMAOREDUCTI-CPLX"
+                },
+                {
+                    "complex": "g.23113.CDS.4246-MONOMER",
+                    "reference_complex": "ATPASE-1-CPLX_no_MONOMER0-12"
+                },
+                {
+                    "complex": "RNAP-CPLX",
+                    "reference_complex": "RpoZ_mono"
+                },
+                {
+                    "complex": "CPLX_3OAS100-0",
+                    "reference_complex": "CPLX0-252"
+                },
+                {
+                    "complex": "CPLX_3OAS100-0",
+                    "reference_complex": "3-OXOACYL-ACP-SYNTHII-CPLX"
+                },
+                {
+                    "complex": "CPLX_ACGApts-1",
+                    "reference_complex": "PTSI-MONOMER"
+                },
+                {
+                    "complex": "CPLX_DMATT-0",
+                    "reference_complex": "CPLX0-7426"
+                },
+                {
+                    "complex": "CPLX_DMATT-0",
+                    "reference_complex": "FPPSYN-MONOMER"
+                },
+                {
+                    "complex": "CPLX_G3PAT120-0",
+                    "reference_complex": "EG11674-MONOMER"
+                },
+                {
+                    "complex": "CPLX_G3PAT120-0",
+                    "reference_complex": "EG11437-MONOMER"
+                },
+                {
+                    "complex": "CPLX_YUMPS-0",
+                    "reference_complex": "TruB_mono"
+                },
+                {
+                    "complex": "CPLX_YUMPS-0",
+                    "reference_complex": "TruA_dim"
+                },
+                {
+                    "complex": "CPLX_YUMPS-1",
+                    "reference_complex": "RluB_mono"
+                },
+                {
+                    "complex": "CPLX_YUMPS-1",
+                    "reference_complex": "RsuA_mono"
+                },
+                {
+                    "complex": "CPLX_YUMPS-1",
+                    "reference_complex": "RluD_mono"
+                },
+                {
+                    "complex": "CPLX_YUMPS-1",
+                    "reference_complex": "RluC_mono"
+                },
+                {
+                    "complex": "CPLX_YUMPS-1",
+                    "reference_complex": "RluA_mono"
+                },
+                {
+                    "complex": "CPLX_YUMPS-1",
+                    "reference_complex": "YmfC_mono"
+                },
+                {
+                    "complex": "CPLX_dreplication-0",
+                    "reference_complex": "EG10534-MONOMER"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpmI_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsK_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplF_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpmJ_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsF_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "LeuS_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsI_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsD_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplU_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsC_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpmE_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplC_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "His_RS_dim"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsL_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplJ_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "Thr_RS_dim"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "Tyr_RS_dim"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplQ_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "TilS_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplA_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "Fmt_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "Ala_RS_tetra"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsM_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsJ_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "CysS_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpmD_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsP_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpmF_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsQ_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplX_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplS_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "Met_RS_dim"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpmA_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsH_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsS_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplE_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "IleS_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplV_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplT_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplP_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplO_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "Asn_RS_dim"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsN_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpmC_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplB_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "Trp_RS_dim"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "rpL7/12"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "ValS_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "ArgS_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsT_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpmB_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsE_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpmG_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "Ser_RS_dim"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplI_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplR_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplN_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpmH_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplW_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "GltX_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsU_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "Asp_RS_dim"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsO_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsR_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplD_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsG_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RpsB_mono"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "LysII_RS_dim"
+                },
+                {
+                    "complex": "CPLX_pbiosynthesis-1",
+                    "reference_complex": "RplM_mono"
+                },
+                {
+                    "complex": "CPLX_rtranscription-0",
+                    "reference_complex": "NusA_mono"
+                },
+                {
+                    "complex": "CPLX_rtranscription-0",
+                    "reference_complex": "RNase_III_dim"
+                },
+                {
+                    "complex": "CPLX_rtranscription-0",
+                    "reference_complex": "TrmU_mono"
+                },
+                {
+                    "complex": "CPLX_rtranscription-0",
+                    "reference_complex": "RpoD_mono"
+                },
+                {
+                    "complex": "CPLX_rtranscription-0",
+                    "reference_complex": "TrmD_dim"
+                }
+            ],
+            "importance": "medium",
+            "to_do": "Curate these manually in protein_corrections.txt"
+        }
+    ],
+    "update_me_mets": [
+        {
+            "msg": "Some metabolites in me_metabolites.txt are not in m_model, so they were skipped.",
+            "triggered_by": [
+                "sufbcd_2fe2s_c",
+                "sufbcd_2fe2s2_c",
+                "sufbcd_4fe4s_c",
+                "iscu_2fe2s_c",
+                "iscu_2fe2s2_c",
+                "iscu_4fe4s_c"
+            ],
+            "importance": "medium",
+            "to_do": "Confirm these metabolites are correctly defined in me_metabolites.txt"
+        }
+    ],
+    "update_ribosome_subreactions_from_homology": [
+        {
+            "msg": "Some enzymes defined in me_builder.org.ribosome_subreactions are different from the ones inferred from homology",
+            "triggered_by": [
+                {
+                    "subreaction": "gtp_bound_30S_assembly_factor_phase1",
+                    "defined_complex": "",
+                    "inferred_complex": "g.23113.CDS.1961-MONOMER"
+                },
+                {
+                    "subreaction": "RbfA_mono_assembly_factor_phase1",
+                    "defined_complex": "",
+                    "inferred_complex": "g.23113.CDS.2143-MONOMER"
+                },
+                {
+                    "subreaction": "RimM_mono_assembly_factor_phase1",
+                    "defined_complex": "",
+                    "inferred_complex": "g.23113.CDS.73-MONOMER"
+                }
+            ],
+            "importance": "medium",
+            "to_do": "Confirm whether the definitions or homology calls are correct in me_builder.org.ribosome_subreactions. Curate the inputs in ribosome_subreactions.txt accordingly."
+        }
+    ],
+    "update_peptide_release_factors_from_homology": [
+        {
+            "msg": "Some enzymes defined in me_builder.org.peptide_release_factors are different from the ones inferred from homology",
+            "triggered_by": [
+                {
+                    "subreaction": "UAG",
+                    "defined_complex": "",
+                    "inferred_complex": "g.23113.CDS.757-MONOMER"
+                },
+                {
+                    "subreaction": "UGA",
+                    "defined_complex": "",
+                    "inferred_complex": "g.23113.CDS.2966-MONOMER"
+                }
+            ],
+            "importance": "medium",
+            "to_do": "Confirm whether the definitions or homology calls are correct in me_builder.org.peptide_release_factors. Curate the inputs in peptide_release_factors.txt accordingly."
+        }
+    ],
+    "get_trna_to_codon": [
+        {
+            "msg": "Some tRNAs could be missing in the files.",
+            "triggered_by": [
+                "Glu"
+            ],
+            "importance": "critical",
+            "to_do": "Identify the respective missing tRNAs and add them to a file (RNAs.txt or genome.gb)"
+        }
+    ],
+    "check": [
+        {
+            "msg": "Some metabolites in me_metabolites.txt need curation",
+            "triggered_by": [
+                "10m3hddcaACP_c",
+                "10m3hundecACP_c",
+                "10m3oddcaACP_c",
+                "10m3oundecACP_c",
+                "10mddcaACP_c",
+                "10mtddec2eACP_c",
+                "10mtundec2eACP_c",
+                "10mundecACP_c",
+                "11m3hddcaACP_c",
+                "11m3oddcaACP_c",
+                "11mddcaACP_c",
+                "11mtddec2eACP_c",
+                "12m3hmyrsACP_c",
+                "12m3htridecACP_c",
+                "12m3omyrsACP_c",
+                "12m3otridecACP_c",
+                "12mmyrsACP_c",
+                "12mtmrs2eACP_c",
+                "12mtridecACP_c",
+                "12mttritec2eACP_c",
+                "13m3hmyrsACP_c",
+                "13m3omyrsACP_c",
+                "13mmyrsACP_c",
+                "13mtmrs2eACP_c",
+                "14m3hpalmACP_c",
+                "14m3hpentdecACP_c",
+                "14m3opalmACP_c",
+                "14m3opentdecACP_c",
+                "14mpalmACP_c",
+                "14mpentdecACP_c",
+                "14mtpalm2eACP_c",
+                "14mtpentdec2eACP_c",
+                "15m3hpalmACP_c",
+                "15m3opalmACP_c",
+                "15mpalmACP_c",
+                "15mtpalm2eACP_c",
+                "2mbutACP_c",
+                "2mpropACP_c",
+                "3hgACPm_c",
+                "3hpACPm_c",
+                "3mbutACP_c",
+                "3ogACPm_c",
+                "3opACPm_c",
+                "4m3hhexACP_c",
+                "4m3hpentACP_c",
+                "4m3ohexACP_c",
+                "4m3opentACP_c",
+                "4mhexACP_c",
+                "4mpentACP_c",
+                "4mthex2eACP_c",
+                "4mtpent2eACP_c",
+                "5m3hhexACP_c",
+                "5m3ohexACP_c",
+                "5mhexACP_c",
+                "5mthex2eACP_c",
+                "6m3hheptACP_c",
+                "6m3hocACP_c",
+                "6m3oheptACP_c",
+                "6m3oocACP_c",
+                "6mheptACP_c",
+                "6mocACP_c",
+                "6mthept2eACP_c",
+                "6mtoct2eACP_c",
+                "7m3hocACP_c",
+                "7m3oocACP_c",
+                "7mocACP_c",
+                "7mtoct2eACP_c",
+                "8m3hdcaACP_c",
+                "8m3hnonACP_c",
+                "8m3odcaACP_c",
+                "8m3ononACP_c",
+                "8mdcaACP_c",
+                "8mnonACP_c",
+                "8mtdec2eACP_c",
+                "8mtnon2eACP_c",
+                "9m3hdcaACP_c",
+                "9m3odcaACP_c",
+                "9mdcaACP_c",
+                "9mtdec2eACP_c",
+                "egACPm_c",
+                "epACPm_c",
+                "gACPm_c",
+                "pmACP_c",
+                "pmACPm_c",
+                "LI_c",
+                "sufbcd_c",
+                "sufse_c",
+                "sufsesh_c",
+                "dsbaox_p",
+                "dsbgrd_p",
+                "dsbgox_p",
+                "3hcpalm9eACP_c",
+                "3ocpalm9eACP_c",
+                "iscssh_c"
+            ],
+            "importance": "medium",
+            "to_do": "Map or remove these metabolites in me_metabolites.txt"
+        }
+    ]
+}

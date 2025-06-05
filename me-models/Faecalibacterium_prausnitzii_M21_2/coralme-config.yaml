@@ -1,0 +1,132 @@
+growth_key: mu
+START_tRNA: []
+rna_components: []
+feature_types:
+- CDS
+- rRNA
+- tRNA
+- ncRNA
+- tmRNA
+trna_misacylation: {}
+knockouts: []
+genome_mods: {}
+peptide_release_factors:
+  UAG: g.1374.peg.1896-MONOMER
+  UGA: g.1374.peg.655-MONOMER
+  UAA: generic_RF
+complex_cofactors:
+  fes_transfers:
+  - CPLX_dummy
+  fes_chaperones: {}
+  lipoate_subreactions:
+    mod_lipoyl_c:
+    - lipoyl_denovo
+    - lipoyl_scavenging
+  biotin_subreactions:
+    mod_btn_c:
+    - biotin_ligase
+  bmocogdp_chaperones: {}
+  FeFe/NiFe:
+    mod_NiFe_cofactor_c: []
+lipid_modifications: []
+flux_of_biomass_constituents: {}
+flux_of_lipid_constituents: {}
+braun's_lipoprotein: []
+braun's_lpp_flux: -0.0
+braun's_murein_flux: -0.0
+gr_data_doublings_per_hour:
+- 0
+- 0.6
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+percent_dna_data:
+- 0.0592
+- 0.0512
+- 0.033
+- 0.0252
+- 0.0222
+- 0.0208
+defer_to_rxn_matrix:
+- biomass224
+- FMETTRS
+- ATPM
+ME-Model-ID: Faecalibacterium_prausnitzii_M21_2-ME
+m-model-path: ./me-models/Faecalibacterium_prausnitzii_M21_2//building_data/m_model_modified.json
+genbank-path: ./me-models/Faecalibacterium_prausnitzii_M21_2//building_data/genome_modified.gb
+df_gene_cplxs_mods_rxns: ./me-models/Faecalibacterium_prausnitzii_M21_2/Faecalibacterium_prausnitzii_M21_2.xlsx
+df_TranscriptionalUnits: ./me-models/Faecalibacterium_prausnitzii_M21_2//building_data/TUs_from_biocyc.txt
+df_matrix_stoichiometry: ''
+df_matrix_subrxn_stoich: ''
+df_metadata_orphan_rxns: ''
+df_metadata_metabolites: ''
+log_directory: ./me-models/Faecalibacterium_prausnitzii_M21_2/
+out_directory: ./me-models/Faecalibacterium_prausnitzii_M21_2/
+dev_reference: false
+include_pseudo_genes: true
+add_lipoproteins: false
+estimate_keffs: true
+blast_threads: 1
+run_bbh_blast: false
+selenocysteine_enzymes:
+- CPLX_dummy
+pg_pe_160:
+- g.1374.peg.511-MONOMER
+- g.1374.peg.1577-MONOMER
+other_lipids: []
+default_sigma_factor: g.1374.peg.98-MONOMER
+rna_polymerases:
+  RNAP_g1374peg98MONOMER:
+    sigma_factor: g.1374.peg.98-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g1374peg195MONOMER:
+    sigma_factor: g.1374.peg.195-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g1374peg827MONOMER:
+    sigma_factor: g.1374.peg.827-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g1374peg992MONOMER:
+    sigma_factor: g.1374.peg.992-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g1374peg1395MONOMER:
+    sigma_factor: g.1374.peg.1395-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g1374peg1860MONOMER:
+    sigma_factor: g.1374.peg.1860-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g1374peg2073MONOMER:
+    sigma_factor: g.1374.peg.2073-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+  RNAP_g1374peg2146MONOMER:
+    sigma_factor: g.1374.peg.2146-MONOMER
+    polymerase: RNAP-CPLX_mod_zn2(1)_mod_mg2(2)
+lipoprotein_precursors:
+  MetQ: g.1374.peg.2296
+ngam: 1.0
+gam: 41.257
+translocation_multipliers:
+  g.1374.peg.317-MONOMER:
+    g.1374.peg.2625: 2.0
+amino_acid_trna_synthetase:
+  ala__L_c: g.1374.peg.2681-MONOMER
+  arg__L_c: g.1374.peg.463-MONOMER
+  asn__L_c: g.1374.peg.485-MONOMER
+  asp__L_c: g.1374.peg.1426-MONOMER
+  cys__L_c: g.1374.peg.718-MONOMER
+  gln__L_c: g.1374.peg.1432-MONOMER
+  glu__L_c: g.1374.peg.2387-MONOMER
+  gly_c: g.1374.peg.2153-MONOMER
+  his__L_c: g.1374.peg.2339-MONOMER
+  ile__L_c: g.1374.peg.1010-MONOMER
+  leu__L_c: g.1374.peg.1998-MONOMER
+  lys__L_c: g.1374.peg.1413-MONOMER
+  met__L_c: g.1374.peg.2468-MONOMER
+  phe__L_c: generic_phe_ligase
+  pro__L_c: g.1374.peg.2288-MONOMER
+  ser__L_c: g.1374.peg.581-MONOMER
+  thr__L_c: g.1374.peg.983-MONOMER
+  trp__L_c: g.1374.peg.558-MONOMER
+  tyr__L_c: g.1374.peg.1356-MONOMER
+  val__L_c: g.1374.peg.620-MONOMER
+braun's_lipoproteins: []
